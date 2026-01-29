@@ -186,8 +186,8 @@
         </div>
     </div>
 
-    <!-- Filters Bar (Admin Only) -->
-    <div id="filtersBar" class="border-b border-gray-200 bg-white/50 admin-only">
+    <!-- Filters Bar -->
+    <div id="filtersBar" class="border-b border-gray-200 bg-white/50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
             <div class="flex flex-wrap items-center gap-4">
                 <div class="flex items-center gap-2">
@@ -196,17 +196,16 @@
                         <option value="popularity">Popularity</option>
                         <option value="price-low">Price: Low to High</option>
                         <option value="price-high">Price: High to Low</option>
-                        <option value="margin">Best Markup</option>
                         <option value="name">Name A-Z</option>
                     </select>
                 </div>
-                <div class="flex items-center gap-2">
+                <div class="flex items-center gap-2 admin-only">
                     <label class="text-sm text-gray-500">Brand:</label>
                     <select id="brandSelect" class="rounded-lg px-3 py-1.5 text-sm focus:outline-none">
                         <option value="">All Brands</option>
                     </select>
                 </div>
-                <div class="flex items-center gap-2">
+                <div class="flex items-center gap-2 admin-only">
                     <label class="text-sm text-gray-500">Price Range:</label>
                     <select id="priceSelect" class="rounded-lg px-3 py-1.5 text-sm focus:outline-none">
                         <option value="">All Prices</option>
@@ -216,7 +215,7 @@
                         <option value="6+">$6+</option>
                     </select>
                 </div>
-                <button id="clearFilters" class="text-sm text-primary-600 hover:text-primary-700 font-medium transition-colors">
+                <button id="clearFilters" class="text-sm text-primary-600 hover:text-primary-700 font-medium transition-colors admin-only">
                     Clear Filters
                 </button>
             </div>
@@ -281,8 +280,8 @@
         </div>
     </footer>
 
-    <script src="products.js?v=6"></script>
-    <script src="app.js?v=6"></script>
+    <script src="products.js?v=7"></script>
+    <script src="app.js?v=7"></script>
     <script>
         // Admin Authentication
         const ADMIN_PASSWORD = 'kande2026'; // Change this password

@@ -116,6 +116,7 @@ function renderProductCard(product, rank = null) {
     return `
         <div class="product-card rounded-2xl overflow-hidden">
             <div class="relative">
+                ${rank ? `<div class="absolute top-3 left-3 w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-600 text-white rounded-lg flex items-center justify-center text-sm font-bold shadow-lg">${rank}</div>` : ''}
                 ${isHealthy ? `<div class="absolute top-3 right-3 healthy-badge text-white text-xs px-2.5 py-1 rounded-lg font-medium shadow-lg">💪 Healthy</div>` : ''}
                 <div class="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-6">
                     <img src="${product.imageUrl || product.image || 'https://via.placeholder.com/200?text=No+Image'}" 
@@ -130,7 +131,7 @@ function renderProductCard(product, rank = null) {
                 <h3 class="font-semibold text-gray-900 mb-1 line-clamp-2" title="${product.name}">${product.name}</h3>
                 <div class="text-sm text-gray-500 mb-3">${product.size}</div>
                 <div class="text-xs text-gray-500 mb-1">Estimated Vending Price</div>
-                <div class="text-xl font-bold ${getPriceClass(vendingPrice)}">${formatPrice(vendingPrice)}</div>
+                <div class="text-xl font-bold text-gray-900">${formatPrice(vendingPrice)}</div>
             </div>
         </div>
     `;
@@ -155,8 +156,9 @@ function renderProducts() {
     }
     
     grid.innerHTML = productsToShow.map((product, index) => {
-        const rank = currentCategory === 'all' && currentSort === 'popularity' ? index + 1 : null;
-        return renderProductCard(product, rank <= 200 ? rank : null);
+        // Show ranking for top 30 products when sorted by popularity
+        const rank = currentSort === 'popularity' && index < 30 ? index + 1 : null;
+        return renderProductCard(product, rank);
     }).join('');
     
     // Update load more button
