@@ -190,6 +190,11 @@ function renderProductCard(product, rank = null) {
                             <span class="text-sm text-gray-500">Wholesale:</span>
                             <span class="text-sm font-medium text-gray-600">${formatPrice(product.unitPrice)}</span>
                         </div>
+                        ${product.sevenElevenPrice ? `
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-gray-500">7-Eleven:</span>
+                            <span class="text-sm font-medium text-blue-600">${formatPrice(product.sevenElevenPrice)}</span>
+                        </div>` : ''}
                         <div class="flex justify-between items-center">
                             <span class="text-sm text-gray-500">Vending Price:</span>
                             <div class="flex items-center gap-2">
