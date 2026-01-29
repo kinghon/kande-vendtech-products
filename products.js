@@ -8935,7 +8935,7 @@ const PRODUCTS = [
     "unitPrice": 1.88,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/985637d2-0184-4388-91b0-0d2f9035a5c5-1749457920385.jpg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "37813f36-af46-4e7d-bcc0-8a794c523c6c",
@@ -8947,7 +8947,7 @@ const PRODUCTS = [
     "unitPrice": 2.12,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/37813f36-af46-4e7d-bcc0-8a794c523c6c-1749134794537.jpeg",
     "category": "cold_beverage",
-    "popularity": 70
+    "popularity": 50
   },
   {
     "id": "a1512e1b-4975-48ed-a893-4e133c2b3216",
@@ -8959,7 +8959,7 @@ const PRODUCTS = [
     "unitPrice": 1.88,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a1512e1b-4975-48ed-a893-4e133c2b3216-1749136965755.jpeg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "1ae8a6c1-547a-4132-b6e1-c5eb501f6d92",
@@ -8971,7 +8971,7 @@ const PRODUCTS = [
     "unitPrice": 2.12,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1ae8a6c1-547a-4132-b6e1-c5eb501f6d92-1749135592447.png",
     "category": "cold_beverage",
-    "popularity": 70
+    "popularity": 50
   },
   {
     "id": "e62b82f8-4bdc-4043-8ecd-2ec624dbbd94",
@@ -8983,7 +8983,7 @@ const PRODUCTS = [
     "unitPrice": 2.12,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e62b82f8-4bdc-4043-8ecd-2ec624dbbd94-1749137450338.jpeg",
     "category": "cold_beverage",
-    "popularity": 70
+    "popularity": 50
   },
   {
     "id": "6c68c8e6-d8bb-4af4-a28c-3069805fe989",
@@ -8995,7 +8995,7 @@ const PRODUCTS = [
     "unitPrice": 2.12,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/6c68c8e6-d8bb-4af4-a28c-3069805fe989-1749135212278.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "0aecc96b-b7cb-42af-b325-2b1a83cb3da5",
@@ -9007,7 +9007,7 @@ const PRODUCTS = [
     "unitPrice": 2.12,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/0aecc96b-b7cb-42af-b325-2b1a83cb3da5-1749136572940.jpeg",
     "category": "cold_beverage",
-    "popularity": 70
+    "popularity": 50
   },
   {
     "id": "e6115df8-6e0c-4039-a184-8ed928694e79",
@@ -9019,7 +9019,7 @@ const PRODUCTS = [
     "unitPrice": 2.12,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e6115df8-6e0c-4039-a184-8ed928694e79-1763374612396.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "761702db-1cab-44e9-b8c1-1f88a6f798cf",
@@ -9031,7 +9031,7 @@ const PRODUCTS = [
     "unitPrice": 1.35,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/761702db-1cab-44e9-b8c1-1f88a6f798cf-1749458778191.jpg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "3ddd43bf-9097-4dd0-b835-d474b8d53288",
@@ -9043,7 +9043,7 @@ const PRODUCTS = [
     "unitPrice": 1.35,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/3ddd43bf-9097-4dd0-b835-d474b8d53288-1741196922515.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "047f7626-2ad4-4046-9808-0e24356c52c2",
@@ -9055,7 +9055,7 @@ const PRODUCTS = [
     "unitPrice": 0.57,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/047f7626-2ad4-4046-9808-0e24356c52c2-1741196737165.JPG",
     "category": "cold_beverage",
-    "popularity": 500,
+    "popularity": 50,
     "vendingPriceOverride": 1.25
   },
   {
@@ -9068,7 +9068,7 @@ const PRODUCTS = [
     "unitPrice": 1.35,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/30940ec5-09b4-41b2-b7a7-f7dcd792b1a7-1736646221031.jpg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "ab7b31cd-236d-4428-9b84-991ae3d9b8c1",
@@ -9080,7 +9080,7 @@ const PRODUCTS = [
     "unitPrice": 1.22,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/ab7b31cd-236d-4428-9b84-991ae3d9b8c1-1749138065085.jpg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "94830ea5-9727-4aa1-b372-3d3b02ad3c88",
@@ -9092,7 +9092,7 @@ const PRODUCTS = [
     "unitPrice": 2.22,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/94830ea5-9727-4aa1-b372-3d3b02ad3c88-1749139173267.jpg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "91166bed-2cc0-4021-993a-806ab0158694",
@@ -9104,7 +9104,7 @@ const PRODUCTS = [
     "unitPrice": 0.7,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/91166bed-2cc0-4021-993a-806ab0158694-1739810886222.JPG",
     "category": "cold_beverage",
-    "popularity": 60
+    "popularity": 1440
   },
   {
     "id": "83384498-ceb0-434a-9214-6b7b5904f994",
@@ -9116,7 +9116,7 @@ const PRODUCTS = [
     "unitPrice": 0.68,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/83384498-ceb0-434a-9214-6b7b5904f994-1741195098945.JPG",
     "category": "cold_beverage",
-    "popularity": 81
+    "popularity": 50
   },
   {
     "id": "692e6a4a-89f2-4399-bad8-921019d767d6",
@@ -9128,7 +9128,7 @@ const PRODUCTS = [
     "unitPrice": 0.68,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/692e6a4a-89f2-4399-bad8-921019d767d6-1741193355408.JPG",
     "category": "cold_beverage",
-    "popularity": 81
+    "popularity": 50
   },
   {
     "id": "021ce072-53ee-45ac-8484-249f933b079e",
@@ -9140,7 +9140,7 @@ const PRODUCTS = [
     "unitPrice": 0.95,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/021ce072-53ee-45ac-8484-249f933b079e-1741195036316.JPG",
     "category": "cold_beverage",
-    "popularity": 81
+    "popularity": 50
   },
   {
     "id": "49df8687-f9da-411a-a7c2-9feda47a63a1",
@@ -9152,7 +9152,7 @@ const PRODUCTS = [
     "unitPrice": 0.95,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/49df8687-f9da-411a-a7c2-9feda47a63a1-1741193390223.JPG",
     "category": "cold_beverage",
-    "popularity": 81
+    "popularity": 50
   },
   {
     "id": "fadac0b4-ab5c-4a6e-9eb7-c8a8f9fd966c",
@@ -9164,7 +9164,7 @@ const PRODUCTS = [
     "unitPrice": 1.55,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/fadac0b4-ab5c-4a6e-9eb7-c8a8f9fd966c-1763398892428.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "4fc11c9f-5c93-4f24-b1b8-d9d018fa1a96",
@@ -9176,7 +9176,7 @@ const PRODUCTS = [
     "unitPrice": 1.35,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4fc11c9f-5c93-4f24-b1b8-d9d018fa1a96-1742322920966.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "280baf76-31af-4723-9b5a-a1912e700f0e",
@@ -9188,7 +9188,7 @@ const PRODUCTS = [
     "unitPrice": 2.19,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/280baf76-31af-4723-9b5a-a1912e700f0e-1749206324108.jpeg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "926c9d81-3cd1-4fb4-a93c-ad3722234ce8",
@@ -9200,7 +9200,7 @@ const PRODUCTS = [
     "unitPrice": 2.19,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/926c9d81-3cd1-4fb4-a93c-ad3722234ce8-1749206102729.jpeg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "de60b6eb-d6a8-4caa-96b8-d8a16b384012",
@@ -9212,7 +9212,7 @@ const PRODUCTS = [
     "unitPrice": 0.89,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/de60b6eb-d6a8-4caa-96b8-d8a16b384012-1749206534438.jpg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "7113e167-b335-4b98-b2b5-fdb923ab4590",
@@ -9224,7 +9224,7 @@ const PRODUCTS = [
     "unitPrice": 1.17,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/7113e167-b335-4b98-b2b5-fdb923ab4590-1749206764973.jpg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "78327ba8-3e82-4e46-aaa1-d4cb2561ddcc",
@@ -9236,7 +9236,7 @@ const PRODUCTS = [
     "unitPrice": 1.3,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/78327ba8-3e82-4e46-aaa1-d4cb2561ddcc-1763464276119.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "7bddd766-db80-420f-a36e-8d4a6ae16aab",
@@ -9248,7 +9248,7 @@ const PRODUCTS = [
     "unitPrice": 1.89,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/7bddd766-db80-420f-a36e-8d4a6ae16aab-1749477932592.jpeg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "324f641c-9162-41d5-82e0-6ca4c0ec1e47",
@@ -9260,7 +9260,7 @@ const PRODUCTS = [
     "unitPrice": 3.3,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/324f641c-9162-41d5-82e0-6ca4c0ec1e47-1740592362024.JPG",
     "category": "cold_beverage",
-    "popularity": 96
+    "popularity": 50
   },
   {
     "id": "2a7f7651-e3db-48fb-8d19-24d92e7e71eb",
@@ -9272,7 +9272,7 @@ const PRODUCTS = [
     "unitPrice": 1.34,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2a7f7651-e3db-48fb-8d19-24d92e7e71eb-1749480628513.jpg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "cf36c9ea-6a24-4c53-a24a-e6e356b4bf2b",
@@ -9284,7 +9284,7 @@ const PRODUCTS = [
     "unitPrice": 1.34,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cf36c9ea-6a24-4c53-a24a-e6e356b4bf2b-1749480263371.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "cd28163b-cd30-43d2-aa83-74da334010bb",
@@ -9296,7 +9296,7 @@ const PRODUCTS = [
     "unitPrice": 1.34,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cd28163b-cd30-43d2-aa83-74da334010bb-1749480438084.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "10bab666-5265-43cb-85e9-60fb95dcc3b5",
@@ -9308,7 +9308,7 @@ const PRODUCTS = [
     "unitPrice": 1.34,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/10bab666-5265-43cb-85e9-60fb95dcc3b5-1749480048947.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "11eb3b20-d552-499b-9186-221fe7cf4306",
@@ -9320,7 +9320,7 @@ const PRODUCTS = [
     "unitPrice": 2.06,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/11eb3b20-d552-499b-9186-221fe7cf4306-1763554525952.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "5d665625-6d05-424a-8ec4-20061faef8c6",
@@ -9332,7 +9332,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5d665625-6d05-424a-8ec4-20061faef8c6-1738856012215.JPG",
     "category": "cold_beverage",
-    "popularity": 1110,
+    "popularity": 2000,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9346,7 +9346,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4d1b9f4f-dfbe-4cf4-bec3-7e50357946b3-1738856432865.JPG",
     "category": "cold_beverage",
-    "popularity": 1110,
+    "popularity": 2000,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9360,7 +9360,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/381ea969-bdf6-439a-81f6-90f870440dad-1738857492165.JPG",
     "category": "cold_beverage",
-    "popularity": 1110,
+    "popularity": 2000,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -9375,7 +9375,7 @@ const PRODUCTS = [
     "unitPrice": 1.17,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/d16ae4fb-df1c-48c7-b232-e5b43587a07d-1736841094161.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "b8706f69-8451-4549-b952-9b7705fd9a63",
@@ -9387,7 +9387,7 @@ const PRODUCTS = [
     "unitPrice": 1.36,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b8706f69-8451-4549-b952-9b7705fd9a63-1738861677435.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "ac3b6f16-7b00-4c9a-9082-9386406dc318",
@@ -9399,7 +9399,7 @@ const PRODUCTS = [
     "unitPrice": 0.35,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/ac3b6f16-7b00-4c9a-9082-9386406dc318-1750848701879.png",
     "category": "cold_beverage",
-    "popularity": 17
+    "popularity": 50
   },
   {
     "id": "91344329-1c6a-41f3-a9ba-ee9e0e27cb69",
@@ -9411,7 +9411,7 @@ const PRODUCTS = [
     "unitPrice": 0.36,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/91344329-1c6a-41f3-a9ba-ee9e0e27cb69-1751283690853.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "27a7ea70-0615-4c3e-80d9-0ef277099fc8",
@@ -9423,7 +9423,7 @@ const PRODUCTS = [
     "unitPrice": 0.35,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/27a7ea70-0615-4c3e-80d9-0ef277099fc8-1757417795514.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "a7ac45cf-e6df-4979-b457-37d8a2dff41e",
@@ -9435,7 +9435,7 @@ const PRODUCTS = [
     "unitPrice": 0.35,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a7ac45cf-e6df-4979-b457-37d8a2dff41e-1749890546613.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "4bf400c1-74bc-407e-a71d-9f0fe7c06ba0",
@@ -9447,7 +9447,7 @@ const PRODUCTS = [
     "unitPrice": 0.35,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4bf400c1-74bc-407e-a71d-9f0fe7c06ba0-1769443236040.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "df68e864-2332-436a-b23a-2f8665602e5a",
@@ -9459,7 +9459,7 @@ const PRODUCTS = [
     "unitPrice": 0.35,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/df68e864-2332-436a-b23a-2f8665602e5a-1756457763091.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "fadea227-516c-457b-b43c-a1267a937ad4",
@@ -9471,7 +9471,7 @@ const PRODUCTS = [
     "unitPrice": 0.35,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/fadea227-516c-457b-b43c-a1267a937ad4-1762855982300.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "edf43ccf-dc5b-460a-ba11-607c3cbd9abc",
@@ -9483,7 +9483,7 @@ const PRODUCTS = [
     "unitPrice": 2.12,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/edf43ccf-dc5b-460a-ba11-607c3cbd9abc-1749538068750.jpg",
     "category": "cold_beverage",
-    "popularity": 59
+    "popularity": 1450
   },
   {
     "id": "15ac31b5-73eb-4a64-829a-0159a4a17aaa",
@@ -9495,7 +9495,7 @@ const PRODUCTS = [
     "unitPrice": 1.01,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/15ac31b5-73eb-4a64-829a-0159a4a17aaa-1749483664801.jpg",
     "category": "cold_beverage",
-    "popularity": 37,
+    "popularity": 1450,
     "vendingPriceOverride": 3.04,
     "sevenElevenPrice": 2.79,
     "competitivePrice": 3.04
@@ -9510,7 +9510,7 @@ const PRODUCTS = [
     "unitPrice": 2.78,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/102cbf63-6434-45a7-9c34-048a724ed3ef-1741273515074.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "91d0edf9-b991-4017-a1f6-a0c0e1836789",
@@ -9522,7 +9522,7 @@ const PRODUCTS = [
     "unitPrice": 2.78,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/91d0edf9-b991-4017-a1f6-a0c0e1836789-1741273705067.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "a318e3a7-d7d7-44a8-b967-d7d4bb799c64",
@@ -9534,7 +9534,7 @@ const PRODUCTS = [
     "unitPrice": 0.77,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a318e3a7-d7d7-44a8-b967-d7d4bb799c64-1749484889363.jpg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "1206431f-8f38-42e7-b4ba-02c5d224f28f",
@@ -9546,7 +9546,7 @@ const PRODUCTS = [
     "unitPrice": 0.57,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1206431f-8f38-42e7-b4ba-02c5d224f28f-1739379682702.JPG",
     "category": "cold_beverage",
-    "popularity": 1080,
+    "popularity": 1940,
     "vendingPriceOverride": 1.25
   },
   {
@@ -9559,7 +9559,7 @@ const PRODUCTS = [
     "unitPrice": 1.35,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/664cb15f-34f4-4cec-b0d7-814a6a56a8fe-1739379780617.JPG",
     "category": "cold_beverage",
-    "popularity": 1080,
+    "popularity": 1940,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -9574,7 +9574,7 @@ const PRODUCTS = [
     "unitPrice": 0.57,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e0eedb78-50a8-41d3-83d4-669f7613644e-1739379108723.JPG",
     "category": "cold_beverage",
-    "popularity": 1080,
+    "popularity": 1940,
     "vendingPriceOverride": 1.25
   },
   {
@@ -9587,7 +9587,7 @@ const PRODUCTS = [
     "unitPrice": 1.35,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4d9a2802-58bc-46c7-aab0-d9935008b078-1739378663627.JPG",
     "category": "cold_beverage",
-    "popularity": 1080,
+    "popularity": 1940,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -9602,7 +9602,7 @@ const PRODUCTS = [
     "unitPrice": 1.35,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a8ee9672-834b-4756-95fe-9050d2faba29-1763656720742.png",
     "category": "cold_beverage",
-    "popularity": 1080,
+    "popularity": 1940,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -9617,7 +9617,7 @@ const PRODUCTS = [
     "unitPrice": 2.91,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/68264a99-d9bf-41da-84b3-618aea6c1326-1740004004573.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "5d9979e1-d40f-47b2-8078-2c916bcb9446",
@@ -9629,7 +9629,7 @@ const PRODUCTS = [
     "unitPrice": 2.91,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5d9979e1-d40f-47b2-8078-2c916bcb9446-1740004095590.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "dfa14869-6a7f-4c0d-a1f5-5e985b235c93",
@@ -9641,7 +9641,7 @@ const PRODUCTS = [
     "unitPrice": 1.88,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/dfa14869-6a7f-4c0d-a1f5-5e985b235c93-1763745812281.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "6e09c3af-86dc-44cb-8ea8-48896549a981",
@@ -9653,7 +9653,7 @@ const PRODUCTS = [
     "unitPrice": 1.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/6e09c3af-86dc-44cb-8ea8-48896549a981-1749486667430.jpeg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "955d7a68-1a6c-43dd-a530-5245e60e1427",
@@ -9665,7 +9665,7 @@ const PRODUCTS = [
     "unitPrice": 1.71,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/955d7a68-1a6c-43dd-a530-5245e60e1427-1749487347966.jpg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "7efaf4de-7a93-427c-a0c2-f540808b847e",
@@ -9677,7 +9677,7 @@ const PRODUCTS = [
     "unitPrice": 0.95,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/7efaf4de-7a93-427c-a0c2-f540808b847e-1749540016562.jpg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "05a2d40d-c397-4793-a8a5-f12ded633548",
@@ -9689,7 +9689,7 @@ const PRODUCTS = [
     "unitPrice": 2.14,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/05a2d40d-c397-4793-a8a5-f12ded633548-1739486628072.JPG",
     "category": "cold_beverage",
-    "popularity": 44
+    "popularity": 50
   },
   {
     "id": "cbc417d6-9769-465e-b75d-12029235d13a",
@@ -9701,7 +9701,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cbc417d6-9769-465e-b75d-12029235d13a-1758871151640.png",
     "category": "cold_beverage",
-    "popularity": 35,
+    "popularity": 1550,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -9716,7 +9716,7 @@ const PRODUCTS = [
     "unitPrice": 1.59,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1c3878f3-0fc4-400b-a16c-1808d200a020-1739313126852.JPG",
     "category": "cold_beverage",
-    "popularity": 1000
+    "popularity": 1800
   },
   {
     "id": "2aabb135-3ebe-4529-b09f-e71cce835f4b",
@@ -9728,7 +9728,7 @@ const PRODUCTS = [
     "unitPrice": 0.88,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2aabb135-3ebe-4529-b09f-e71cce835f4b-1739313154202.JPG",
     "category": "cold_beverage",
-    "popularity": 1000
+    "popularity": 1800
   },
   {
     "id": "89689b91-7c0e-468d-b7ec-7af6762c5047",
@@ -9740,7 +9740,7 @@ const PRODUCTS = [
     "unitPrice": 1.37,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/89689b91-7c0e-468d-b7ec-7af6762c5047-1741882573364.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "6f00767c-fe16-4a0e-8186-ab2072c163b4",
@@ -9752,7 +9752,7 @@ const PRODUCTS = [
     "unitPrice": 11.79,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/6f00767c-fe16-4a0e-8186-ab2072c163b4-1737572602374.jpg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "03920fa2-5520-48c4-b129-a0088d3e333e",
@@ -9764,7 +9764,7 @@ const PRODUCTS = [
     "unitPrice": 11.79,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/03920fa2-5520-48c4-b129-a0088d3e333e-1769443554831.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "80e26e24-4772-4de6-86ec-65ee3564a0cc",
@@ -9776,7 +9776,7 @@ const PRODUCTS = [
     "unitPrice": 11.79,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "dca271df-c816-4c6f-a637-630b8f2e3e54",
@@ -9788,7 +9788,7 @@ const PRODUCTS = [
     "unitPrice": 11.79,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/dca271df-c816-4c6f-a637-630b8f2e3e54-1758191510141.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "b3dac7dc-9bc1-49b6-918f-4834fe260ce0",
@@ -9800,7 +9800,7 @@ const PRODUCTS = [
     "unitPrice": 11.79,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b3dac7dc-9bc1-49b6-918f-4834fe260ce0-1759360053519.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "413965b6-316f-4894-a9cc-020593760b32",
@@ -9812,7 +9812,7 @@ const PRODUCTS = [
     "unitPrice": 11.79,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/413965b6-316f-4894-a9cc-020593760b32-1754384895507.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "1e2e92b2-0ff1-42af-83ba-fa494c8bd525",
@@ -9824,7 +9824,7 @@ const PRODUCTS = [
     "unitPrice": 1.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1e2e92b2-0ff1-42af-83ba-fa494c8bd525-1738879009192.JPG",
     "category": "cold_beverage",
-    "popularity": 1050,
+    "popularity": 1750,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9838,7 +9838,7 @@ const PRODUCTS = [
     "unitPrice": 1.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b5d40cc1-4977-4286-bae3-c6def1239be3-1738879333197.JPG",
     "category": "cold_beverage",
-    "popularity": 1050,
+    "popularity": 1750,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9852,7 +9852,7 @@ const PRODUCTS = [
     "unitPrice": 1.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/ebe09a90-9e4c-48b7-9ebd-03540fec1580-1738880685567.JPG",
     "category": "cold_beverage",
-    "popularity": 1050,
+    "popularity": 1750,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9866,7 +9866,7 @@ const PRODUCTS = [
     "unitPrice": 1.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b34df187-5880-41e3-b7ad-9c4d28f68876-1738879938887.JPG",
     "category": "cold_beverage",
-    "popularity": 1050,
+    "popularity": 1750,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9880,7 +9880,7 @@ const PRODUCTS = [
     "unitPrice": 0.84,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2a484dc1-fe3a-4751-9ee9-65d373251afb-1738877883618.JPG",
     "category": "cold_beverage",
-    "popularity": 1050
+    "popularity": 1750
   },
   {
     "id": "0840f425-f2ac-4ffb-8b9f-73202f2954f6",
@@ -9892,7 +9892,7 @@ const PRODUCTS = [
     "unitPrice": 1.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/0840f425-f2ac-4ffb-8b9f-73202f2954f6-1738879362952.JPG",
     "category": "cold_beverage",
-    "popularity": 1050,
+    "popularity": 1750,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9906,7 +9906,7 @@ const PRODUCTS = [
     "unitPrice": 1.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/878456fe-3254-4076-8c0d-b9c8d7399ce0-1738879394954.JPG",
     "category": "cold_beverage",
-    "popularity": 1050,
+    "popularity": 1750,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9920,7 +9920,7 @@ const PRODUCTS = [
     "unitPrice": 1.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2c7e562e-1cbb-46d0-afe7-8f33534e6fec-1738879609244.JPG",
     "category": "cold_beverage",
-    "popularity": 1050,
+    "popularity": 1750,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9934,7 +9934,7 @@ const PRODUCTS = [
     "unitPrice": 0.84,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/fa18cdb1-9bac-4430-b3ec-61a62a3a26d6-1738877959549.JPG",
     "category": "cold_beverage",
-    "popularity": 1050
+    "popularity": 1750
   },
   {
     "id": "2c3a9ad1-eddd-466a-9ab4-dcccb1217b7f",
@@ -9946,7 +9946,7 @@ const PRODUCTS = [
     "unitPrice": 0.84,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2c3a9ad1-eddd-466a-9ab4-dcccb1217b7f-1738879114637.JPG",
     "category": "cold_beverage",
-    "popularity": 1050
+    "popularity": 1750
   },
   {
     "id": "45e16e5a-3f9d-404c-8cf3-2eedaad18a58",
@@ -9958,7 +9958,7 @@ const PRODUCTS = [
     "unitPrice": 1.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/45e16e5a-3f9d-404c-8cf3-2eedaad18a58-1738879424655.JPG",
     "category": "cold_beverage",
-    "popularity": 1050,
+    "popularity": 1750,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9972,7 +9972,7 @@ const PRODUCTS = [
     "unitPrice": 1.59,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c83fb559-88fb-45da-8179-44f896c21845-1764072855336.png",
     "category": "cold_beverage",
-    "popularity": 1050
+    "popularity": 1750
   },
   {
     "id": "79e214f0-5214-43c9-9bd8-3e7d3093f373",
@@ -9984,7 +9984,7 @@ const PRODUCTS = [
     "unitPrice": 1.59,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/79e214f0-5214-43c9-9bd8-3e7d3093f373-1764072931253.png",
     "category": "cold_beverage",
-    "popularity": 1050
+    "popularity": 1750
   },
   {
     "id": "523ba3ac-91fe-4a25-9a38-591e5b3c4c7a",
@@ -9996,7 +9996,7 @@ const PRODUCTS = [
     "unitPrice": 0.66,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/523ba3ac-91fe-4a25-9a38-591e5b3c4c7a-1756297985549.png",
     "category": "cold_beverage",
-    "popularity": 1050
+    "popularity": 1750
   },
   {
     "id": "5f467c8c-d2d6-4d83-87b0-b1ef0cabf08d",
@@ -10008,7 +10008,7 @@ const PRODUCTS = [
     "unitPrice": 7.75,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5f467c8c-d2d6-4d83-87b0-b1ef0cabf08d-1738880489493.JPG",
     "category": "cold_beverage",
-    "popularity": 1050,
+    "popularity": 1750,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -10022,7 +10022,7 @@ const PRODUCTS = [
     "unitPrice": 7.75,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4ae7b0f9-ff50-411e-8b0c-9af376004f37-1738880323444.JPG",
     "category": "cold_beverage",
-    "popularity": 1050,
+    "popularity": 1750,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -10036,7 +10036,7 @@ const PRODUCTS = [
     "unitPrice": 7.75,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5f8d3ab7-2690-40d9-8ec8-2b5c97049c7a-1738880441381.JPG",
     "category": "cold_beverage",
-    "popularity": 1050,
+    "popularity": 1750,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -10050,7 +10050,7 @@ const PRODUCTS = [
     "unitPrice": 2.4,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5fa65f6e-3591-461b-bbce-7722893c9daa-1756126010503.png",
     "category": "cold_beverage",
-    "popularity": 73
+    "popularity": 50
   },
   {
     "id": "f11cd0c3-dff7-40e9-a58f-7cd991e2902c",
@@ -10062,7 +10062,7 @@ const PRODUCTS = [
     "unitPrice": 2.4,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f11cd0c3-dff7-40e9-a58f-7cd991e2902c-1756126192917.png",
     "category": "cold_beverage",
-    "popularity": 73
+    "popularity": 50
   },
   {
     "id": "2df10916-125f-408f-8222-1eec182c0e26",
@@ -10074,7 +10074,7 @@ const PRODUCTS = [
     "unitPrice": 2.4,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2df10916-125f-408f-8222-1eec182c0e26-1749720576979.png",
     "category": "cold_beverage",
-    "popularity": 73
+    "popularity": 50
   },
   {
     "id": "9f5ec12a-4f0a-45f0-8f64-b56a848bcd32",
@@ -10086,7 +10086,7 @@ const PRODUCTS = [
     "unitPrice": 2.4,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/9f5ec12a-4f0a-45f0-8f64-b56a848bcd32-1751543037036.png",
     "category": "cold_beverage",
-    "popularity": 73
+    "popularity": 50
   },
   {
     "id": "ec473bd4-0dd3-4d53-9ff7-33de05c6a3d5",
@@ -10098,7 +10098,7 @@ const PRODUCTS = [
     "unitPrice": 0.21,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/ec473bd4-0dd3-4d53-9ff7-33de05c6a3d5-1756382024715.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "bd209ac3-8b60-48c4-9b83-ddf4e34f631e",
@@ -10110,7 +10110,7 @@ const PRODUCTS = [
     "unitPrice": 2.05,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/bd209ac3-8b60-48c4-9b83-ddf4e34f631e-1756132792811.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "d89cc601-52c4-42ed-9ba4-264c8c346eb1",
@@ -10122,7 +10122,7 @@ const PRODUCTS = [
     "unitPrice": 2.05,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/d89cc601-52c4-42ed-9ba4-264c8c346eb1-1756133168000.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "20ec491f-e37a-4593-b49e-c8ea047bd88d",
@@ -10134,7 +10134,7 @@ const PRODUCTS = [
     "unitPrice": 0.66,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/20ec491f-e37a-4593-b49e-c8ea047bd88d-1759833747320.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "8970c772-d81d-4b57-bb3c-6aaf83df2903",
@@ -10146,7 +10146,7 @@ const PRODUCTS = [
     "unitPrice": 1.42,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/8970c772-d81d-4b57-bb3c-6aaf83df2903-1751985893939.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "1a1934ee-f2d8-4534-b81a-87278926c672",
@@ -10158,7 +10158,7 @@ const PRODUCTS = [
     "unitPrice": 2.6,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1a1934ee-f2d8-4534-b81a-87278926c672-1764159660210.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "fa2ec980-f8cc-458d-b927-f68e3afb6df4",
@@ -10170,7 +10170,7 @@ const PRODUCTS = [
     "unitPrice": 2.82,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/fa2ec980-f8cc-458d-b927-f68e3afb6df4-1750348037533.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "abe8722d-6e97-494d-91d7-1de11d662208",
@@ -10182,7 +10182,7 @@ const PRODUCTS = [
     "unitPrice": 2.82,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/abe8722d-6e97-494d-91d7-1de11d662208-1740152768740.JPG",
     "category": "cold_beverage",
-    "popularity": 2
+    "popularity": 50
   },
   {
     "id": "068e92b8-e189-4dae-aa03-6889b5b0c782",
@@ -10194,7 +10194,7 @@ const PRODUCTS = [
     "unitPrice": 1.41,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/068e92b8-e189-4dae-aa03-6889b5b0c782-1752053075690.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "cb0b0c2c-4eaf-4c35-ad45-d7b6daf1a880",
@@ -10206,7 +10206,7 @@ const PRODUCTS = [
     "unitPrice": 1.41,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cb0b0c2c-4eaf-4c35-ad45-d7b6daf1a880-1761559955377.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "37757248-fe9d-41c5-86c4-d21b6096a177",
@@ -10218,7 +10218,7 @@ const PRODUCTS = [
     "unitPrice": 1.04,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/37757248-fe9d-41c5-86c4-d21b6096a177-1755665746015.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "7206d2dc-c300-4473-8962-e44d9dc9fa45",
@@ -10230,7 +10230,7 @@ const PRODUCTS = [
     "unitPrice": 0.99,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/7206d2dc-c300-4473-8962-e44d9dc9fa45-1764232090851.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "dd4103b1-740a-40cb-921e-1596ca955213",
@@ -10242,7 +10242,7 @@ const PRODUCTS = [
     "unitPrice": 1.04,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/dd4103b1-740a-40cb-921e-1596ca955213-1755666051692.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "426544de-b53c-4b1c-9230-82ad37282e5f",
@@ -10254,7 +10254,7 @@ const PRODUCTS = [
     "unitPrice": 1.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/426544de-b53c-4b1c-9230-82ad37282e5f-1749919196675.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "9aacbe57-4bb0-4ec5-82d2-ee6db45e66d9",
@@ -10266,7 +10266,7 @@ const PRODUCTS = [
     "unitPrice": 2.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/9aacbe57-4bb0-4ec5-82d2-ee6db45e66d9-1756285306053.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "921f82ab-54ef-4266-98a3-674ddabafd7f",
@@ -10278,7 +10278,7 @@ const PRODUCTS = [
     "unitPrice": 2.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/921f82ab-54ef-4266-98a3-674ddabafd7f-1757945290239.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "49478ede-eda8-4861-b813-077c7c9ca703",
@@ -10290,7 +10290,7 @@ const PRODUCTS = [
     "unitPrice": 2.26,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/49478ede-eda8-4861-b813-077c7c9ca703-1757416209977.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "5c6d729e-35d9-469a-a514-01983bf8b407",
@@ -10302,7 +10302,7 @@ const PRODUCTS = [
     "unitPrice": 2.26,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5c6d729e-35d9-469a-a514-01983bf8b407-1750353620994.png",
     "category": "cold_beverage",
-    "popularity": 3
+    "popularity": 50
   },
   {
     "id": "8a11bb6a-6a3e-40cf-a436-eed3c2ee2950",
@@ -10314,7 +10314,7 @@ const PRODUCTS = [
     "unitPrice": 2.26,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/8a11bb6a-6a3e-40cf-a436-eed3c2ee2950-1757415291968.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "dd246419-c70d-4562-83c6-d9b1cb8f51b9",
@@ -10326,7 +10326,7 @@ const PRODUCTS = [
     "unitPrice": 2.26,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/dd246419-c70d-4562-83c6-d9b1cb8f51b9-1757415353015.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "6d29c7c4-cc62-49cd-b0ba-7950edef2b21",
@@ -10338,7 +10338,7 @@ const PRODUCTS = [
     "unitPrice": 2.26,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/6d29c7c4-cc62-49cd-b0ba-7950edef2b21-1755250610266.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "b6c13ca6-39d0-4f1c-84a2-09b597c71c2c",
@@ -10350,7 +10350,7 @@ const PRODUCTS = [
     "unitPrice": 0.82,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b6c13ca6-39d0-4f1c-84a2-09b597c71c2c-1760614809305.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "0edf6971-0e09-4aa0-94e8-4a2ad1d550d9",
@@ -10362,7 +10362,7 @@ const PRODUCTS = [
     "unitPrice": 0.82,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/0edf6971-0e09-4aa0-94e8-4a2ad1d550d9-1760615024539.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "ebb26af7-26f3-462c-922d-b8291c2ca0f4",
@@ -10374,7 +10374,7 @@ const PRODUCTS = [
     "unitPrice": 0.82,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/ebb26af7-26f3-462c-922d-b8291c2ca0f4-1760615248188.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "d0b9242b-0cf0-47eb-be77-ca7c4ec3a6e9",
@@ -10386,7 +10386,7 @@ const PRODUCTS = [
     "unitPrice": 1.79,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/d0b9242b-0cf0-47eb-be77-ca7c4ec3a6e9-1750627366285.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "2e24c33c-278f-40b9-9f71-3293b6db2e51",
@@ -10398,7 +10398,7 @@ const PRODUCTS = [
     "unitPrice": 1.27,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2e24c33c-278f-40b9-9f71-3293b6db2e51-1759835232801.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "5076edce-5ae0-4db6-aea6-82ab45fcca0d",
@@ -10410,7 +10410,7 @@ const PRODUCTS = [
     "unitPrice": 1.85,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5076edce-5ae0-4db6-aea6-82ab45fcca0d-1750170824458.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "8fb8acfe-8479-4861-b0a8-88e8f8d1e12f",
@@ -10422,7 +10422,7 @@ const PRODUCTS = [
     "unitPrice": 1.85,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/8fb8acfe-8479-4861-b0a8-88e8f8d1e12f-1755078372288.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "da6c075d-f478-4d52-8980-eaa0a27dd2bf",
@@ -10434,7 +10434,7 @@ const PRODUCTS = [
     "unitPrice": 1.85,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/da6c075d-f478-4d52-8980-eaa0a27dd2bf-1752060007297.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "91e04aab-cd6e-4427-a217-5dbd50bffa62",
@@ -10446,7 +10446,7 @@ const PRODUCTS = [
     "unitPrice": 1.85,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/91e04aab-cd6e-4427-a217-5dbd50bffa62-1750157989944.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "1f4f4afa-e8c8-4ada-9d53-717f2b8ca592",
@@ -10458,7 +10458,7 @@ const PRODUCTS = [
     "unitPrice": 2.42,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1f4f4afa-e8c8-4ada-9d53-717f2b8ca592-1756127379448.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "b37a1e8d-5a60-483a-9a36-3dc3d078113c",
@@ -10470,7 +10470,7 @@ const PRODUCTS = [
     "unitPrice": 2.86,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b37a1e8d-5a60-483a-9a36-3dc3d078113c-1755796930393.jpeg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "1f85eece-7895-46b6-8764-399e6493bc11",
@@ -10482,7 +10482,7 @@ const PRODUCTS = [
     "unitPrice": 2.36,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1f85eece-7895-46b6-8764-399e6493bc11-1755334279706.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "9ae5cec0-5342-4098-94bc-70877135a887",
@@ -10494,7 +10494,7 @@ const PRODUCTS = [
     "unitPrice": 2.36,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/9ae5cec0-5342-4098-94bc-70877135a887-1759221515467.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "8a46311a-112c-438a-afa4-b8952c37bbe0",
@@ -10506,7 +10506,7 @@ const PRODUCTS = [
     "unitPrice": 2.36,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/8a46311a-112c-438a-afa4-b8952c37bbe0-1755335397404.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "92b1e229-582c-4062-82ef-355cdf37f8b7",
@@ -10518,7 +10518,7 @@ const PRODUCTS = [
     "unitPrice": 2.36,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/92b1e229-582c-4062-82ef-355cdf37f8b7-1750931976362.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "c1fa56f1-36df-4b63-934a-78458b855c0b",
@@ -10530,7 +10530,7 @@ const PRODUCTS = [
     "unitPrice": 0.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c1fa56f1-36df-4b63-934a-78458b855c0b-1739564074047.JPG",
     "category": "cold_beverage",
-    "popularity": 500,
+    "popularity": 50,
     "vendingPriceOverride": 1.25
   },
   {
@@ -10543,7 +10543,7 @@ const PRODUCTS = [
     "unitPrice": 0.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c4b568b3-6410-4e34-ad44-0afb1104622b-1739564256101.JPG",
     "category": "cold_beverage",
-    "popularity": 500,
+    "popularity": 50,
     "vendingPriceOverride": 1.25
   },
   {
@@ -10556,7 +10556,7 @@ const PRODUCTS = [
     "unitPrice": 0.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/9ec5bc43-013f-48b0-83fe-092efdefc2ca-1739563957542.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "6e854d0a-156b-4657-ac97-b16529f0935c",
@@ -10568,7 +10568,7 @@ const PRODUCTS = [
     "unitPrice": 0.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/6e854d0a-156b-4657-ac97-b16529f0935c-1739564529045.JPG",
     "category": "cold_beverage",
-    "popularity": 500,
+    "popularity": 50,
     "vendingPriceOverride": 1.25
   },
   {
@@ -10581,7 +10581,7 @@ const PRODUCTS = [
     "unitPrice": 0.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e6b1f96b-3679-434b-a809-f55f233c12a8-1739563922493.JPG",
     "category": "cold_beverage",
-    "popularity": 500,
+    "popularity": 50,
     "vendingPriceOverride": 1.25
   },
   {
@@ -10594,7 +10594,7 @@ const PRODUCTS = [
     "unitPrice": 0.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/d06a1185-0c47-4c04-8a9f-33a28619c192-1739560642081.JPG",
     "category": "cold_beverage",
-    "popularity": 500,
+    "popularity": 50,
     "vendingPriceOverride": 1.25
   },
   {
@@ -10607,7 +10607,7 @@ const PRODUCTS = [
     "unitPrice": 0.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1378ba73-3b74-4bc2-9179-ee59b1b3a982-1739564735957.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "647b0555-3e99-4b25-8f54-be933fae11c7",
@@ -10619,7 +10619,7 @@ const PRODUCTS = [
     "unitPrice": 0.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/647b0555-3e99-4b25-8f54-be933fae11c7-1739560723029.JPG",
     "category": "cold_beverage",
-    "popularity": 500,
+    "popularity": 50,
     "vendingPriceOverride": 1.25
   },
   {
@@ -10632,7 +10632,7 @@ const PRODUCTS = [
     "unitPrice": 0.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/0df3b0db-8e94-4e12-87f7-3790b140e708-1739564497724.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "8eea32f1-9eeb-481a-8d30-c4cfc0305d0b",
@@ -10644,7 +10644,7 @@ const PRODUCTS = [
     "unitPrice": 0.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/8eea32f1-9eeb-481a-8d30-c4cfc0305d0b-1739564675302.JPG",
     "category": "cold_beverage",
-    "popularity": 500,
+    "popularity": 50,
     "vendingPriceOverride": 1.25
   },
   {
@@ -10657,7 +10657,7 @@ const PRODUCTS = [
     "unitPrice": 0.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c5073ad5-e0eb-4228-9052-552a56a4083f-1739564644327.JPG",
     "category": "cold_beverage",
-    "popularity": 500,
+    "popularity": 50,
     "vendingPriceOverride": 1.25
   },
   {
@@ -10670,7 +10670,7 @@ const PRODUCTS = [
     "unitPrice": 0.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/3d6ccec9-814b-4e42-a31d-e2c644f5546f-1739560674097.JPG",
     "category": "cold_beverage",
-    "popularity": 500,
+    "popularity": 50,
     "vendingPriceOverride": 1.25
   },
   {
@@ -10683,7 +10683,7 @@ const PRODUCTS = [
     "unitPrice": 1.67,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b13d7da9-bd6d-4988-8df7-dce9b89c8bb7-1755338012370.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "3779c8ff-f1a7-4c3c-86bd-b1ed2ec5e8b4",
@@ -10695,7 +10695,7 @@ const PRODUCTS = [
     "unitPrice": 1.67,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/3779c8ff-f1a7-4c3c-86bd-b1ed2ec5e8b4-1758868952056.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "53e48d1d-562f-43be-8b36-88aeddcaeae9",
@@ -10707,7 +10707,7 @@ const PRODUCTS = [
     "unitPrice": 1.74,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/53e48d1d-562f-43be-8b36-88aeddcaeae9-1760533008881.png",
     "category": "cold_beverage",
-    "popularity": 500,
+    "popularity": 50,
     "vendingPriceOverride": 1.25
   },
   {
@@ -10720,7 +10720,7 @@ const PRODUCTS = [
     "unitPrice": 1.74,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/509b5e12-7f7f-4b98-85c1-9484b20870e9-1760527649390.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "57824d3e-ac5a-4ea8-abfa-5e21209b7d1c",
@@ -10732,7 +10732,7 @@ const PRODUCTS = [
     "unitPrice": 1.74,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/57824d3e-ac5a-4ea8-abfa-5e21209b7d1c-1760526126225.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "6e664d99-675c-46c4-8258-428c0dac4c44",
@@ -10744,7 +10744,7 @@ const PRODUCTS = [
     "unitPrice": 1.74,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/6e664d99-675c-46c4-8258-428c0dac4c44-1760532667266.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "a15b5864-e092-4c44-9b52-54cbaaf92fce",
@@ -10756,7 +10756,7 @@ const PRODUCTS = [
     "unitPrice": 2.17,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a15b5864-e092-4c44-9b52-54cbaaf92fce-1754064893875.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "be9ab32e-9580-4035-8600-c1afbf9c5eb9",
@@ -10768,7 +10768,7 @@ const PRODUCTS = [
     "unitPrice": 2.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/be9ab32e-9580-4035-8600-c1afbf9c5eb9-1759389697408.png",
     "category": "cold_beverage",
-    "popularity": 78
+    "popularity": 50
   },
   {
     "id": "bcfb0c20-63d7-446f-8f99-0f09736ab46f",
@@ -10780,7 +10780,7 @@ const PRODUCTS = [
     "unitPrice": 2.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/bcfb0c20-63d7-446f-8f99-0f09736ab46f-1739985356282.JPG",
     "category": "cold_beverage",
-    "popularity": 990
+    "popularity": 1780
   },
   {
     "id": "4fb6a0ec-94ad-44b9-8fd3-df8f22a35a5c",
@@ -10792,7 +10792,7 @@ const PRODUCTS = [
     "unitPrice": 1.16,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4fb6a0ec-94ad-44b9-8fd3-df8f22a35a5c-1755342191386.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 1790
   },
   {
     "id": "392df805-af15-4f08-8f5c-5b46ff7b1d78",
@@ -10804,7 +10804,7 @@ const PRODUCTS = [
     "unitPrice": 1.16,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/392df805-af15-4f08-8f5c-5b46ff7b1d78-1755534773057.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 1790
   },
   {
     "id": "6d0ad4ff-5caf-4218-9fa6-e81308d1086a",
@@ -10816,7 +10816,7 @@ const PRODUCTS = [
     "unitPrice": 1.16,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/6d0ad4ff-5caf-4218-9fa6-e81308d1086a-1750169077949.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 1790
   },
   {
     "id": "2acffd7b-1a6d-4db3-ad23-dda1a40ec4de",
@@ -10828,7 +10828,7 @@ const PRODUCTS = [
     "unitPrice": 0.92,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2acffd7b-1a6d-4db3-ad23-dda1a40ec4de-1755342067223.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 1790
   },
   {
     "id": "104abec4-7308-4493-bb21-5a09e219e7ac",
@@ -10840,7 +10840,7 @@ const PRODUCTS = [
     "unitPrice": 1.03,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/104abec4-7308-4493-bb21-5a09e219e7ac-1755342132459.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 1790
   },
   {
     "id": "db7a6614-c6b2-4191-9946-254f4e15205f",
@@ -10852,7 +10852,7 @@ const PRODUCTS = [
     "unitPrice": 1.03,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/db7a6614-c6b2-4191-9946-254f4e15205f-1750168340585.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 1790
   },
   {
     "id": "2fd9bf72-db47-4805-99e1-92307a4308bb",
@@ -10864,7 +10864,7 @@ const PRODUCTS = [
     "unitPrice": 1.36,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2fd9bf72-db47-4805-99e1-92307a4308bb-1756296760842.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 1790
   },
   {
     "id": "5c70cf5f-f954-4d87-8fd4-90c59fb4a2e3",
@@ -10876,7 +10876,7 @@ const PRODUCTS = [
     "unitPrice": 1.36,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5c70cf5f-f954-4d87-8fd4-90c59fb4a2e3-1755164256140.png",
     "category": "cold_beverage",
-    "popularity": 26
+    "popularity": 1790
   },
   {
     "id": "f72dd5a8-e93b-46ce-8e9c-8756e385bd0d",
@@ -10888,7 +10888,7 @@ const PRODUCTS = [
     "unitPrice": 1.36,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f72dd5a8-e93b-46ce-8e9c-8756e385bd0d-1757410257478.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 1790
   },
   {
     "id": "5a058e5b-9467-45d9-b31a-9fbbac3fc9e7",
@@ -10900,7 +10900,7 @@ const PRODUCTS = [
     "unitPrice": 2.1,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5a058e5b-9467-45d9-b31a-9fbbac3fc9e7-1764584028903.png",
     "category": "cold_beverage",
-    "popularity": 17
+    "popularity": 50
   },
   {
     "id": "c7dc950b-8d93-4a54-9e83-206f2c500989",
@@ -10912,7 +10912,7 @@ const PRODUCTS = [
     "unitPrice": 2.1,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c7dc950b-8d93-4a54-9e83-206f2c500989-1764583924733.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "13c36a7b-a0b7-4c80-a9ef-f07566c7ec13",
@@ -10924,7 +10924,7 @@ const PRODUCTS = [
     "unitPrice": 1.92,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/13c36a7b-a0b7-4c80-a9ef-f07566c7ec13-1740071529430.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "e69df238-89dd-48b1-a177-b4c05bda058c",
@@ -10936,7 +10936,7 @@ const PRODUCTS = [
     "unitPrice": 1.92,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e69df238-89dd-48b1-a177-b4c05bda058c-1740071388256.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "dfd9504d-8b4a-4880-bc08-dca610840c7a",
@@ -10948,7 +10948,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/dfd9504d-8b4a-4880-bc08-dca610840c7a-1740072681149.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "f46bf98c-4881-4fa1-8d15-2310c11f960b",
@@ -10960,7 +10960,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f46bf98c-4881-4fa1-8d15-2310c11f960b-1740072596471.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "58581152-27f2-43ef-b8eb-0da7d3ee8ccf",
@@ -10972,7 +10972,7 @@ const PRODUCTS = [
     "unitPrice": 2.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/58581152-27f2-43ef-b8eb-0da7d3ee8ccf-1738867672130.JPG",
     "category": "cold_beverage",
-    "popularity": 1040,
+    "popularity": 1850,
     "sevenElevenPrice": 3.89,
     "competitivePrice": 4.140000000000001,
     "vendingPriceOverride": 4
@@ -10987,7 +10987,7 @@ const PRODUCTS = [
     "unitPrice": 2.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/60fbdc19-61b1-4c22-9e45-88dcc6252d1c-1738867394708.JPG",
     "category": "cold_beverage",
-    "popularity": 1040,
+    "popularity": 1850,
     "sevenElevenPrice": 3.89,
     "competitivePrice": 4.140000000000001,
     "vendingPriceOverride": 4
@@ -11002,7 +11002,7 @@ const PRODUCTS = [
     "unitPrice": 2.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/521b03fa-0ce0-4d2a-840e-a73189ce042a-1738867431665.JPG",
     "category": "cold_beverage",
-    "popularity": 1040,
+    "popularity": 1850,
     "sevenElevenPrice": 3.89,
     "competitivePrice": 4.140000000000001,
     "vendingPriceOverride": 4
@@ -11017,7 +11017,7 @@ const PRODUCTS = [
     "unitPrice": 0.66,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c8ee4533-f814-43cf-8360-05f414beaac1-1738863368985.JPG",
     "category": "cold_beverage",
-    "popularity": 55,
+    "popularity": 1600,
     "vendingPriceOverride": 1.25
   },
   {
@@ -11030,7 +11030,7 @@ const PRODUCTS = [
     "unitPrice": 1.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/91a2b8b3-591d-4abe-a68c-acf8a3a9b43f-1738862903672.JPG",
     "category": "cold_beverage",
-    "popularity": 34,
+    "popularity": 1600,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -11044,7 +11044,7 @@ const PRODUCTS = [
     "unitPrice": 1.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/53133458-af80-444e-9159-fcafab011354-1738863413039.JPG",
     "category": "cold_beverage",
-    "popularity": 34,
+    "popularity": 1600,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -11058,7 +11058,7 @@ const PRODUCTS = [
     "unitPrice": 2.47,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f23974bf-4037-4db4-82c1-cbb0fc7a92a2-1755331087628.png",
     "category": "cold_beverage",
-    "popularity": 34
+    "popularity": 50
   },
   {
     "id": "c3ae1cca-1cfa-4941-99c4-4bdf94073e66",
@@ -11070,7 +11070,7 @@ const PRODUCTS = [
     "unitPrice": 1.98,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c3ae1cca-1cfa-4941-99c4-4bdf94073e66-1750750867216.png",
     "category": "cold_beverage",
-    "popularity": 44
+    "popularity": 50
   },
   {
     "id": "ee998bc4-d96a-4137-a7d5-c499cef809be",
@@ -11082,7 +11082,7 @@ const PRODUCTS = [
     "unitPrice": 1.98,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/ee998bc4-d96a-4137-a7d5-c499cef809be-1754480745851.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "6adde2fe-97dd-44de-a162-40014f7e4668",
@@ -11094,7 +11094,7 @@ const PRODUCTS = [
     "unitPrice": 3.06,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/6adde2fe-97dd-44de-a162-40014f7e4668-1750751722067.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "70b02dd4-79b8-4d84-9a86-f86c29c36492",
@@ -11106,7 +11106,7 @@ const PRODUCTS = [
     "unitPrice": 0.43,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/70b02dd4-79b8-4d84-9a86-f86c29c36492-1759746911587.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "1ae65941-c205-4da3-bbd6-7089343dc135",
@@ -11118,7 +11118,7 @@ const PRODUCTS = [
     "unitPrice": 2.38,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1ae65941-c205-4da3-bbd6-7089343dc135-1764775475871.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "7455d6fb-3081-4179-ae30-c3d3729106da",
@@ -11130,7 +11130,7 @@ const PRODUCTS = [
     "unitPrice": 2.38,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/7455d6fb-3081-4179-ae30-c3d3729106da-1769444947410.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "050011a9-5578-4d87-b75b-1c09beedf72e",
@@ -11142,7 +11142,7 @@ const PRODUCTS = [
     "unitPrice": 2.38,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/050011a9-5578-4d87-b75b-1c09beedf72e-1737009615843.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "b78892f5-14fd-427e-bdc0-e8d4d7ba7f4f",
@@ -11154,7 +11154,7 @@ const PRODUCTS = [
     "unitPrice": 2.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b78892f5-14fd-427e-bdc0-e8d4d7ba7f4f-1753102787736.png",
     "category": "cold_beverage",
-    "popularity": 97,
+    "popularity": 50,
     "vendingPriceOverride": 1.25
   },
   {
@@ -11167,7 +11167,7 @@ const PRODUCTS = [
     "unitPrice": 2.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/81d8d858-c598-4eec-8150-312e5986df8d-1764776151650.png",
     "category": "cold_beverage",
-    "popularity": 97
+    "popularity": 50
   },
   {
     "id": "f73f5e11-d5ab-49e6-b6ca-cfa8a01165ae",
@@ -11179,7 +11179,7 @@ const PRODUCTS = [
     "unitPrice": 1.79,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f73f5e11-d5ab-49e6-b6ca-cfa8a01165ae-1750083562871.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "b1b24f72-4336-4d67-b037-11fdae3250b4",
@@ -11191,7 +11191,7 @@ const PRODUCTS = [
     "unitPrice": 1.79,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b1b24f72-4336-4d67-b037-11fdae3250b4-1756536759601.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "35117a89-2c0e-4305-aeb7-04a8ffd588ee",
@@ -11203,7 +11203,7 @@ const PRODUCTS = [
     "unitPrice": 1.96,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/35117a89-2c0e-4305-aeb7-04a8ffd588ee-1760603036739.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "75fbb1dd-a1d6-472d-96a3-4f6142e2e921",
@@ -11215,7 +11215,7 @@ const PRODUCTS = [
     "unitPrice": 1.79,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/75fbb1dd-a1d6-472d-96a3-4f6142e2e921-1750071954409.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "58564477-a951-4c90-a812-16308a1f3eba",
@@ -11227,7 +11227,7 @@ const PRODUCTS = [
     "unitPrice": 1.79,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/58564477-a951-4c90-a812-16308a1f3eba-1750153925748.png",
     "category": "cold_beverage",
-    "popularity": 500,
+    "popularity": 50,
     "vendingPriceOverride": 1.25
   },
   {
@@ -11240,7 +11240,7 @@ const PRODUCTS = [
     "unitPrice": 1.79,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/0faa4f69-8e79-471b-85a5-dd8d73d43207-1764777943131.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "388d9124-9b5b-43d3-8a94-2b6930be9bf6",
@@ -11252,7 +11252,7 @@ const PRODUCTS = [
     "unitPrice": 1.03,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/388d9124-9b5b-43d3-8a94-2b6930be9bf6-1756454326087.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "8646a136-2dd2-4fb7-b362-cdfea614341b",
@@ -11264,7 +11264,7 @@ const PRODUCTS = [
     "unitPrice": 1.9,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/8646a136-2dd2-4fb7-b362-cdfea614341b-1759186085684.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "34e5e9ad-2d7a-4f46-ad91-e1865a07b7f0",
@@ -11276,7 +11276,7 @@ const PRODUCTS = [
     "unitPrice": 1.9,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/34e5e9ad-2d7a-4f46-ad91-e1865a07b7f0-1759186405820.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "116136ef-2828-4ccc-b1f6-f57e4396043b",
@@ -11288,7 +11288,7 @@ const PRODUCTS = [
     "unitPrice": 0.41,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/116136ef-2828-4ccc-b1f6-f57e4396043b-1760356024305.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "d4d632e6-212a-45d2-b936-25fd83e3457c",
@@ -11300,7 +11300,7 @@ const PRODUCTS = [
     "unitPrice": 0.76,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/d4d632e6-212a-45d2-b936-25fd83e3457c-1758625625609.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "771e4ed8-6cce-4245-ba39-d55316784f41",
@@ -11312,7 +11312,7 @@ const PRODUCTS = [
     "unitPrice": 0.38,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/771e4ed8-6cce-4245-ba39-d55316784f41-1759320248904.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "33a6ecb7-922c-4f93-9dbb-c9e5d045a43c",
@@ -11324,7 +11324,7 @@ const PRODUCTS = [
     "unitPrice": 0.29,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/33a6ecb7-922c-4f93-9dbb-c9e5d045a43c-1758626677352.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "05954bbb-5819-4794-b403-7c991b4727f4",
@@ -11336,7 +11336,7 @@ const PRODUCTS = [
     "unitPrice": 0.47,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/05954bbb-5819-4794-b403-7c991b4727f4-1758625438726.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "0e2bf527-6fd2-48d4-a841-de76131e97d0",
@@ -11348,7 +11348,7 @@ const PRODUCTS = [
     "unitPrice": 1.36,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/0e2bf527-6fd2-48d4-a841-de76131e97d0-1754654646028.png",
     "category": "cold_beverage",
-    "popularity": 26
+    "popularity": 50
   },
   {
     "id": "8b253c5a-381e-4b7f-aea7-71f30126e495",
@@ -11360,7 +11360,7 @@ const PRODUCTS = [
     "unitPrice": 0.89,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/8b253c5a-381e-4b7f-aea7-71f30126e495-1738860535826.JPG",
     "category": "cold_beverage",
-    "popularity": 1100
+    "popularity": 1950
   },
   {
     "id": "a631f69d-1fb2-4c99-a9cd-4e5290a8e32a",
@@ -11372,7 +11372,7 @@ const PRODUCTS = [
     "unitPrice": 0.66,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a631f69d-1fb2-4c99-a9cd-4e5290a8e32a-1738859491249.JPG",
     "category": "cold_beverage",
-    "popularity": 1100,
+    "popularity": 1950,
     "vendingPriceOverride": 1.25
   },
   {
@@ -11385,7 +11385,7 @@ const PRODUCTS = [
     "unitPrice": 1.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a224703d-f210-4c4a-b7bf-0cfbd26cd4dd-1738784676248.JPG",
     "category": "cold_beverage",
-    "popularity": 1100,
+    "popularity": 1950,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -11400,7 +11400,7 @@ const PRODUCTS = [
     "unitPrice": 1.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e306e0b0-c962-48f9-8605-2f8630f28e6e-1738859561303.JPG",
     "category": "cold_beverage",
-    "popularity": 1100,
+    "popularity": 1950,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -11415,7 +11415,7 @@ const PRODUCTS = [
     "unitPrice": 1.2,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/0a53ed11-330c-47bd-a6dd-38a78c00fa5f-1741037830430.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "5d01de9c-1ffc-43c7-9f6f-06e84e7d621f",
@@ -11427,7 +11427,7 @@ const PRODUCTS = [
     "unitPrice": 1.2,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5d01de9c-1ffc-43c7-9f6f-06e84e7d621f-1741037861986.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "216408d0-b8f1-4eb9-b258-f64358893a59",
@@ -11439,7 +11439,7 @@ const PRODUCTS = [
     "unitPrice": 1.2,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/216408d0-b8f1-4eb9-b258-f64358893a59-1741037917130.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "71772073-b53d-4ea3-8376-8cd5209d116e",
@@ -11451,7 +11451,7 @@ const PRODUCTS = [
     "unitPrice": 1.2,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/71772073-b53d-4ea3-8376-8cd5209d116e-1741038104067.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "dd228aa9-83a7-49c7-9485-696524bbe12f",
@@ -11463,7 +11463,7 @@ const PRODUCTS = [
     "unitPrice": 0.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/dd228aa9-83a7-49c7-9485-696524bbe12f-1754983830098.png",
     "category": "cold_beverage",
-    "popularity": 500,
+    "popularity": 50,
     "vendingPriceOverride": 1.25
   },
   {
@@ -11476,7 +11476,7 @@ const PRODUCTS = [
     "unitPrice": 0.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cd00ca2c-d831-4f57-b9ad-3521f28d6e51-1764864919103.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "53e49894-5f07-42d4-867c-f61aff9e7b0e",
@@ -11488,7 +11488,7 @@ const PRODUCTS = [
     "unitPrice": 0.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/53e49894-5f07-42d4-867c-f61aff9e7b0e-1752054605296.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "e40f8f2f-2a12-449c-b7a9-202548c51bf1",
@@ -11500,7 +11500,7 @@ const PRODUCTS = [
     "unitPrice": 1.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e40f8f2f-2a12-449c-b7a9-202548c51bf1-1759358292117.png",
     "category": "cold_beverage",
-    "popularity": 17
+    "popularity": 50
   },
   {
     "id": "f512cf5a-f256-4099-82fe-03893e82bc77",
@@ -11512,7 +11512,7 @@ const PRODUCTS = [
     "unitPrice": 1.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f512cf5a-f256-4099-82fe-03893e82bc77-1759358528834.png",
     "category": "cold_beverage",
-    "popularity": 63
+    "popularity": 50
   },
   {
     "id": "2d888e78-8b97-48ce-a60b-abccbf0a8e08",
@@ -11524,7 +11524,7 @@ const PRODUCTS = [
     "unitPrice": 1.31,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2d888e78-8b97-48ce-a60b-abccbf0a8e08-1758872337594.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "136b2e06-7702-4d66-8baa-9af5e97427f4",
@@ -11536,7 +11536,7 @@ const PRODUCTS = [
     "unitPrice": 1.31,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/136b2e06-7702-4d66-8baa-9af5e97427f4-1750747358653.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "b561a822-7796-4ae7-a586-7b496c6b6087",
@@ -11548,7 +11548,7 @@ const PRODUCTS = [
     "unitPrice": 1.31,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b561a822-7796-4ae7-a586-7b496c6b6087-1750412267821.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "78285ea2-1439-47dd-bd47-b262bd8b1692",
@@ -11560,7 +11560,7 @@ const PRODUCTS = [
     "unitPrice": 1.31,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/78285ea2-1439-47dd-bd47-b262bd8b1692-1750747643514.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "a4d5b3f3-48e3-417c-a2f5-7cb191e24e36",
@@ -11572,7 +11572,7 @@ const PRODUCTS = [
     "unitPrice": 1.19,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a4d5b3f3-48e3-417c-a2f5-7cb191e24e36-1754563283523.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "9308c363-c459-42ac-a9bc-a9ef727bbf01",
@@ -11584,7 +11584,7 @@ const PRODUCTS = [
     "unitPrice": 0.8,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/9308c363-c459-42ac-a9bc-a9ef727bbf01-1759921521592.png",
     "category": "cold_beverage",
-    "popularity": 500,
+    "popularity": 50,
     "vendingPriceOverride": 1.25
   },
   {
@@ -11597,7 +11597,7 @@ const PRODUCTS = [
     "unitPrice": 2.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f8508bc5-7613-4911-bd6e-7f62c8066182-1739985387592.JPG",
     "category": "cold_beverage",
-    "popularity": 990
+    "popularity": 1780
   },
   {
     "id": "6b62aab3-f25c-48a0-ab5d-905fd593a6e4",
@@ -11609,7 +11609,7 @@ const PRODUCTS = [
     "unitPrice": 0.27,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/6b62aab3-f25c-48a0-ab5d-905fd593a6e4-1741021083539.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "b0404400-2af4-43f2-9ba0-1b6b87ed5100",
@@ -11621,7 +11621,7 @@ const PRODUCTS = [
     "unitPrice": 0.25,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b0404400-2af4-43f2-9ba0-1b6b87ed5100-1741021182146.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "7e1037ac-87b5-4e68-82a3-377f1f1e9b74",
@@ -11633,7 +11633,7 @@ const PRODUCTS = [
     "unitPrice": 0.21,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/7e1037ac-87b5-4e68-82a3-377f1f1e9b74-1741021248167.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "1b6c8829-625d-4ec9-b152-9ea3b96813d2",
@@ -11645,7 +11645,7 @@ const PRODUCTS = [
     "unitPrice": 0.34,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1b6c8829-625d-4ec9-b152-9ea3b96813d2-1741021048976.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "414a5928-4176-4682-a9e1-20f03dcab4af",
@@ -11657,7 +11657,7 @@ const PRODUCTS = [
     "unitPrice": 0.67,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/414a5928-4176-4682-a9e1-20f03dcab4af-1755797248681.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "acecf3aa-c82f-466f-b812-bec73c672c0f",
@@ -11669,7 +11669,7 @@ const PRODUCTS = [
     "unitPrice": 0.67,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/acecf3aa-c82f-466f-b812-bec73c672c0f-1754912489309.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "bf5caf14-ac01-41da-bbeb-29754162848f",
@@ -11681,7 +11681,7 @@ const PRODUCTS = [
     "unitPrice": 0.67,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/bf5caf14-ac01-41da-bbeb-29754162848f-1754914084514.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "af4bc71b-f658-41cf-a0f9-abd4b2a844b0",
@@ -11693,7 +11693,7 @@ const PRODUCTS = [
     "unitPrice": 0.67,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/af4bc71b-f658-41cf-a0f9-abd4b2a844b0-1755797313268.png",
     "category": "cold_beverage",
-    "popularity": 17
+    "popularity": 50
   },
   {
     "id": "528b4f6b-d0b7-4254-96ac-13d03164b760",
@@ -11705,7 +11705,7 @@ const PRODUCTS = [
     "unitPrice": 0.67,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/528b4f6b-d0b7-4254-96ac-13d03164b760-1758096995473.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "403685c2-4ba1-4668-b1ba-e1532f5dabf9",
@@ -11717,7 +11717,7 @@ const PRODUCTS = [
     "unitPrice": 0.67,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/403685c2-4ba1-4668-b1ba-e1532f5dabf9-1758096938472.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "17b562ce-ce4b-4fa1-a23d-6f9910981efc",
@@ -11729,7 +11729,7 @@ const PRODUCTS = [
     "unitPrice": 0.67,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/17b562ce-ce4b-4fa1-a23d-6f9910981efc-1762161762285.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "a6fb08e2-ba14-48e8-ba72-f2b8882209c7",
@@ -11741,7 +11741,7 @@ const PRODUCTS = [
     "unitPrice": 0.67,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a6fb08e2-ba14-48e8-ba72-f2b8882209c7-1755332844126.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "c5688468-e873-451a-86e7-80d549b6fab7",
@@ -11753,7 +11753,7 @@ const PRODUCTS = [
     "unitPrice": 0.67,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c5688468-e873-451a-86e7-80d549b6fab7-1755795761494.jpeg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "f003eda2-4649-4439-ba72-f5b4eaa98882",
@@ -11765,7 +11765,7 @@ const PRODUCTS = [
     "unitPrice": 0.67,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f003eda2-4649-4439-ba72-f5b4eaa98882-1758096846936.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "14db7cbb-2112-44c0-8125-8f94abbecedf",
@@ -11777,7 +11777,7 @@ const PRODUCTS = [
     "unitPrice": 1.91,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/14db7cbb-2112-44c0-8125-8f94abbecedf-1740589602511.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "cefd3509-68de-4ab1-809d-48ece063f2c2",
@@ -11789,7 +11789,7 @@ const PRODUCTS = [
     "unitPrice": 2.55,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cefd3509-68de-4ab1-809d-48ece063f2c2-1740589992035.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "dda5598c-5163-42d6-8e41-47fcadd962ae",
@@ -11801,7 +11801,7 @@ const PRODUCTS = [
     "unitPrice": 2.55,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/dda5598c-5163-42d6-8e41-47fcadd962ae-1755841236627.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "7aaaaff5-fb6a-49a2-96d5-a75e23e8b606",
@@ -11813,7 +11813,7 @@ const PRODUCTS = [
     "unitPrice": 2.55,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/7aaaaff5-fb6a-49a2-96d5-a75e23e8b606-1740589512834.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "7ba83b48-d90d-4986-bd27-8f094b35b4d3",
@@ -11825,7 +11825,7 @@ const PRODUCTS = [
     "unitPrice": 1.91,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/7ba83b48-d90d-4986-bd27-8f094b35b4d3-1737014339575.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "fd5935bf-6f18-4894-b234-b7de32691394",
@@ -11837,7 +11837,7 @@ const PRODUCTS = [
     "unitPrice": 1.91,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/fd5935bf-6f18-4894-b234-b7de32691394-1765198137260.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "58749488-568b-4285-968e-27e9db41b258",
@@ -11849,7 +11849,7 @@ const PRODUCTS = [
     "unitPrice": 2.55,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/58749488-568b-4285-968e-27e9db41b258-1755172614527.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "2e9b4225-e7e7-4160-b18c-96cfc134a465",
@@ -11861,7 +11861,7 @@ const PRODUCTS = [
     "unitPrice": 1.91,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2e9b4225-e7e7-4160-b18c-96cfc134a465-1755173334592.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "864cb5f7-897f-4c6e-9e05-939cd5e5f392",
@@ -11873,7 +11873,7 @@ const PRODUCTS = [
     "unitPrice": 2.55,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/864cb5f7-897f-4c6e-9e05-939cd5e5f392-1740589206287.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "687fcbfa-12a6-4e7a-a71d-68a3d9f1f5c0",
@@ -11885,7 +11885,7 @@ const PRODUCTS = [
     "unitPrice": 1.91,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/687fcbfa-12a6-4e7a-a71d-68a3d9f1f5c0-1740590373274.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "8765b06e-585e-476e-a60d-de9943b436a6",
@@ -11897,7 +11897,7 @@ const PRODUCTS = [
     "unitPrice": 2.55,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/8765b06e-585e-476e-a60d-de9943b436a6-1740589885626.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "366fb2a3-b5d8-428e-ba6d-c3edccce2f69",
@@ -11909,7 +11909,7 @@ const PRODUCTS = [
     "unitPrice": 2.55,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/366fb2a3-b5d8-428e-ba6d-c3edccce2f69-1738868323572.JPG",
     "category": "cold_beverage",
-    "popularity": 5,
+    "popularity": 1840,
     "sevenElevenPrice": 4.39,
     "competitivePrice": 4.64
   },
@@ -11923,7 +11923,7 @@ const PRODUCTS = [
     "unitPrice": 1.91,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/ba6d8141-bda8-4210-83c5-06ae4f996c8c-1738875831218.JPG",
     "category": "cold_beverage",
-    "popularity": 5,
+    "popularity": 1840,
     "vendingPriceOverride": 3.74,
     "sevenElevenPrice": 3.49,
     "competitivePrice": 3.74
@@ -11938,7 +11938,7 @@ const PRODUCTS = [
     "unitPrice": 3.28,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/d9c1a6ba-d156-40c2-8a86-5aac7db3fe0a-1738876163143.JPG",
     "category": "cold_beverage",
-    "popularity": 5,
+    "popularity": 1840,
     "vendingPriceOverride": 5.34,
     "sevenElevenPrice": 5.09,
     "competitivePrice": 5.34
@@ -11953,7 +11953,7 @@ const PRODUCTS = [
     "unitPrice": 1.91,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/341d1bab-52af-428c-939d-ef30c32fe7eb-1737585945207.png",
     "category": "cold_beverage",
-    "popularity": 32,
+    "popularity": 1840,
     "vendingPriceOverride": 3.74,
     "sevenElevenPrice": 3.49,
     "competitivePrice": 3.74
@@ -11968,7 +11968,7 @@ const PRODUCTS = [
     "unitPrice": 1.91,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1452bfa8-8680-4bb9-9ae4-dabd4b5a03ad-1740589268708.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "cf67a55c-4eff-4311-a6ed-de24831cd422",
@@ -11980,7 +11980,7 @@ const PRODUCTS = [
     "unitPrice": 2.55,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cf67a55c-4eff-4311-a6ed-de24831cd422-1740589574006.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "bcc8138d-be44-4a44-b427-4ce397ea4152",
@@ -11992,7 +11992,7 @@ const PRODUCTS = [
     "unitPrice": 2.55,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/bcc8138d-be44-4a44-b427-4ce397ea4152-1740590431890.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "dd66f7d7-dfc4-4887-9968-fe2545953614",
@@ -12004,7 +12004,7 @@ const PRODUCTS = [
     "unitPrice": 1.91,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/dd66f7d7-dfc4-4887-9968-fe2545953614-1740589966415.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "4f25acf0-8596-474f-a683-9b96c13b694c",
@@ -12016,7 +12016,7 @@ const PRODUCTS = [
     "unitPrice": 2.55,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4f25acf0-8596-474f-a683-9b96c13b694c-1738875876416.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "599e8877-07e5-480e-89f3-2d9e8a7b314c",
@@ -12028,7 +12028,7 @@ const PRODUCTS = [
     "unitPrice": 1.91,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/599e8877-07e5-480e-89f3-2d9e8a7b314c-1738876100624.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "97794187-e55d-4fce-a1a7-9bc7b9467618",
@@ -12040,7 +12040,7 @@ const PRODUCTS = [
     "unitPrice": 1.91,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/97794187-e55d-4fce-a1a7-9bc7b9467618-1765198565502.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "c3178198-b195-4b72-8c28-724208540f5d",
@@ -12052,7 +12052,7 @@ const PRODUCTS = [
     "unitPrice": 2.55,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c3178198-b195-4b72-8c28-724208540f5d-1756299617928.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "3a8693f4-129e-4ce5-a9c2-a85a92e11b7a",
@@ -12064,7 +12064,7 @@ const PRODUCTS = [
     "unitPrice": 2.24,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/3a8693f4-129e-4ce5-a9c2-a85a92e11b7a-1760003429186.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "a71ebf73-fa70-4889-997f-0b3cba02e6d5",
@@ -12076,7 +12076,7 @@ const PRODUCTS = [
     "unitPrice": 2.24,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a71ebf73-fa70-4889-997f-0b3cba02e6d5-1760083704855.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "cd701562-f314-48d7-96df-6c23e0a40514",
@@ -12088,7 +12088,7 @@ const PRODUCTS = [
     "unitPrice": 2.24,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cd701562-f314-48d7-96df-6c23e0a40514-1749827532050.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "66510c62-ffdd-4262-83fb-a15cdb69320d",
@@ -12100,7 +12100,7 @@ const PRODUCTS = [
     "unitPrice": 1.09,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/66510c62-ffdd-4262-83fb-a15cdb69320d-1750752711654.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "c36745d4-aaf8-4540-a8ac-098a57919638",
@@ -12112,7 +12112,7 @@ const PRODUCTS = [
     "unitPrice": 1.09,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c36745d4-aaf8-4540-a8ac-098a57919638-1750801423318.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "f816723d-c3bd-42e3-a7e5-cf7a43c1a933",
@@ -12124,7 +12124,7 @@ const PRODUCTS = [
     "unitPrice": 1.2,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f816723d-c3bd-42e3-a7e5-cf7a43c1a933-1756295141146.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "71fe5486-7f56-429d-8280-ae15b649101c",
@@ -12136,7 +12136,7 @@ const PRODUCTS = [
     "unitPrice": 1.09,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/71fe5486-7f56-429d-8280-ae15b649101c-1754312839601.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "aa5bf55a-851c-43af-a3e6-8368bdc4a80f",
@@ -12148,7 +12148,7 @@ const PRODUCTS = [
     "unitPrice": 1.09,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/aa5bf55a-851c-43af-a3e6-8368bdc4a80f-1750670608615.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "cba042ac-5af1-4577-b6f0-229c345821cf",
@@ -12160,7 +12160,7 @@ const PRODUCTS = [
     "unitPrice": 0.77,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cba042ac-5af1-4577-b6f0-229c345821cf-1767983838360.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "5d6aa876-c261-419a-bfd3-dcef2c185923",
@@ -12172,7 +12172,7 @@ const PRODUCTS = [
     "unitPrice": 0.77,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5d6aa876-c261-419a-bfd3-dcef2c185923-1769446049770.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "cc36acb3-b527-4f93-acd6-fe4989735167",
@@ -12184,7 +12184,7 @@ const PRODUCTS = [
     "unitPrice": 0.77,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cc36acb3-b527-4f93-acd6-fe4989735167-1765275439069.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "fa95d826-28c6-4ea9-8b3e-9b06fb21d31c",
@@ -12196,7 +12196,7 @@ const PRODUCTS = [
     "unitPrice": 1.04,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/fa95d826-28c6-4ea9-8b3e-9b06fb21d31c-1758099124809.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "ad0e7494-5290-4546-9442-d3079b184d30",
@@ -12208,7 +12208,7 @@ const PRODUCTS = [
     "unitPrice": 0.96,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/ad0e7494-5290-4546-9442-d3079b184d30-1758098920994.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "dad66746-03db-47e9-a747-b2ec83e4d480",
@@ -12220,7 +12220,7 @@ const PRODUCTS = [
     "unitPrice": 2.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/dad66746-03db-47e9-a747-b2ec83e4d480-1739569191865.JPG",
     "category": "cold_beverage",
-    "popularity": 36
+    "popularity": 50
   },
   {
     "id": "5aa3ba22-d9e3-4f6a-a9a6-269bd69791d3",
@@ -12232,7 +12232,7 @@ const PRODUCTS = [
     "unitPrice": 1.77,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5aa3ba22-d9e3-4f6a-a9a6-269bd69791d3-1749725524423.png",
     "category": "cold_beverage",
-    "popularity": 36,
+    "popularity": 1430,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -12247,7 +12247,7 @@ const PRODUCTS = [
     "unitPrice": 2.27,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/51ecc20f-157b-44db-a64c-fd9a459d23fb-1765367890423.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "93d41fa5-aa76-446c-8e5f-3c4f3982ff3e",
@@ -12259,7 +12259,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/93d41fa5-aa76-446c-8e5f-3c4f3982ff3e-1739484309902.JPG",
     "category": "cold_beverage",
-    "popularity": 1070,
+    "popularity": 1930,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -12274,7 +12274,7 @@ const PRODUCTS = [
     "unitPrice": 1.3,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c2a68cbd-4eb5-4836-bac7-7019357f156b-1765372000254.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "f162f92e-34cc-46f4-90ce-6ccc9b2beffb",
@@ -12286,7 +12286,7 @@ const PRODUCTS = [
     "unitPrice": 1.3,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f162f92e-34cc-46f4-90ce-6ccc9b2beffb-1755543653767.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "2b63576f-5dfb-4859-8d51-98b3aa3fec29",
@@ -12298,7 +12298,7 @@ const PRODUCTS = [
     "unitPrice": 1.14,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2b63576f-5dfb-4859-8d51-98b3aa3fec29-1759481764783.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "cca2eff3-36a0-4d8c-9ca7-9fee57ea76c2",
@@ -12310,7 +12310,7 @@ const PRODUCTS = [
     "unitPrice": 1.14,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cca2eff3-36a0-4d8c-9ca7-9fee57ea76c2-1750257731136.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "b6fce429-fa08-4b2e-a8e5-0f4b14f351d7",
@@ -12322,7 +12322,7 @@ const PRODUCTS = [
     "unitPrice": 1.14,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b6fce429-fa08-4b2e-a8e5-0f4b14f351d7-1759482744584.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "211b13d0-0fe3-4d22-952c-6a6c9f131cbb",
@@ -12334,7 +12334,7 @@ const PRODUCTS = [
     "unitPrice": 1.14,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/211b13d0-0fe3-4d22-952c-6a6c9f131cbb-1761561105618.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "e0d6d3f9-de75-40f8-b8f7-221fb201ffb2",
@@ -12346,7 +12346,7 @@ const PRODUCTS = [
     "unitPrice": 1.3,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e0d6d3f9-de75-40f8-b8f7-221fb201ffb2-1761560460209.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "3dd50dfe-3028-493c-a914-7394c3033c6f",
@@ -12358,7 +12358,7 @@ const PRODUCTS = [
     "unitPrice": 2.02,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/3dd50dfe-3028-493c-a914-7394c3033c6f-1739202881637.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "cc1ff662-16db-4676-980a-19c2d64ab56c",
@@ -12370,7 +12370,7 @@ const PRODUCTS = [
     "unitPrice": 3.28,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cc1ff662-16db-4676-980a-19c2d64ab56c-1756729856457.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "ccd7a6b4-b13b-45c6-8756-2d58e0a432fa",
@@ -12382,7 +12382,7 @@ const PRODUCTS = [
     "unitPrice": 1.35,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/ccd7a6b4-b13b-45c6-8756-2d58e0a432fa-1756987342457.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "185ab96f-1c22-4f7f-916c-41c99ba816b6",
@@ -12394,7 +12394,7 @@ const PRODUCTS = [
     "unitPrice": 1.36,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/185ab96f-1c22-4f7f-916c-41c99ba816b6-1740068127638.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "9b720c0b-68df-4d67-bf68-6dbf6fca3c3a",
@@ -12406,7 +12406,7 @@ const PRODUCTS = [
     "unitPrice": 2.2,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/9b720c0b-68df-4d67-bf68-6dbf6fca3c3a-1740067636036.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "53583d12-1c4a-4aa0-b783-fd6b5f46de80",
@@ -12418,7 +12418,7 @@ const PRODUCTS = [
     "unitPrice": 1.36,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/53583d12-1c4a-4aa0-b783-fd6b5f46de80-1740067671300.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "ce743785-ded0-4392-b424-f5bfa3b62f0e",
@@ -12430,7 +12430,7 @@ const PRODUCTS = [
     "unitPrice": 2.2,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/ce743785-ded0-4392-b424-f5bfa3b62f0e-1740067457082.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "760f4882-2673-45c9-9d91-8baa72f2f11e",
@@ -12442,7 +12442,7 @@ const PRODUCTS = [
     "unitPrice": 1.36,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/760f4882-2673-45c9-9d91-8baa72f2f11e-1750749621929.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "2aea94ea-ab73-483a-802a-bd8353a40289",
@@ -12454,7 +12454,7 @@ const PRODUCTS = [
     "unitPrice": 1.01,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2aea94ea-ab73-483a-802a-bd8353a40289-1755249037050.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "1393aec9-7df6-498f-bfce-d54015d0cdaa",
@@ -12466,7 +12466,7 @@ const PRODUCTS = [
     "unitPrice": 1.48,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1393aec9-7df6-498f-bfce-d54015d0cdaa-1740159229818.JPG",
     "category": "cold_beverage",
-    "popularity": 70
+    "popularity": 50
   },
   {
     "id": "0abbf1da-b08d-4d02-8175-37f89a924c00",
@@ -12478,7 +12478,7 @@ const PRODUCTS = [
     "unitPrice": 1.48,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/0abbf1da-b08d-4d02-8175-37f89a924c00-1740159256949.JPG",
     "category": "cold_beverage",
-    "popularity": 70
+    "popularity": 50
   },
   {
     "id": "712df88c-8c25-4baa-a29f-0c35bfd3ed04",
@@ -12490,7 +12490,7 @@ const PRODUCTS = [
     "unitPrice": 1.48,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/712df88c-8c25-4baa-a29f-0c35bfd3ed04-1740159355532.JPG",
     "category": "cold_beverage",
-    "popularity": 70
+    "popularity": 50
   },
   {
     "id": "1ed6957c-f7a9-4043-83b7-1b1a2a39d2dd",
@@ -12502,7 +12502,7 @@ const PRODUCTS = [
     "unitPrice": 1.48,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1ed6957c-f7a9-4043-83b7-1b1a2a39d2dd-1754048119312.png",
     "category": "cold_beverage",
-    "popularity": 70
+    "popularity": 50
   },
   {
     "id": "e24ea606-f3cd-4d5f-b013-c40158b8afb8",
@@ -12514,7 +12514,7 @@ const PRODUCTS = [
     "unitPrice": 0.84,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e24ea606-f3cd-4d5f-b013-c40158b8afb8-1740159139278.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "2c9e6109-5504-4c2f-9468-8dcfafe53f1b",
@@ -12526,7 +12526,7 @@ const PRODUCTS = [
     "unitPrice": 1.23,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2c9e6109-5504-4c2f-9468-8dcfafe53f1b-1740159097181.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "441156de-2cec-4792-9f2d-e18227a32f83",
@@ -12538,7 +12538,7 @@ const PRODUCTS = [
     "unitPrice": 1.58,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/441156de-2cec-4792-9f2d-e18227a32f83-1740159059609.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "a42aa520-2170-4da7-bf8c-e99ec0ab82dc",
@@ -12550,7 +12550,7 @@ const PRODUCTS = [
     "unitPrice": 1.48,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a42aa520-2170-4da7-bf8c-e99ec0ab82dc-1740159008563.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "3d23bdcc-07a0-4094-9d22-a94f87f4eba1",
@@ -12562,7 +12562,7 @@ const PRODUCTS = [
     "unitPrice": 1.48,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/3d23bdcc-07a0-4094-9d22-a94f87f4eba1-1740159459240.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "c7532fe4-22c9-4dd1-9ae2-a92df0ad1ce2",
@@ -12574,7 +12574,7 @@ const PRODUCTS = [
     "unitPrice": 1.48,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c7532fe4-22c9-4dd1-9ae2-a92df0ad1ce2-1740159033115.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "6f1e8834-3ad9-4422-b09c-976b04327551",
@@ -12586,7 +12586,7 @@ const PRODUCTS = [
     "unitPrice": 1.48,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/6f1e8834-3ad9-4422-b09c-976b04327551-1740159589390.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "bb6afcf9-b45e-4385-b5ce-3206c1113002",
@@ -12598,7 +12598,7 @@ const PRODUCTS = [
     "unitPrice": 2.13,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/bb6afcf9-b45e-4385-b5ce-3206c1113002-1757936648904.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "86fe7d82-7444-43d5-b8f2-f2494a1f38ce",
@@ -12610,7 +12610,7 @@ const PRODUCTS = [
     "unitPrice": 2.13,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/86fe7d82-7444-43d5-b8f2-f2494a1f38ce-1757931348374.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "bd410e68-1e39-46c5-8861-0dbb93142e0e",
@@ -12622,7 +12622,7 @@ const PRODUCTS = [
     "unitPrice": 2.13,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/bd410e68-1e39-46c5-8861-0dbb93142e0e-1757931254733.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "4a541c70-eaf8-461a-b493-4e4258e8263f",
@@ -12634,7 +12634,7 @@ const PRODUCTS = [
     "unitPrice": 1.09,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4a541c70-eaf8-461a-b493-4e4258e8263f-1758540567708.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "32fd25f0-7d88-4e4a-af22-d31dba7b7534",
@@ -12646,7 +12646,7 @@ const PRODUCTS = [
     "unitPrice": 0.55,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/32fd25f0-7d88-4e4a-af22-d31dba7b7534-1750674591570.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "da2c7b09-617a-48cd-85a3-c85838578b23",
@@ -12658,7 +12658,7 @@ const PRODUCTS = [
     "unitPrice": 0.55,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/da2c7b09-617a-48cd-85a3-c85838578b23-1760957195988.png",
     "category": "cold_beverage",
-    "popularity": 26,
+    "popularity": 50,
     "vendingPriceOverride": 1.25
   },
   {
@@ -12671,7 +12671,7 @@ const PRODUCTS = [
     "unitPrice": 0.55,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/16b86c41-0e71-418b-9421-63cb51bb1c38-1762937061014.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "b86d4050-f347-4a5a-80ad-9952dc2d923c",
@@ -12683,7 +12683,7 @@ const PRODUCTS = [
     "unitPrice": 0.55,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b86d4050-f347-4a5a-80ad-9952dc2d923c-1760956751939.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "01eee976-f17e-4457-8c39-87d42bd0be5d",
@@ -12695,7 +12695,7 @@ const PRODUCTS = [
     "unitPrice": 1.58,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/01eee976-f17e-4457-8c39-87d42bd0be5d-1757325401050.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "3c0608b8-5fe9-45ad-8933-83fbd87b0435",
@@ -12707,7 +12707,7 @@ const PRODUCTS = [
     "unitPrice": 1.58,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/3c0608b8-5fe9-45ad-8933-83fbd87b0435-1758266422306.png",
     "category": "cold_beverage",
-    "popularity": 17
+    "popularity": 50
   },
   {
     "id": "25533f23-54d6-4dd3-b573-160f50f88c32",
@@ -12719,7 +12719,7 @@ const PRODUCTS = [
     "unitPrice": 1.58,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/25533f23-54d6-4dd3-b573-160f50f88c32-1757325476524.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "fcb4b218-422a-4636-98da-c2bbc5473274",
@@ -12731,7 +12731,7 @@ const PRODUCTS = [
     "unitPrice": 1.94,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/fcb4b218-422a-4636-98da-c2bbc5473274-1755706298568.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "7bb57388-492b-4797-88ae-94266ec70fc6",
@@ -12743,7 +12743,7 @@ const PRODUCTS = [
     "unitPrice": 0.96,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/7bb57388-492b-4797-88ae-94266ec70fc6-1755344101855.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "b731c067-0c3c-4ff2-a96d-b4b1f9c07c32",
@@ -12755,7 +12755,7 @@ const PRODUCTS = [
     "unitPrice": 2.41,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b731c067-0c3c-4ff2-a96d-b4b1f9c07c32-1750339685944.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "3efb49f9-2ac3-46a2-8beb-061028f74bf1",
@@ -12767,7 +12767,7 @@ const PRODUCTS = [
     "unitPrice": 1.58,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/3efb49f9-2ac3-46a2-8beb-061028f74bf1-1751500519259.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "d409fad2-1736-4ec3-beec-77beba31408c",
@@ -12779,7 +12779,7 @@ const PRODUCTS = [
     "unitPrice": 1.91,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/d409fad2-1736-4ec3-beec-77beba31408c-1737031279016.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "f48158f3-545e-4ed2-bfe7-0e3ea26862df",
@@ -12791,7 +12791,7 @@ const PRODUCTS = [
     "unitPrice": 1.91,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f48158f3-545e-4ed2-bfe7-0e3ea26862df-1737048175373.jpg",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "4893ad86-2bc9-4380-8a6c-cc0aea8daaa4",
@@ -12803,7 +12803,7 @@ const PRODUCTS = [
     "unitPrice": 1.91,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4893ad86-2bc9-4380-8a6c-cc0aea8daaa4-1737031410008.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "faaee464-4fa4-4af6-ac26-67e088c66481",
@@ -12815,7 +12815,7 @@ const PRODUCTS = [
     "unitPrice": 1.91,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/faaee464-4fa4-4af6-ac26-67e088c66481-1737031351053.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "f74c3bf7-1e9e-4050-b72e-3b4260e0d435",
@@ -12827,7 +12827,7 @@ const PRODUCTS = [
     "unitPrice": 2.06,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f74c3bf7-1e9e-4050-b72e-3b4260e0d435-1765881243021.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "4b7a74f0-939d-4639-9a20-9056c40946a2",
@@ -12839,7 +12839,7 @@ const PRODUCTS = [
     "unitPrice": 1.29,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4b7a74f0-939d-4639-9a20-9056c40946a2-1765881537302.png",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 50
   },
   {
     "id": "0e08e008-b84c-4e49-a7fa-3436826e2d09",
@@ -40144,7 +40144,7 @@ const PRODUCTS = [
     "unitPrice": 1.75,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 1060,
+    "popularity": 1900,
     "vendingPriceOverride": 4
   },
   {
@@ -40157,7 +40157,7 @@ const PRODUCTS = [
     "unitPrice": 1.75,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 1060,
+    "popularity": 1900,
     "vendingPriceOverride": 4
   },
   {
@@ -40170,7 +40170,7 @@ const PRODUCTS = [
     "unitPrice": 1.75,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 1060,
+    "popularity": 1900,
     "vendingPriceOverride": 4
   },
   {
@@ -40183,7 +40183,7 @@ const PRODUCTS = [
     "unitPrice": 1.75,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 1060,
+    "popularity": 1900,
     "vendingPriceOverride": 4
   },
   {
@@ -40196,7 +40196,7 @@ const PRODUCTS = [
     "unitPrice": 1.75,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 1060,
+    "popularity": 1900,
     "vendingPriceOverride": 4
   },
   {
@@ -40209,7 +40209,7 @@ const PRODUCTS = [
     "unitPrice": 2.83,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 75
+    "popularity": 50
   },
   {
     "id": "bang-purple-haze",
@@ -40221,7 +40221,7 @@ const PRODUCTS = [
     "unitPrice": 2.83,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 74
+    "popularity": 50
   },
   {
     "id": "bang-blue-razz",
@@ -40233,7 +40233,7 @@ const PRODUCTS = [
     "unitPrice": 2.83,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 73
+    "popularity": 50
   },
   {
     "id": "bang-peach-mango",
@@ -40245,7 +40245,7 @@ const PRODUCTS = [
     "unitPrice": 2.83,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 72
+    "popularity": 50
   },
   {
     "id": "bodyarmor-strawberry-banana",
@@ -40257,7 +40257,7 @@ const PRODUCTS = [
     "unitPrice": 2,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 70
+    "popularity": 1740
   },
   {
     "id": "bodyarmor-fruit-punch",
@@ -40269,7 +40269,7 @@ const PRODUCTS = [
     "unitPrice": 2,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 69
+    "popularity": 1740
   },
   {
     "id": "bodyarmor-orange-mango",
@@ -40281,7 +40281,7 @@ const PRODUCTS = [
     "unitPrice": 2,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 68
+    "popularity": 1740
   },
   {
     "id": "bodyarmor-tropical-punch",
@@ -40293,7 +40293,7 @@ const PRODUCTS = [
     "unitPrice": 2,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 67
+    "popularity": 1740
   },
   {
     "id": "starbucks-frappuccino-mocha",
@@ -40305,7 +40305,7 @@ const PRODUCTS = [
     "unitPrice": 1.87,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 78
+    "popularity": 50
   },
   {
     "id": "starbucks-frappuccino-vanilla",
@@ -40317,7 +40317,7 @@ const PRODUCTS = [
     "unitPrice": 1.87,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 77
+    "popularity": 50
   },
   {
     "id": "starbucks-frappuccino-caramel",
@@ -40329,7 +40329,7 @@ const PRODUCTS = [
     "unitPrice": 1.87,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 76
+    "popularity": 50
   },
   {
     "id": "starbucks-doubleshot-espresso",
@@ -40341,7 +40341,7 @@ const PRODUCTS = [
     "unitPrice": 2.25,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 75
+    "popularity": 50
   },
   {
     "id": "coke-classic-20oz",
@@ -40353,7 +40353,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 1110
+    "popularity": 2000
   },
   {
     "id": "coke-diet-20oz",
@@ -40365,7 +40365,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 1110
+    "popularity": 2000
   },
   {
     "id": "coke-zero-20oz",
@@ -40377,7 +40377,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 1110
+    "popularity": 2000
   },
   {
     "id": "sprite-20oz",
@@ -40389,7 +40389,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 1070
+    "popularity": 1930
   },
   {
     "id": "fanta-orange-20oz",
@@ -40401,7 +40401,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 75
+    "popularity": 1550
   },
   {
     "id": "pepsi-20oz",
@@ -40413,7 +40413,7 @@ const PRODUCTS = [
     "unitPrice": 1.49,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 1100
+    "popularity": 1950
   },
   {
     "id": "mtn-dew-20oz",
@@ -40425,7 +40425,7 @@ const PRODUCTS = [
     "unitPrice": 1.49,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 88
+    "popularity": 1600
   },
   {
     "id": "dr-pepper-20oz",
@@ -40437,7 +40437,7 @@ const PRODUCTS = [
     "unitPrice": 1.35,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 1080
+    "popularity": 1940
   },
   {
     "id": "rockstar-original",
@@ -40449,7 +40449,7 @@ const PRODUCTS = [
     "unitPrice": 1.17,
     "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000146576",
     "category": "cold_beverage",
-    "popularity": 75,
+    "popularity": 1500,
     "vendingPriceOverride": 3.5
   },
   {
@@ -40462,7 +40462,7 @@ const PRODUCTS = [
     "unitPrice": 1.17,
     "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000146578",
     "category": "cold_beverage",
-    "popularity": 74,
+    "popularity": 1500,
     "vendingPriceOverride": 3.5
   },
   {
@@ -40475,7 +40475,7 @@ const PRODUCTS = [
     "unitPrice": 1.17,
     "imageUrl": "https://images.heb.com/is/image/HEBGrocery/001009284",
     "category": "cold_beverage",
-    "popularity": 73,
+    "popularity": 1500,
     "vendingPriceOverride": 3.5
   },
   {
@@ -40488,7 +40488,7 @@ const PRODUCTS = [
     "unitPrice": 1.17,
     "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002064965",
     "category": "cold_beverage",
-    "popularity": 72,
+    "popularity": 1500,
     "vendingPriceOverride": 3.5
   },
   {
@@ -40501,7 +40501,7 @@ const PRODUCTS = [
     "unitPrice": 1.17,
     "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002064964",
     "category": "cold_beverage",
-    "popularity": 71,
+    "popularity": 1500,
     "vendingPriceOverride": 3.5
   },
   {
@@ -40514,7 +40514,7 @@ const PRODUCTS = [
     "unitPrice": 1.17,
     "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002478893",
     "category": "cold_beverage",
-    "popularity": 70,
+    "popularity": 1500,
     "vendingPriceOverride": 3.5
   }
 ];
