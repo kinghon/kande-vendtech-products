@@ -235,8 +235,15 @@ function filterProducts() {
     const showHidden = showHiddenToggle && showHiddenToggle.checked;
     
     filteredProducts = allProducts.filter(product => {
+        const isHidden = hiddenProducts.includes(product.id);
+        
+        // Hidden category - show only hidden products (admin only)
+        if (currentCategory === 'hidden') {
+            return isHidden;
+        }
+        
         // Hide products for non-admin users (unless showHidden is checked in admin mode)
-        if (hiddenProducts.includes(product.id)) {
+        if (isHidden) {
             if (!adminMode) return false;
             if (!showHidden) return false;
         }
