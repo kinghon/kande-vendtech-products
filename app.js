@@ -194,10 +194,18 @@ function filterProducts() {
                     return false;
                 }
             } else if (currentCategory === 'meals') {
-                // Meals category: sandwiches, wraps, salads from hot_foods and refrigerated
+                // Meals category: actual prepared food items only
+                const validCategories = ['hot_foods', 'refrigerated', 'frozen_foods'];
+                if (!validCategories.includes(product.category)) return false;
                 const name = product.name.toLowerCase();
-                const isMeal = name.includes('sandwich') || name.includes('wrap') || name.includes('salad') || 
-                               name.includes('burger') || name.includes('sub ') || name.includes('wedge') || name.includes('bowl');
+                // Exclude non-meal items
+                const isExcluded = name.includes('ice cream') || name.includes('ice crm') || name.includes('cracker') || name.includes('cookie') || 
+                                   name.includes('candy') || name.includes('gum ') || name.includes('stir ') ||
+                                   name.includes('wrapped') || name.includes('sour wedge');
+                if (isExcluded) return false;
+                // Match actual meals
+                const isMeal = name.includes('sandwich') || name.includes(' wrap') || name.includes('salad') || 
+                               name.includes('burger') || name.includes(' sub ') || name.includes('wedge') || name.includes('bowl');
                 if (!isMeal) return false;
             } else if (currentCategory === 'beverages') {
                 // Handle both "beverages" and "cold_beverage" category names
