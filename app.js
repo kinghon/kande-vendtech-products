@@ -176,7 +176,16 @@ function filterProducts() {
         if (currentCategory !== 'all') {
             if (currentCategory === 'healthy' && !product.isHealthy && product.category !== 'healthy') {
                 return false;
-            } else if (currentCategory !== 'healthy' && product.category !== currentCategory) {
+            } else if (currentCategory === 'meals') {
+                // Meals category: sandwiches, wraps, salads from hot_foods and refrigerated
+                const name = product.name.toLowerCase();
+                const isMeal = name.includes('sandwich') || name.includes('wrap') || name.includes('salad') || 
+                               name.includes('burger') || name.includes('sub ') || name.includes('wedge');
+                if (!isMeal) return false;
+            } else if (currentCategory === 'beverages') {
+                // Handle both "beverages" and "cold_beverage" category names
+                if (product.category !== 'beverages' && product.category !== 'cold_beverage') return false;
+            } else if (currentCategory !== 'healthy' && currentCategory !== 'meals' && product.category !== currentCategory) {
                 return false;
             }
         }
