@@ -13,8 +13,11 @@ let searchQuery = '';
 
 // Calculate vending price - use competitive price if available, otherwise tiered markup
 function calculateVendingPrice(wholesalePrice, competitivePrice) {
-    // Use 7-Eleven competitive pricing if available and above cost
-    if (competitivePrice && competitivePrice >= wholesalePrice) {
+    // Minimum 100% markup (2x wholesale)
+    const minPrice = wholesalePrice * 2;
+    
+    // Use 7-Eleven competitive pricing if available and above minimum
+    if (competitivePrice && competitivePrice >= minPrice) {
         return competitivePrice;
     }
     // Pricing strategy:
@@ -38,13 +41,17 @@ function calculateVendingPrice(wholesalePrice, competitivePrice) {
     const rawPrice = wholesalePrice * multiplier;
     
     // Round to vending-friendly price
+    let finalPrice;
     if (rawPrice < 2) {
-        return Math.ceil(rawPrice * 4) / 4; // Round to nearest $0.25
+        finalPrice = Math.ceil(rawPrice * 4) / 4; // Round to nearest $0.25
     } else if (rawPrice < 5) {
-        return Math.ceil(rawPrice * 2) / 2; // Round to nearest $0.50
+        finalPrice = Math.ceil(rawPrice * 2) / 2; // Round to nearest $0.50
     } else {
-        return Math.ceil(rawPrice); // Round to nearest dollar
+        finalPrice = Math.ceil(rawPrice); // Round to nearest dollar
     }
+    
+    // Enforce minimum 100% markup
+    return Math.max(finalPrice, minPrice);
 }
 
 // Calculate markup percentage (how much above wholesale)

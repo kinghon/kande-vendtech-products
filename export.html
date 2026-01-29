@@ -219,15 +219,23 @@
         }
 
         // Vending price calculation
-        function calculateVendingPrice(unitPrice, vendingPriceOverride) {
-            // Use 7-Eleven competitive pricing if available and above cost
-            if (vendingPriceOverride && vendingPriceOverride > unitPrice) {
-                return vendingPriceOverride;
+        function calculateVendingPrice(unitPrice, competitivePrice) {
+            // Minimum 100% markup (2x wholesale)
+            const minPrice = unitPrice * 2;
+            
+            // Use 7-Eleven competitive pricing if available and above minimum
+            if (competitivePrice && competitivePrice >= minPrice) {
+                return competitivePrice;
             }
-            if (unitPrice < 1) return Math.ceil(unitPrice * 3.25 * 4) / 4;
-            if (unitPrice < 2) return Math.ceil(unitPrice * 2.75 * 4) / 4;
-            if (unitPrice < 4) return Math.ceil(unitPrice * 2.5 * 4) / 4;
-            return Math.ceil(unitPrice * 2.25 * 4) / 4;
+            
+            let rawPrice;
+            if (unitPrice < 1) rawPrice = Math.ceil(unitPrice * 3.25 * 4) / 4;
+            else if (unitPrice < 2) rawPrice = Math.ceil(unitPrice * 2.75 * 4) / 4;
+            else if (unitPrice < 4) rawPrice = Math.ceil(unitPrice * 2.5 * 4) / 4;
+            else rawPrice = Math.ceil(unitPrice * 2.25 * 4) / 4;
+            
+            // Enforce minimum 100% markup
+            return Math.max(rawPrice, minPrice);
         }
 
         function formatPrice(price) {
