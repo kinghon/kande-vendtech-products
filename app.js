@@ -11,14 +11,19 @@ let currentBrand = '';
 let currentPriceRange = '';
 let searchQuery = '';
 
-// Calculate vending price - use custom price, competitive price, or tiered markup
-function calculateVendingPrice(wholesalePrice, competitivePrice, productId) {
-    // Check for custom price override first
+// Calculate vending price - use custom price, product override, competitive price, or tiered markup
+function calculateVendingPrice(wholesalePrice, competitivePrice, productId, vendingPriceOverride) {
+    // Check for custom price override first (from localStorage - admin edits)
     if (productId) {
         const customPrice = getCustomPrice(productId);
         if (customPrice !== undefined) {
             return customPrice;
         }
+    }
+    
+    // Check for product-level price override (from products.js)
+    if (vendingPriceOverride !== undefined && vendingPriceOverride !== null) {
+        return vendingPriceOverride;
     }
     
     // Use 7-Eleven competitive pricing if available
@@ -152,7 +157,7 @@ function getPriceClass(vendingPrice) {
 
 // Render a single product card
 function renderProductCard(product, rank = null) {
-    const vendingPrice = calculateVendingPrice(product.unitPrice, product.competitivePrice, product.id);
+    const vendingPrice = calculateVendingPrice(product.unitPrice, product.competitivePrice, product.id, product.vendingPriceOverride);
     const markup = calculateMarkup(product.unitPrice, vendingPrice);
     const isHealthy = product.category === 'healthy' || product.isHealthy;
     const adminMode = typeof window.isAdmin === 'function' && window.isAdmin();
@@ -354,7 +359,7 @@ function filterProducts(options = {}) {
         
         // Price filter
         if (currentPriceRange) {
-            const vendingPrice = calculateVendingPrice(product.unitPrice, product.competitivePrice, product.id);
+            const vendingPrice = calculateVendingPrice(product.unitPrice, product.competitivePrice, product.id, product.vendingPriceOverride);
             if (currentPriceRange === '0-2' && vendingPrice >= 2) return false;
             if (currentPriceRange === '2-4' && (vendingPrice < 2 || vendingPrice >= 4)) return false;
             if (currentPriceRange === '4-6' && (vendingPrice < 4 || vendingPrice >= 6)) return false;
@@ -392,8 +397,8 @@ function sortProducts() {
             case 'price-high':
                 return b.unitPrice - a.unitPrice;
             case 'margin':
-                const markupA = (calculateVendingPrice(a.unitPrice, a.competitivePrice) - a.unitPrice) / a.unitPrice;
-                const markupB = (calculateVendingPrice(b.unitPrice, b.competitivePrice) - b.unitPrice) / b.unitPrice;
+                const markupA = (calculateVendingPrice(a.unitPrice, a.competitivePrice, a.id, a.vendingPriceOverride) - a.unitPrice) / a.unitPrice;
+                const markupB = (calculateVendingPrice(b.unitPrice, b.competitivePrice, b.id, b.vendingPriceOverride) - b.unitPrice) / b.unitPrice;
                 return markupB - markupA;
             case 'name':
                 return a.name.localeCompare(b.name);
