@@ -221,6 +221,12 @@
                         <option value="6+">$6+</option>
                     </select>
                 </div>
+                <div class="flex items-center gap-2 admin-only">
+                    <label class="text-sm text-gray-500">
+                        <input type="checkbox" id="showHiddenToggle" class="mr-1">
+                        Show Hidden (<span id="hiddenCount">0</span>)
+                    </label>
+                </div>
                 <button id="clearFilters" class="text-sm text-primary-600 hover:text-primary-700 font-medium transition-colors admin-only">
                     Clear Filters
                 </button>
@@ -286,8 +292,8 @@
         </div>
     </footer>
 
-    <script src="products.js?v=19"></script>
-    <script src="app.js?v=19"></script>
+    <script src="products.js?v=20"></script>
+    <script src="app.js?v=20"></script>
     <script>
         // Admin Authentication
         const ADMIN_PASSWORD = 'kande2026'; // Change this password

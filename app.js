@@ -54,6 +54,40 @@ function calculateVendingPrice(wholesalePrice, competitivePrice) {
     return Math.max(finalPrice, minPrice);
 }
 
+// Hidden products management
+function getHiddenProducts() {
+    const hidden = localStorage.getItem('hiddenProducts');
+    return hidden ? JSON.parse(hidden) : [];
+}
+
+function hideProduct(productId) {
+    const hidden = getHiddenProducts();
+    if (!hidden.includes(productId)) {
+        hidden.push(productId);
+        localStorage.setItem('hiddenProducts', JSON.stringify(hidden));
+        updateHiddenCount();
+        filterProducts();
+    }
+}
+
+function unhideProduct(productId) {
+    let hidden = getHiddenProducts();
+    hidden = hidden.filter(id => id !== productId);
+    localStorage.setItem('hiddenProducts', JSON.stringify(hidden));
+    updateHiddenCount();
+    filterProducts();
+}
+
+function isProductHidden(productId) {
+    return getHiddenProducts().includes(productId);
+}
+
+function updateHiddenCount() {
+    const count = getHiddenProducts().length;
+    const el = document.getElementById('hiddenCount');
+    if (el) el.textContent = count;
+}
+
 // Calculate markup percentage (how much above wholesale)
 function calculateMarkup(wholesale, vending) {
     return ((vending - wholesale) / wholesale * 100).toFixed(0);
@@ -79,11 +113,13 @@ function renderProductCard(product, rank = null) {
     const adminMode = typeof window.isAdmin === 'function' && window.isAdmin();
     
     // Admin view - shows all pricing details
+    const isHidden = isProductHidden(product.id);
     if (adminMode) {
         return `
-            <div class="product-card rounded-2xl overflow-hidden">
+            <div class="product-card rounded-2xl overflow-hidden ${isHidden ? 'opacity-50 border-2 border-red-300' : ''}">
                 <div class="relative">
                     ${rank ? `<div class="absolute top-3 left-3 w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-600 text-white rounded-lg flex items-center justify-center text-sm font-bold shadow-lg">${rank}</div>` : ''}
+                    ${isHidden ? `<div class="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded-lg font-medium shadow-lg">HIDDEN</div>` : ''}
                     ${isHealthy ? `<div class="absolute top-3 right-3 healthy-badge text-white text-xs px-2.5 py-1 rounded-lg font-medium shadow-lg">💪 Healthy</div>` : ''}
                     <div class="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-6">
                         <img src="${product.imageUrl || product.image || 'https://via.placeholder.com/200?text=No+Image'}" 
@@ -117,6 +153,13 @@ function renderProductCard(product, rank = null) {
                     
                     <div class="mt-4 text-xs text-gray-400">
                         Case: ${product.unitCount}ct @ ${formatPrice(product.casePrice)}
+                    </div>
+                    
+                    <div class="mt-3 flex gap-2">
+                        ${isProductHidden(product.id) 
+                            ? `<button onclick="unhideProduct('${product.id}')" class="flex-1 text-xs bg-green-100 text-green-700 px-3 py-1.5 rounded-lg hover:bg-green-200 transition-colors">👁 Show</button>`
+                            : `<button onclick="hideProduct('${product.id}')" class="flex-1 text-xs bg-red-100 text-red-700 px-3 py-1.5 rounded-lg hover:bg-red-200 transition-colors">🚫 Hide</button>`
+                        }
                     </div>
                 </div>
             </div>
@@ -186,7 +229,18 @@ function renderProducts() {
 
 // Filter products
 function filterProducts() {
+    const adminMode = typeof window.isAdmin === 'function' && window.isAdmin();
+    const hiddenProducts = getHiddenProducts();
+    const showHiddenToggle = document.getElementById('showHiddenToggle');
+    const showHidden = showHiddenToggle && showHiddenToggle.checked;
+    
     filteredProducts = allProducts.filter(product => {
+        // Hide products for non-admin users (unless showHidden is checked in admin mode)
+        if (hiddenProducts.includes(product.id)) {
+            if (!adminMode) return false;
+            if (!showHidden) return false;
+        }
+        
         // Category filter
         if (currentCategory !== 'all') {
             if (currentCategory === 'healthy') {
@@ -329,6 +383,15 @@ function initEventListeners() {
             filterProducts();
         }, 300);
     });
+    
+    // Show hidden toggle
+    const showHiddenToggle = document.getElementById('showHiddenToggle');
+    if (showHiddenToggle) {
+        showHiddenToggle.addEventListener('change', filterProducts);
+    }
+    
+    // Update hidden count
+    updateHiddenCount();
     
     // Clear filters
     document.getElementById('clearFilters').addEventListener('click', () => {
