@@ -15,14 +15,14 @@
         .cat-frozen_foods { background-color: #e0e7ff; }
         
         /* Table styles */
-        table { border-collapse: collapse; width: 100%; }
+        table { border-collapse: collapse; width: 100%; table-layout: fixed; }
         th { position: sticky; top: 0; background: #1f2937; color: white; z-index: 10; }
-        th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid #e5e7eb; }
+        th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid #e5e7eb; overflow: hidden; text-overflow: ellipsis; }
         tr:hover { background-color: #f3f4f6 !important; }
+        tbody { contain: layout; }
         
         /* Thumbnail */
-        .thumb { width: 50px; height: 50px; object-fit: contain; cursor: pointer; transition: transform 0.2s; }
-        .thumb:hover { transform: scale(1.1); }
+        .thumb { width: 50px; height: 50px; object-fit: contain; cursor: pointer; }
         
         /* Modal */
         .modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.8); z-index: 100; align-items: center; justify-content: center; }
@@ -108,7 +108,7 @@
         </table>
     </div>
 
-    <script src="products.js?v=13"></script>
+    <script src="products.js?v=14"></script>
     <script>
         let allProducts = [];
         let filteredProducts = [];
@@ -161,11 +161,11 @@
                 return `
                     <tr class="${getCategoryClass(p.category)}">
                         <td>
-                            <img src="${p.imageUrl || 'https://via.placeholder.com/50?text=N/A'}" 
+                            <img src="${p.imageUrl || ''}" 
                                  alt="${p.name}" 
                                  class="thumb"
                                  onclick="openModal('${p.imageUrl || ''}')"
-                                 onerror="this.src='https://via.placeholder.com/50?text=N/A'">
+                                 onerror="this.style.display='none'">
                         </td>
                         <td class="font-medium">${p.brand}</td>
                         <td>${p.name}</td>
