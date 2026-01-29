@@ -75,7 +75,7 @@ function renderProductCard(product, rank = null) {
                     ${rank ? `<div class="absolute top-3 left-3 w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-600 text-white rounded-lg flex items-center justify-center text-sm font-bold shadow-lg">${rank}</div>` : ''}
                     ${isHealthy ? `<div class="absolute top-3 right-3 healthy-badge text-white text-xs px-2.5 py-1 rounded-lg font-medium shadow-lg">💪 Healthy</div>` : ''}
                     <div class="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-6">
-                        <img src="${product.image || 'https://via.placeholder.com/200?text=No+Image'}" 
+                        <img src="${product.image || product.imageUrl || 'https://via.placeholder.com/200?text=No+Image'}" 
                              alt="${product.name}"
                              class="max-w-full max-h-full object-contain"
                              loading="lazy"
@@ -118,7 +118,7 @@ function renderProductCard(product, rank = null) {
             <div class="relative">
                 ${isHealthy ? `<div class="absolute top-3 right-3 healthy-badge text-white text-xs px-2.5 py-1 rounded-lg font-medium shadow-lg">💪 Healthy</div>` : ''}
                 <div class="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-6">
-                    <img src="${product.image || 'https://via.placeholder.com/200?text=No+Image'}" 
+                    <img src="${product.image || product.imageUrl || 'https://via.placeholder.com/200?text=No+Image'}" 
                          alt="${product.name}"
                          class="max-w-full max-h-full object-contain"
                          loading="lazy"
