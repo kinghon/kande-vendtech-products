@@ -175,8 +175,17 @@ function filterProducts() {
     filteredProducts = allProducts.filter(product => {
         // Category filter
         if (currentCategory !== 'all') {
-            if (currentCategory === 'healthy' && !product.isHealthy && product.category !== 'healthy') {
-                return false;
+            if (currentCategory === 'healthy') {
+                // Check for healthy products by category, flag, or keywords
+                const name = (product.name || '').toLowerCase();
+                const brand = (product.brand || '').toLowerCase();
+                const healthyBrands = ['kind', 'quest', 'rxbar', 'clif', 'larabar', 'thinkth', 'bareblls', 'built', 'onenbar', 'perfectb', 'natureva', 'fiberone', 'belvita', 'nutrigra', 'kashi', 'cheerio', 'smartwat', 'vitawat', 'bodyarmo', 'baiwater', 'corepower', 'fairlife', 'chobani', 'siggi', 'oikos', 'dannon'];
+                const healthyKeywords = ['protein', 'granola', 'fruit', 'nut', 'greek', 'yogurt', 'organic', 'whole grain', 'fiber', 'low sugar', 'zero sugar', 'no sugar', 'keto', 'plant', 'vegan'];
+                const isHealthyBrand = healthyBrands.some(b => brand.includes(b));
+                const hasHealthyKeyword = healthyKeywords.some(k => name.includes(k));
+                if (!product.isHealthy && product.category !== 'healthy' && !isHealthyBrand && !hasHealthyKeyword) {
+                    return false;
+                }
             } else if (currentCategory === 'meals') {
                 // Meals category: sandwiches, wraps, salads from hot_foods and refrigerated
                 const name = product.name.toLowerCase();
