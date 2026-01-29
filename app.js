@@ -11,8 +11,12 @@ let currentBrand = '';
 let currentPriceRange = '';
 let searchQuery = '';
 
-// Calculate vending price based on wholesale cost
-function calculateVendingPrice(wholesalePrice) {
+// Calculate vending price - use competitive price if available, otherwise tiered markup
+function calculateVendingPrice(wholesalePrice, competitivePrice) {
+    // Use 7-Eleven competitive pricing if available and above cost
+    if (competitivePrice && competitivePrice >= wholesalePrice) {
+        return competitivePrice;
+    }
     // Pricing strategy:
     // - Under $1: 3x-3.5x markup
     // - $1-$2: 2.75x-3x markup
@@ -62,7 +66,7 @@ function getPriceClass(vendingPrice) {
 
 // Render a single product card
 function renderProductCard(product, rank = null) {
-    const vendingPrice = calculateVendingPrice(product.unitPrice);
+    const vendingPrice = calculateVendingPrice(product.unitPrice, product.competitivePrice);
     const markup = calculateMarkup(product.unitPrice, vendingPrice);
     const isHealthy = product.category === 'healthy' || product.isHealthy;
     const adminMode = typeof window.isAdmin === 'function' && window.isAdmin();
@@ -222,7 +226,7 @@ function filterProducts() {
         
         // Price filter
         if (currentPriceRange) {
-            const vendingPrice = calculateVendingPrice(product.unitPrice);
+            const vendingPrice = calculateVendingPrice(product.unitPrice, product.competitivePrice);
             if (currentPriceRange === '0-2' && vendingPrice >= 2) return false;
             if (currentPriceRange === '2-4' && (vendingPrice < 2 || vendingPrice >= 4)) return false;
             if (currentPriceRange === '4-6' && (vendingPrice < 4 || vendingPrice >= 6)) return false;
@@ -258,8 +262,8 @@ function sortProducts() {
             case 'price-high':
                 return b.unitPrice - a.unitPrice;
             case 'margin':
-                const markupA = (calculateVendingPrice(a.unitPrice) - a.unitPrice) / a.unitPrice;
-                const markupB = (calculateVendingPrice(b.unitPrice) - b.unitPrice) / b.unitPrice;
+                const markupA = (calculateVendingPrice(a.unitPrice, a.competitivePrice) - a.unitPrice) / a.unitPrice;
+                const markupB = (calculateVendingPrice(b.unitPrice, b.competitivePrice) - b.unitPrice) / b.unitPrice;
                 return markupB - markupA;
             case 'name':
                 return a.name.localeCompare(b.name);

@@ -108,7 +108,7 @@
         </table>
     </div>
 
-    <script src="products.js?v=16"></script>
+    <script src="products.js?v=17"></script>
     <script>
         let allProducts = [];
         let filteredProducts = [];
@@ -159,7 +159,7 @@
             const tbody = document.getElementById('tableBody');
             
             tbody.innerHTML = filteredProducts.map(p => {
-                const vendingPrice = calculateVendingPrice(p.unitPrice);
+                const vendingPrice = calculateVendingPrice(p.unitPrice, p.competitivePrice);
                 const markup = ((vendingPrice - p.unitPrice) / p.unitPrice * 100).toFixed(0);
                 
                 return `
@@ -206,7 +206,7 @@
             const headers = ['Brand', 'Product Name', 'Size', 'Category', 'Wholesale', 'Vending Price', 'Markup %', 'Case Count', 'Image URL'];
             
             const rows = filteredProducts.map(p => {
-                const vendingPrice = calculateVendingPrice(p.unitPrice);
+                const vendingPrice = calculateVendingPrice(p.unitPrice, p.competitivePrice);
                 const markup = ((vendingPrice - p.unitPrice) / p.unitPrice * 100).toFixed(0);
                 return [
                     `"${p.brand}"`,
