@@ -165,12 +165,14 @@ function renderProductCard(product, rank = null) {
     
     // Admin view - shows all pricing details
     const isHidden = isProductHidden(product.id);
+    const has7ElevenPricing = product.sevenElevenPrice || product.competitivePrice;
     if (adminMode) {
         return `
-            <div class="product-card rounded-2xl overflow-hidden ${isHidden ? 'opacity-50 border-2 border-red-300' : ''}">
+            <div class="product-card rounded-2xl overflow-hidden ${isHidden ? 'opacity-50 border-2 border-red-300' : has7ElevenPricing ? 'border-2 border-blue-300 bg-blue-50/30' : ''}">
                 <div class="relative">
                     ${rank ? `<div class="absolute top-3 left-3 w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-600 text-white rounded-lg flex items-center justify-center text-sm font-bold shadow-lg">${rank}</div>` : ''}
                     ${isHidden ? `<div class="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded-lg font-medium shadow-lg">HIDDEN</div>` : ''}
+                    ${!isHidden && has7ElevenPricing ? `<div class="absolute top-3 left-3 bg-blue-500 text-white text-xs px-2 py-1 rounded-lg font-medium shadow-lg">7-11</div>` : ''}
                     ${isHealthy ? `<div class="absolute top-3 right-3 healthy-badge text-white text-xs px-2.5 py-1 rounded-lg font-medium shadow-lg">💪 Healthy</div>` : ''}
                     <div class="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-6">
                         <img src="${product.imageUrl || product.image || 'https://via.placeholder.com/200?text=No+Image'}" 
