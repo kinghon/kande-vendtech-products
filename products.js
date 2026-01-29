@@ -9332,7 +9332,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5d665625-6d05-424a-8ec4-20061faef8c6-1738856012215.JPG",
     "category": "cold_beverage",
-    "popularity": 2000,
+    "popularity": 1980,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9360,7 +9360,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/381ea969-bdf6-439a-81f6-90f870440dad-1738857492165.JPG",
     "category": "cold_beverage",
-    "popularity": 2000,
+    "popularity": 1990,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -9701,7 +9701,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cbc417d6-9769-465e-b75d-12029235d13a-1758871151640.png",
     "category": "cold_beverage",
-    "popularity": 1550,
+    "popularity": 1900,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -11017,7 +11017,7 @@ const PRODUCTS = [
     "unitPrice": 0.66,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c8ee4533-f814-43cf-8360-05f414beaac1-1738863368985.JPG",
     "category": "cold_beverage",
-    "popularity": 1600,
+    "popularity": 1920,
     "vendingPriceOverride": 1.25
   },
   {
@@ -11030,7 +11030,7 @@ const PRODUCTS = [
     "unitPrice": 1.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/91a2b8b3-591d-4abe-a68c-acf8a3a9b43f-1738862903672.JPG",
     "category": "cold_beverage",
-    "popularity": 1600,
+    "popularity": 1920,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -11044,7 +11044,7 @@ const PRODUCTS = [
     "unitPrice": 1.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/53133458-af80-444e-9159-fcafab011354-1738863413039.JPG",
     "category": "cold_beverage",
-    "popularity": 1600,
+    "popularity": 1920,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -11360,7 +11360,7 @@ const PRODUCTS = [
     "unitPrice": 0.89,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/8b253c5a-381e-4b7f-aea7-71f30126e495-1738860535826.JPG",
     "category": "cold_beverage",
-    "popularity": 1950
+    "popularity": 1920
   },
   {
     "id": "a631f69d-1fb2-4c99-a9cd-4e5290a8e32a",
@@ -40342,102 +40342,6 @@ const PRODUCTS = [
     "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000466063",
     "category": "cold_beverage",
     "popularity": 50
-  },
-  {
-    "id": "coke-classic-20oz",
-    "name": "Coca-Cola Classic",
-    "brand": "Coca-Cola",
-    "size": "20 oz",
-    "casePrice": 41.29,
-    "unitCount": 24,
-    "unitPrice": 1.72,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4d1b9f4f-dfbe-4cf4-bec3-7e50357946b3-1738856432865.JPG",
-    "category": "cold_beverage",
-    "popularity": 2000
-  },
-  {
-    "id": "coke-diet-20oz",
-    "name": "Diet Coca-Cola",
-    "brand": "Coca-Cola",
-    "size": "20 oz",
-    "casePrice": 41.29,
-    "unitCount": 24,
-    "unitPrice": 1.72,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/381ea969-bdf6-439a-81f6-90f870440dad-1738857492165.JPG",
-    "category": "cold_beverage",
-    "popularity": 2000
-  },
-  {
-    "id": "coke-zero-20oz",
-    "name": "Coca-Cola Zero Sugar",
-    "brand": "Coca-Cola",
-    "size": "20 oz",
-    "casePrice": 41.29,
-    "unitCount": 24,
-    "unitPrice": 1.72,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5d665625-6d05-424a-8ec4-20061faef8c6-1738856012215.JPG",
-    "category": "cold_beverage",
-    "popularity": 2000
-  },
-  {
-    "id": "sprite-20oz",
-    "name": "Sprite",
-    "brand": "Sprite",
-    "size": "20 oz",
-    "casePrice": 41.29,
-    "unitCount": 24,
-    "unitPrice": 1.72,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/93d41fa5-aa76-446c-8e5f-3c4f3982ff3e-1739484309902.JPG",
-    "category": "cold_beverage",
-    "popularity": 1930
-  },
-  {
-    "id": "fanta-orange-20oz",
-    "name": "Fanta Orange",
-    "brand": "Fanta",
-    "size": "20 oz",
-    "casePrice": 41.29,
-    "unitCount": 24,
-    "unitPrice": 1.72,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000145149",
-    "category": "cold_beverage",
-    "popularity": 1550
-  },
-  {
-    "id": "pepsi-20oz",
-    "name": "Pepsi",
-    "brand": "Pepsi",
-    "size": "20 oz",
-    "casePrice": 35.72,
-    "unitCount": 24,
-    "unitPrice": 1.49,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e306e0b0-c962-48f9-8605-2f8630f28e6e-1738859561303.JPG",
-    "category": "cold_beverage",
-    "popularity": 1950
-  },
-  {
-    "id": "mtn-dew-20oz",
-    "name": "Mountain Dew",
-    "brand": "MountnDw",
-    "size": "20 oz",
-    "casePrice": 35.72,
-    "unitCount": 24,
-    "unitPrice": 1.49,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c8ee4533-f814-43cf-8360-05f414beaac1-1738863368985.JPG",
-    "category": "cold_beverage",
-    "popularity": 1600
-  },
-  {
-    "id": "dr-pepper-20oz",
-    "name": "Dr Pepper",
-    "brand": "DrPepper",
-    "size": "20 oz",
-    "casePrice": 32.5,
-    "unitCount": 24,
-    "unitPrice": 1.35,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4d9a2802-58bc-46c7-aab0-d9935008b078-1739378663627.JPG",
-    "category": "cold_beverage",
-    "popularity": 1940
   },
   {
     "id": "rockstar-original",
