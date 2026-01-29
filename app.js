@@ -11,10 +11,18 @@ let currentBrand = '';
 let currentPriceRange = '';
 let searchQuery = '';
 
-// Calculate vending price - use competitive price if available, otherwise tiered markup
-function calculateVendingPrice(wholesalePrice, competitivePrice) {
+// Calculate vending price - use custom price, competitive price, or tiered markup
+function calculateVendingPrice(wholesalePrice, competitivePrice, productId) {
     // Minimum 100% markup (2x wholesale)
     const minPrice = wholesalePrice * 2;
+    
+    // Check for custom price override first
+    if (productId) {
+        const customPrice = getCustomPrice(productId);
+        if (customPrice !== undefined) {
+            return customPrice;
+        }
+    }
     
     // Use 7-Eleven competitive pricing if available and above minimum
     if (competitivePrice && competitivePrice >= minPrice) {
@@ -108,6 +116,49 @@ function updateHiddenCount() {
     if (el) el.textContent = count;
 }
 
+// Custom pricing management
+function getCustomPrices() {
+    const prices = localStorage.getItem('customPrices');
+    return prices ? JSON.parse(prices) : {};
+}
+
+function setCustomPrice(productId, price) {
+    const prices = getCustomPrices();
+    prices[productId] = price;
+    localStorage.setItem('customPrices', JSON.stringify(prices));
+    
+    // Save scroll position and re-render
+    const scrollY = window.scrollY;
+    filterProducts({ preservePage: true });
+    requestAnimationFrame(() => window.scrollTo(0, scrollY));
+}
+
+function clearCustomPrice(productId) {
+    const prices = getCustomPrices();
+    delete prices[productId];
+    localStorage.setItem('customPrices', JSON.stringify(prices));
+    
+    const scrollY = window.scrollY;
+    filterProducts({ preservePage: true });
+    requestAnimationFrame(() => window.scrollTo(0, scrollY));
+}
+
+function getCustomPrice(productId) {
+    return getCustomPrices()[productId];
+}
+
+function editPrice(productId, currentPrice) {
+    const newPrice = prompt('Enter new vending price:', currentPrice.toFixed(2));
+    if (newPrice !== null) {
+        const parsed = parseFloat(newPrice);
+        if (!isNaN(parsed) && parsed > 0) {
+            setCustomPrice(productId, parsed);
+        } else {
+            alert('Please enter a valid price');
+        }
+    }
+}
+
 // Calculate markup percentage (how much above wholesale)
 function calculateMarkup(wholesale, vending) {
     return ((vending - wholesale) / wholesale * 100).toFixed(0);
@@ -127,7 +178,7 @@ function getPriceClass(vendingPrice) {
 
 // Render a single product card
 function renderProductCard(product, rank = null) {
-    const vendingPrice = calculateVendingPrice(product.unitPrice, product.competitivePrice);
+    const vendingPrice = calculateVendingPrice(product.unitPrice, product.competitivePrice, product.id);
     const markup = calculateMarkup(product.unitPrice, vendingPrice);
     const isHealthy = product.category === 'healthy' || product.isHealthy;
     const adminMode = typeof window.isAdmin === 'function' && window.isAdmin();
@@ -161,7 +212,11 @@ function renderProductCard(product, rank = null) {
                         </div>
                         <div class="flex justify-between items-center">
                             <span class="text-sm text-gray-500">Vending Price:</span>
-                            <span class="text-xl font-bold ${getPriceClass(vendingPrice)}">${formatPrice(vendingPrice)}</span>
+                            <div class="flex items-center gap-2">
+                                <span class="text-xl font-bold ${getPriceClass(vendingPrice)}">${formatPrice(vendingPrice)}</span>
+                                ${getCustomPrice(product.id) !== undefined ? '<span class="text-xs bg-blue-100 text-blue-700 px-1 rounded">Custom</span>' : ''}
+                                <button onclick="editPrice('${product.id}', ${vendingPrice})" class="text-xs text-gray-400 hover:text-primary-600">✏️</button>
+                            </div>
                         </div>
                         <div class="flex justify-between items-center pt-3 border-t border-gray-100">
                             <span class="text-sm text-gray-500">Markup:</span>
@@ -179,6 +234,10 @@ function renderProductCard(product, rank = null) {
                         ${isProductHidden(product.id) 
                             ? `<button onclick="unhideProduct('${product.id}')" class="flex-1 text-xs bg-green-100 text-green-700 px-3 py-1.5 rounded-lg hover:bg-green-200 transition-colors">👁 Show</button>`
                             : `<button onclick="hideProduct('${product.id}')" class="flex-1 text-xs bg-red-100 text-red-700 px-3 py-1.5 rounded-lg hover:bg-red-200 transition-colors">🚫 Hide</button>`
+                        }
+                        ${getCustomPrice(product.id) !== undefined 
+                            ? `<button onclick="clearCustomPrice('${product.id}')" class="flex-1 text-xs bg-gray-100 text-gray-700 px-3 py-1.5 rounded-lg hover:bg-gray-200 transition-colors">↩️ Reset Price</button>`
+                            : ''
                         }
                     </div>
                 </div>
@@ -314,7 +373,7 @@ function filterProducts(options = {}) {
         
         // Price filter
         if (currentPriceRange) {
-            const vendingPrice = calculateVendingPrice(product.unitPrice, product.competitivePrice);
+            const vendingPrice = calculateVendingPrice(product.unitPrice, product.competitivePrice, product.id);
             if (currentPriceRange === '0-2' && vendingPrice >= 2) return false;
             if (currentPriceRange === '2-4' && (vendingPrice < 2 || vendingPrice >= 4)) return false;
             if (currentPriceRange === '4-6' && (vendingPrice < 4 || vendingPrice >= 6)) return false;
