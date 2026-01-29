@@ -14,6 +14,14 @@
         .cat-refrigerated { background-color: #d1fae5; }
         .cat-frozen_foods { background-color: #e0e7ff; }
         
+        /* Margin Alert - RED highlighting */
+        .margin-alert { background-color: #fecaca !important; }
+        .margin-alert:hover { background-color: #fca5a5 !important; }
+        
+        /* Competitive Price - GREEN highlighting */
+        .competitive-price { background-color: #d1fae5 !important; }
+        .competitive-price:hover { background-color: #a7f3d0 !important; }
+        
         /* Table styles */
         table { border-collapse: collapse; width: 100%; table-layout: fixed; }
         th { position: sticky; top: 0; background: #1f2937; color: white; z-index: 10; }
@@ -32,9 +40,18 @@
         /* Search/Filter bar */
         .filter-bar { position: sticky; top: 0; background: white; z-index: 20; padding: 16px; border-bottom: 1px solid #e5e7eb; }
         
+        /* Tabs */
+        .tab { padding: 8px 16px; cursor: pointer; border-bottom: 2px solid transparent; }
+        .tab.active { border-bottom-color: #2563eb; color: #2563eb; font-weight: 600; }
+        .tab:hover { background-color: #f3f4f6; }
+        
+        /* Alert badge */
+        .alert-badge { background-color: #ef4444; color: white; padding: 2px 8px; border-radius: 9999px; font-size: 12px; margin-left: 4px; }
+        
         @media print {
             .filter-bar, .no-print { display: none; }
             th { background: #374151 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            .margin-alert { background: #fecaca !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
         }
     </style>
 </head>
@@ -75,6 +92,21 @@
                 ← Back to Catalog
             </a>
         </div>
+        
+        <!-- Tabs -->
+        <div class="max-w-full mx-auto mt-4 flex gap-2 border-b no-print">
+            <div class="tab active" data-tab="all" onclick="switchTab('all')">
+                📦 All Products
+            </div>
+            <div class="tab" data-tab="competitive" onclick="switchTab('competitive')">
+                💰 Competitive Pricing
+                <span id="competitiveCount" class="bg-green-500 text-white px-2 py-0.5 rounded-full text-xs ml-1">0</span>
+            </div>
+            <div class="tab" data-tab="alerts" onclick="switchTab('alerts')">
+                ⚠️ Margin Alerts
+                <span id="alertCount" class="alert-badge">0</span>
+            </div>
+        </div>
     </div>
 
     <!-- Legend -->
@@ -85,6 +117,19 @@
         <span class="px-3 py-1 rounded cat-hot_foods">Hot Foods</span>
         <span class="px-3 py-1 rounded cat-refrigerated">Refrigerated</span>
         <span class="px-3 py-1 rounded cat-frozen_foods">Frozen Foods</span>
+        <span class="px-3 py-1 rounded competitive-price border border-green-400">✓ 7-Eleven Competitive</span>
+        <span class="px-3 py-1 rounded margin-alert border border-red-400">⚠️ Margin Alert</span>
+    </div>
+
+    <!-- Alert Banner (shown when there are margin alerts) -->
+    <div id="alertBanner" class="hidden max-w-full mx-auto px-4 py-3 bg-red-100 border-l-4 border-red-500 text-red-700 no-print">
+        <div class="flex items-center">
+            <span class="text-xl mr-2">⚠️</span>
+            <div>
+                <p class="font-bold">Margin Alert Products Detected</p>
+                <p class="text-sm" id="alertBannerText">Some products have competitive prices below wholesale cost. These are highlighted in red.</p>
+            </div>
+        </div>
     </div>
 
     <!-- Table -->
@@ -98,10 +143,10 @@
                     <th>Size</th>
                     <th>Category</th>
                     <th class="text-right">Wholesale</th>
-                    <th class="text-right">7-Eleven</th>
+                    <th class="text-right">7-Eleven Price</th>
                     <th class="text-right">Vending Price</th>
-                    <th class="text-right">Markup %</th>
-                    <th class="text-right">Case Count</th>
+                    <th class="text-right">Margin</th>
+                    <th class="text-right">Status</th>
                 </tr>
             </thead>
             <tbody id="tableBody">
@@ -109,16 +154,75 @@
         </table>
     </div>
 
-    <script src="products.js?v=18"></script>
+    <script src="products.js?v=17"></script>
     <script>
+        // 7-Eleven prices for margin alert detection
+        const sevenElevenPrices = {
+            'snickers': { keywords: ['snickers', 'singles'], price: 2.99 },
+            'butterfinger': { keywords: ['butterfinger', 'singles', '1.9'], price: 2.99 },
+            'babyruth': { keywords: ['baby ruth', 'babyruth', 'singles'], price: 2.99 },
+            'crunch': { keywords: ['crunch', 'single', '1.55'], price: 2.99 },
+            '3musketeers': { keywords: ['3 musketeers', 'muskete', 'singles', '1.92'], price: 2.99 },
+            'milkyway': { keywords: ['milky way', 'milkyway', 'singles'], price: 2.99 },
+            'hershey-milk': { keywords: ['hershey', 'milk', 'chocolate', 'rtl', '1.55'], price: 2.99 },
+            'doritos': { keywords: ['doritos', '2.75'], price: 2.69 },
+            'lays': { keywords: ['lays', 'lay', '2.6'], price: 2.69 },
+            'cheetos': { keywords: ['cheetos', '2'], price: 2.69 },
+            'ruffles': { keywords: ['ruffles', '2.5'], price: 2.69 },
+            'pringles': { keywords: ['pringles', '2.5', '2.3'], price: 2.49 },
+            'takis': { keywords: ['takis', 'fuego'], price: 2.69 },
+            'bugles': { keywords: ['bugles', 'original', '3'], price: 3.29 },
+            'andycapps': { keywords: ['andy', 'capp', 'hot', 'fries'], price: 2.09 },
+            'coke-20': { keywords: ['coca', 'cola', 'coke', '20'], price: 3.29 },
+            'dietcoke-20': { keywords: ['diet', 'coke', '20'], price: 3.29 },
+            'sprite-20': { keywords: ['sprite', '20'], price: 3.29 },
+            'pepsi-20': { keywords: ['pepsi', '20'], price: 3.29 },
+            'drpepper-20': { keywords: ['dr', 'pepper', '20'], price: 3.29 },
+            'redbull-8': { keywords: ['red', 'bull', '8.4'], price: 3.49 },
+            'redbull-16': { keywords: ['red', 'bull', '16'], price: 5.09 },
+            'monster-16': { keywords: ['monster', '16'], price: 3.89 },
+            'rockstar-16': { keywords: ['rockstar', '16'], price: 3.49 },
+            'celsius': { keywords: ['celsius', '12'], price: 3.39 },
+            'dasani': { keywords: ['dasani', '20'], price: 2.79 },
+            'smartwater': { keywords: ['smart', 'water', '20'], price: 3.29 },
+            'gatorade': { keywords: ['gatorade', '20'], price: 3.29 },
+        };
+
         let allProducts = [];
         let filteredProducts = [];
+        let currentTab = 'all';
 
-        // Vending price calculation (same as main app)
-        function calculateVendingPrice(unitPrice, competitivePrice) {
+        // Match product to 7-Eleven price
+        function getSevenElevenPrice(product) {
+            const name = product.name.toLowerCase();
+            const size = product.size.toLowerCase();
+            const combined = name + ' ' + size;
+            
+            for (const [key, item] of Object.entries(sevenElevenPrices)) {
+                if (item.keywords.every(kw => combined.includes(kw.toLowerCase()))) {
+                    return item.price;
+                }
+            }
+            return null;
+        }
+
+        // Check if product has margin alert (7-Eleven price + $0.25 <= wholesale)
+        function isMarginAlert(product) {
+            const sePrice = getSevenElevenPrice(product);
+            if (sePrice === null) return false;
+            return (sePrice + 0.25) <= product.unitPrice;
+        }
+
+        // Check if product has competitive pricing override
+        function hasCompetitivePrice(product) {
+            return product.vendingPriceOverride && product.vendingPriceOverride > product.unitPrice;
+        }
+
+        // Vending price calculation
+        function calculateVendingPrice(unitPrice, vendingPriceOverride) {
             // Use 7-Eleven competitive pricing if available and above cost
-            if (competitivePrice && competitivePrice >= unitPrice) {
-                return competitivePrice;
+            if (vendingPriceOverride && vendingPriceOverride > unitPrice) {
+                return vendingPriceOverride;
             }
             if (unitPrice < 1) return Math.ceil(unitPrice * 3.25 * 4) / 4;
             if (unitPrice < 2) return Math.ceil(unitPrice * 2.75 * 4) / 4;
@@ -156,15 +260,40 @@
             document.getElementById('imageModal').classList.remove('active');
         }
 
+        function switchTab(tab) {
+            currentTab = tab;
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelector(`[data-tab="${tab}"]`).classList.add('active');
+            filterProducts();
+        }
+
         function renderTable() {
             const tbody = document.getElementById('tableBody');
             
             tbody.innerHTML = filteredProducts.map(p => {
-                const vendingPrice = calculateVendingPrice(p.unitPrice, p.competitivePrice);
-                const markup = ((vendingPrice - p.unitPrice) / p.unitPrice * 100).toFixed(0);
+                const vendingPrice = calculateVendingPrice(p.unitPrice, p.vendingPriceOverride);
+                const margin = vendingPrice - p.unitPrice;
+                const sePrice = getSevenElevenPrice(p);
+                const isAlert = isMarginAlert(p);
+                const hasCompetitive = hasCompetitivePrice(p);
+                
+                // Determine row class
+                let rowClass = getCategoryClass(p.category);
+                let status = '-';
+                let statusClass = 'text-gray-400';
+                
+                if (isAlert) {
+                    rowClass = 'margin-alert';
+                    status = '⚠️ ALERT';
+                    statusClass = 'text-red-600 font-bold';
+                } else if (hasCompetitive) {
+                    rowClass = 'competitive-price';
+                    status = '✓ Competitive';
+                    statusClass = 'text-green-600 font-medium';
+                }
                 
                 return `
-                    <tr class="${getCategoryClass(p.category)}">
+                    <tr class="${rowClass}">
                         <td>
                             <img src="${p.imageUrl || ''}" 
                                  alt="${p.name}" 
@@ -177,10 +306,10 @@
                         <td class="text-gray-600">${p.size}</td>
                         <td><span class="px-2 py-1 rounded text-xs font-medium ${getCategoryClass(p.category)}">${getCategoryName(p.category)}</span></td>
                         <td class="text-right font-mono">${formatPrice(p.unitPrice)}</td>
-                        <td class="text-right font-mono ${p.sevenElevenPrice ? 'text-blue-600' : 'text-gray-400'}">${p.sevenElevenPrice ? formatPrice(p.sevenElevenPrice) : '-'}</td>
-                        <td class="text-right font-mono font-bold text-green-600">${formatPrice(vendingPrice)}</td>
-                        <td class="text-right font-mono text-green-600">${markup}%</td>
-                        <td class="text-right">${p.unitCount || '-'}</td>
+                        <td class="text-right font-mono ${sePrice ? '' : 'text-gray-300'}">${sePrice ? formatPrice(sePrice) : '-'}</td>
+                        <td class="text-right font-mono font-bold">${formatPrice(vendingPrice)}</td>
+                        <td class="text-right font-mono ${margin > 0 ? 'text-green-600' : 'text-red-600'}">${formatPrice(margin)}</td>
+                        <td class="text-right ${statusClass}">${status}</td>
                     </tr>
                 `;
             }).join('');
@@ -193,33 +322,69 @@
             const category = document.getElementById('categoryFilter').value;
 
             filteredProducts = allProducts.filter(p => {
+                // Text/category filter
                 const matchesSearch = !search || 
                     p.name.toLowerCase().includes(search) || 
                     p.brand.toLowerCase().includes(search);
                 const matchesCategory = !category || p.category === category || 
                     (category === 'cold_beverage' && p.category === 'beverages');
-                return matchesSearch && matchesCategory;
+                
+                if (!matchesSearch || !matchesCategory) return false;
+                
+                // Tab filter
+                if (currentTab === 'competitive') {
+                    return hasCompetitivePrice(p);
+                } else if (currentTab === 'alerts') {
+                    return isMarginAlert(p);
+                }
+                return true;
             });
 
             renderTable();
         }
 
+        function updateCounts() {
+            const competitive = allProducts.filter(hasCompetitivePrice).length;
+            const alerts = allProducts.filter(isMarginAlert).length;
+            
+            document.getElementById('competitiveCount').textContent = competitive;
+            document.getElementById('alertCount').textContent = alerts;
+            
+            // Show/hide alert banner
+            const alertBanner = document.getElementById('alertBanner');
+            if (alerts > 0) {
+                alertBanner.classList.remove('hidden');
+                document.getElementById('alertBannerText').textContent = 
+                    `${alerts} product(s) have 7-Eleven prices that would result in loss if matched. These are highlighted in red and NOT auto-priced.`;
+            } else {
+                alertBanner.classList.add('hidden');
+            }
+        }
+
         function exportCSV() {
-            const headers = ['Brand', 'Product Name', 'Size', 'Category', 'Wholesale', '7-Eleven', 'Vending Price', 'Markup %', 'Case Count', 'Image URL'];
+            const headers = ['Brand', 'Product Name', 'Size', 'Category', 'Wholesale', '7-Eleven Price', 'Vending Price', 'Margin', 'Status', 'Image URL'];
             
             const rows = filteredProducts.map(p => {
-                const vendingPrice = calculateVendingPrice(p.unitPrice, p.competitivePrice);
-                const markup = ((vendingPrice - p.unitPrice) / p.unitPrice * 100).toFixed(0);
+                const vendingPrice = calculateVendingPrice(p.unitPrice, p.vendingPriceOverride);
+                const margin = vendingPrice - p.unitPrice;
+                const sePrice = getSevenElevenPrice(p);
+                const isAlert = isMarginAlert(p);
+                const hasCompetitive = hasCompetitivePrice(p);
+                
+                let status = '';
+                if (isAlert) status = 'MARGIN ALERT';
+                else if (hasCompetitive) status = 'Competitive';
+                
                 return [
                     `"${p.brand}"`,
                     `"${p.name}"`,
                     `"${p.size}"`,
                     `"${getCategoryName(p.category)}"`,
                     p.unitPrice.toFixed(2),
-                    p.sevenElevenPrice ? p.sevenElevenPrice.toFixed(2) : '',
+                    sePrice ? sePrice.toFixed(2) : '',
                     vendingPrice.toFixed(2),
-                    markup + '%',
-                    p.unitCount || '',
+                    margin.toFixed(2),
+                    status,
                     p.imageUrl || ''
                 ].join(',');
             });
@@ -238,6 +403,7 @@
             if (typeof PRODUCTS !== 'undefined') {
                 allProducts = PRODUCTS;
                 filteredProducts = [...allProducts];
+                updateCounts();
                 renderTable();
             }
 
