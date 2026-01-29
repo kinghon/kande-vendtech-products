@@ -13,9 +13,6 @@ let searchQuery = '';
 
 // Calculate vending price - use custom price, competitive price, or tiered markup
 function calculateVendingPrice(wholesalePrice, competitivePrice, productId) {
-    // Minimum 100% markup (2x wholesale)
-    const minPrice = wholesalePrice * 2;
-    
     // Check for custom price override first
     if (productId) {
         const customPrice = getCustomPrice(productId);
@@ -24,22 +21,19 @@ function calculateVendingPrice(wholesalePrice, competitivePrice, productId) {
         }
     }
     
-    // Use 7-Eleven competitive pricing if available and above minimum
-    if (competitivePrice && competitivePrice >= minPrice) {
+    // Use 7-Eleven competitive pricing if available
+    if (competitivePrice) {
         return competitivePrice;
     }
-    // Pricing strategy for items without 7-Eleven competitive pricing:
+    
+    // Pricing for items without 7-Eleven competitive pricing:
     // 70% markup (1.7x wholesale)
     // Round to nearest $0.25 for vending-friendly prices
-    
     const multiplier = 1.7; // 70% markup
     const rawPrice = wholesalePrice * multiplier;
     
     // Round to nearest $0.25
-    const finalPrice = Math.ceil(rawPrice * 4) / 4;
-    
-    // Enforce minimum 100% markup
-    return Math.max(finalPrice, minPrice);
+    return Math.ceil(rawPrice * 4) / 4;
 }
 
 // Hidden products management

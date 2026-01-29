@@ -220,19 +220,13 @@
 
         // Vending price calculation
         function calculateVendingPrice(unitPrice, competitivePrice) {
-            // Minimum 100% markup (2x wholesale)
-            const minPrice = unitPrice * 2;
-            
-            // Use 7-Eleven competitive pricing if available and above minimum
-            if (competitivePrice && competitivePrice >= minPrice) {
+            // Use 7-Eleven competitive pricing if available
+            if (competitivePrice) {
                 return competitivePrice;
             }
             
             // 70% markup for items without 7-Eleven pricing
-            const rawPrice = Math.ceil(unitPrice * 1.7 * 4) / 4;
-            
-            // Enforce minimum 100% markup
-            return Math.max(rawPrice, minPrice);
+            return Math.ceil(unitPrice * 1.7 * 4) / 4;
         }
 
         function formatPrice(price) {
