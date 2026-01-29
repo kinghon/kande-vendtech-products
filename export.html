@@ -98,6 +98,7 @@
                     <th>Size</th>
                     <th>Category</th>
                     <th class="text-right">Wholesale</th>
+                    <th class="text-right">7-Eleven</th>
                     <th class="text-right">Vending Price</th>
                     <th class="text-right">Markup %</th>
                     <th class="text-right">Case Count</th>
@@ -108,7 +109,7 @@
         </table>
     </div>
 
-    <script src="products.js?v=17"></script>
+    <script src="products.js?v=18"></script>
     <script>
         let allProducts = [];
         let filteredProducts = [];
@@ -176,7 +177,8 @@
                         <td class="text-gray-600">${p.size}</td>
                         <td><span class="px-2 py-1 rounded text-xs font-medium ${getCategoryClass(p.category)}">${getCategoryName(p.category)}</span></td>
                         <td class="text-right font-mono">${formatPrice(p.unitPrice)}</td>
-                        <td class="text-right font-mono font-bold">${formatPrice(vendingPrice)}</td>
+                        <td class="text-right font-mono ${p.sevenElevenPrice ? 'text-blue-600' : 'text-gray-400'}">${p.sevenElevenPrice ? formatPrice(p.sevenElevenPrice) : '-'}</td>
+                        <td class="text-right font-mono font-bold text-green-600">${formatPrice(vendingPrice)}</td>
                         <td class="text-right font-mono text-green-600">${markup}%</td>
                         <td class="text-right">${p.unitCount || '-'}</td>
                     </tr>
@@ -203,7 +205,7 @@
         }
 
         function exportCSV() {
-            const headers = ['Brand', 'Product Name', 'Size', 'Category', 'Wholesale', 'Vending Price', 'Markup %', 'Case Count', 'Image URL'];
+            const headers = ['Brand', 'Product Name', 'Size', 'Category', 'Wholesale', '7-Eleven', 'Vending Price', 'Markup %', 'Case Count', 'Image URL'];
             
             const rows = filteredProducts.map(p => {
                 const vendingPrice = calculateVendingPrice(p.unitPrice, p.competitivePrice);
@@ -214,6 +216,7 @@
                     `"${p.size}"`,
                     `"${getCategoryName(p.category)}"`,
                     p.unitPrice.toFixed(2),
+                    p.sevenElevenPrice ? p.sevenElevenPrice.toFixed(2) : '',
                     vendingPrice.toFixed(2),
                     markup + '%',
                     p.unitCount || '',
