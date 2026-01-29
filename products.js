@@ -816,7 +816,7 @@ const PRODUCTS = [
     "unitPrice": 1.01,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/dc8d94da-be7a-41ee-8543-37f0bffe44b7-1766059207487.png",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 3.99,
     "competitivePrice": 4.24
   },
@@ -2577,7 +2577,7 @@ const PRODUCTS = [
     "unitPrice": 3.53,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/7f395409-1699-4701-b675-b30915f7e5a6-1738960695887.JPG",
     "category": "candy",
-    "popularity": 1005
+    "popularity": 1090
   },
   {
     "id": "03d071f5-9984-4437-b135-f8498af039db",
@@ -3213,7 +3213,7 @@ const PRODUCTS = [
     "unitPrice": 1.23,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5161a4f3-d3a1-4932-8046-4fd3419216a2-1740155256982.JPG",
     "category": "candy",
-    "popularity": 89
+    "popularity": 1080
   },
   {
     "id": "ba9311e2-7b0b-4437-b5c9-9616e643f4fd",
@@ -3225,7 +3225,7 @@ const PRODUCTS = [
     "unitPrice": 3.36,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/ba9311e2-7b0b-4437-b5c9-9616e643f4fd-1740155216285.JPG",
     "category": "candy",
-    "popularity": 89
+    "popularity": 1080
   },
   {
     "id": "30b37eb2-ff33-4570-a5f5-12aeab822f37",
@@ -3237,7 +3237,7 @@ const PRODUCTS = [
     "unitPrice": 2.03,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/30b37eb2-ff33-4570-a5f5-12aeab822f37-1754481158080.png",
     "category": "candy",
-    "popularity": 89
+    "popularity": 1080
   },
   {
     "id": "cdcba02f-9360-4f81-92a4-7369380591e5",
@@ -3273,7 +3273,7 @@ const PRODUCTS = [
     "unitPrice": 1.23,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cadadb4b-c4cc-47bc-a8e6-a1b1377f5c1f-1740155337718.JPG",
     "category": "candy",
-    "popularity": 89
+    "popularity": 1080
   },
   {
     "id": "897775f2-b3a1-4ed8-a2f0-eae0585ed595",
@@ -3995,7 +3995,7 @@ const PRODUCTS = [
     "unitPrice": 5.18,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/efae88e0-5622-427d-ba6b-1d69b35cc25c-1740691896642.JPG",
     "category": "candy",
-    "popularity": 1004
+    "popularity": 1090
   },
   {
     "id": "130f30d4-eb13-43d2-986c-c567632bba60",
@@ -4007,7 +4007,7 @@ const PRODUCTS = [
     "unitPrice": 5.18,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/130f30d4-eb13-43d2-986c-c567632bba60-1740679252952.JPG",
     "category": "candy",
-    "popularity": 1004
+    "popularity": 1090
   },
   {
     "id": "4e9d9748-6b23-4259-9921-c3a29350bb48",
@@ -4019,7 +4019,7 @@ const PRODUCTS = [
     "unitPrice": 2.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4e9d9748-6b23-4259-9921-c3a29350bb48-1740679030376.JPG",
     "category": "candy",
-    "popularity": 1004
+    "popularity": 1090
   },
   {
     "id": "f8678969-1651-4b6c-bafc-9e0c3ce67e3f",
@@ -4031,7 +4031,7 @@ const PRODUCTS = [
     "unitPrice": 5.18,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f8678969-1651-4b6c-bafc-9e0c3ce67e3f-1754488219667.png",
     "category": "candy",
-    "popularity": 1003
+    "popularity": 1090
   },
   {
     "id": "7b0fb406-35ba-4b3c-a264-1d87909e36c0",
@@ -4043,7 +4043,7 @@ const PRODUCTS = [
     "unitPrice": 5.18,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/7b0fb406-35ba-4b3c-a264-1d87909e36c0-1740679160845.JPG",
     "category": "candy",
-    "popularity": 1003
+    "popularity": 1090
   },
   {
     "id": "c6ad361e-577a-4cfc-ab01-e9ac28361903",
@@ -4055,7 +4055,7 @@ const PRODUCTS = [
     "unitPrice": 2.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c6ad361e-577a-4cfc-ab01-e9ac28361903-1758176515708.png",
     "category": "candy",
-    "popularity": 1004
+    "popularity": 1090
   },
   {
     "id": "18dadc69-f8f8-4311-a617-0bd6363661c3",
@@ -4067,7 +4067,7 @@ const PRODUCTS = [
     "unitPrice": 1.23,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/18dadc69-f8f8-4311-a617-0bd6363661c3-1740680499359.JPG",
     "category": "candy",
-    "popularity": 1004
+    "popularity": 1090
   },
   {
     "id": "f2e53fb5-30ae-4986-83ee-7da2fd51e324",
@@ -4079,7 +4079,7 @@ const PRODUCTS = [
     "unitPrice": 2.59,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f2e53fb5-30ae-4986-83ee-7da2fd51e324-1740679281788.JPG",
     "category": "candy",
-    "popularity": 1004
+    "popularity": 1090
   },
   {
     "id": "bdd1320d-0252-4238-9489-4144f487fa98",
@@ -4091,7 +4091,7 @@ const PRODUCTS = [
     "unitPrice": 2.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/bdd1320d-0252-4238-9489-4144f487fa98-1740678815371.JPG",
     "category": "candy",
-    "popularity": 1004
+    "popularity": 1090
   },
   {
     "id": "f18a244d-541b-43fd-9019-9cc3ad9da187",
@@ -4103,7 +4103,7 @@ const PRODUCTS = [
     "unitPrice": 1.34,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f18a244d-541b-43fd-9019-9cc3ad9da187-1740691661207.JPG",
     "category": "candy",
-    "popularity": 1004
+    "popularity": 1090
   },
   {
     "id": "a23d20c3-3357-4975-94cd-bf0614aaaacd",
@@ -4115,7 +4115,7 @@ const PRODUCTS = [
     "unitPrice": 1.23,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a23d20c3-3357-4975-94cd-bf0614aaaacd-1740679831921.JPG",
     "category": "candy",
-    "popularity": 1004
+    "popularity": 1090
   },
   {
     "id": "7326e9dc-489f-4dd5-8f8f-3b8adb17c5a4",
@@ -4127,7 +4127,7 @@ const PRODUCTS = [
     "unitPrice": 1.2,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/7326e9dc-489f-4dd5-8f8f-3b8adb17c5a4-1757944756247.png",
     "category": "candy",
-    "popularity": 1004
+    "popularity": 1090
   },
   {
     "id": "df706acb-9dae-4213-8426-9920a61fab6a",
@@ -4139,7 +4139,7 @@ const PRODUCTS = [
     "unitPrice": 2.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/df706acb-9dae-4213-8426-9920a61fab6a-1740679396869.JPG",
     "category": "candy",
-    "popularity": 1004
+    "popularity": 1090
   },
   {
     "id": "5fa0b6b5-273b-42fb-98e8-3e8e87c99c4c",
@@ -4151,7 +4151,7 @@ const PRODUCTS = [
     "unitPrice": 1.23,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5fa0b6b5-273b-42fb-98e8-3e8e87c99c4c-1740678857928.JPG",
     "category": "candy",
-    "popularity": 1003
+    "popularity": 1090
   },
   {
     "id": "c00c7a52-80fb-4204-8a79-3c826fab3622",
@@ -4163,7 +4163,7 @@ const PRODUCTS = [
     "unitPrice": 2.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c00c7a52-80fb-4204-8a79-3c826fab3622-1740679625780.JPG",
     "category": "candy",
-    "popularity": 1003
+    "popularity": 1090
   },
   {
     "id": "1a771bed-e249-4811-9172-c6e90eda4270",
@@ -4175,7 +4175,7 @@ const PRODUCTS = [
     "unitPrice": 2.59,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1a771bed-e249-4811-9172-c6e90eda4270-1757075333867.png",
     "category": "candy",
-    "popularity": 1003
+    "popularity": 1090
   },
   {
     "id": "16b098c6-f0fb-4485-8fbc-207627698435",
@@ -4187,7 +4187,7 @@ const PRODUCTS = [
     "unitPrice": 1.2,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/16b098c6-f0fb-4485-8fbc-207627698435-1764674258768.png",
     "category": "candy",
-    "popularity": 1003
+    "popularity": 1090
   },
   {
     "id": "9dcc4475-6f62-485a-a283-e70c0b52ec55",
@@ -4199,7 +4199,7 @@ const PRODUCTS = [
     "unitPrice": 1.23,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/9dcc4475-6f62-485a-a283-e70c0b52ec55-1740679778001.JPG",
     "category": "candy",
-    "popularity": 1003
+    "popularity": 1090
   },
   {
     "id": "35463261-c1f1-4d2e-9430-542e77ae79ba",
@@ -4211,7 +4211,7 @@ const PRODUCTS = [
     "unitPrice": 1.34,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/35463261-c1f1-4d2e-9430-542e77ae79ba-1740679809150.JPG",
     "category": "candy",
-    "popularity": 1003
+    "popularity": 1090
   },
   {
     "id": "7b4882a7-6aeb-4cea-a011-e2f7f82d25e3",
@@ -4223,7 +4223,7 @@ const PRODUCTS = [
     "unitPrice": 2.59,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/7b4882a7-6aeb-4cea-a011-e2f7f82d25e3-1740679309614.JPG",
     "category": "candy",
-    "popularity": 1003
+    "popularity": 1090
   },
   {
     "id": "54f0fbd9-05ab-4221-a9b4-5921ad049a97",
@@ -4235,7 +4235,7 @@ const PRODUCTS = [
     "unitPrice": 2.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/54f0fbd9-05ab-4221-a9b4-5921ad049a97-1740691860939.JPG",
     "category": "candy",
-    "popularity": 1003
+    "popularity": 1090
   },
   {
     "id": "b89943bd-47c4-41df-ba0e-b555cfa67dfa",
@@ -4247,7 +4247,7 @@ const PRODUCTS = [
     "unitPrice": 1.2,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b89943bd-47c4-41df-ba0e-b555cfa67dfa-1740691997161.JPG",
     "category": "candy",
-    "popularity": 1003
+    "popularity": 1090
   },
   {
     "id": "f66f0e20-0b1e-438c-a34d-71ab3baff963",
@@ -4259,7 +4259,7 @@ const PRODUCTS = [
     "unitPrice": 2.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f66f0e20-0b1e-438c-a34d-71ab3baff963-1740678953780.JPG",
     "category": "candy",
-    "popularity": 1004
+    "popularity": 1090
   },
   {
     "id": "af0393b4-1514-444b-9190-49fe78ab6005",
@@ -4271,7 +4271,7 @@ const PRODUCTS = [
     "unitPrice": 2.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/af0393b4-1514-444b-9190-49fe78ab6005-1738966545082.JPG",
     "category": "candy",
-    "popularity": 1004
+    "popularity": 1090
   },
   {
     "id": "8ae8b772-5d76-4384-a96a-495d7c0d31e0",
@@ -4283,7 +4283,7 @@ const PRODUCTS = [
     "unitPrice": 2.61,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/8ae8b772-5d76-4384-a96a-495d7c0d31e0-1738966520613.JPG",
     "category": "candy",
-    "popularity": 1004
+    "popularity": 1090
   },
   {
     "id": "09dcad11-5695-41a0-b5e0-8c9b3c64d16a",
@@ -4295,7 +4295,7 @@ const PRODUCTS = [
     "unitPrice": 2.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/09dcad11-5695-41a0-b5e0-8c9b3c64d16a-1738966587467.JPG",
     "category": "candy",
-    "popularity": 1003
+    "popularity": 1090
   },
   {
     "id": "1dac5510-037a-40f1-b2c6-679044bc4b17",
@@ -4307,7 +4307,7 @@ const PRODUCTS = [
     "unitPrice": 2.61,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1dac5510-037a-40f1-b2c6-679044bc4b17-1738966648130.JPG",
     "category": "candy",
-    "popularity": 1004
+    "popularity": 1090
   },
   {
     "id": "0f9766d9-8032-4781-8092-b7d98964fd54",
@@ -4367,7 +4367,7 @@ const PRODUCTS = [
     "unitPrice": 1.53,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/9da95ab8-fb9e-42e6-9a96-0d193b01c03d-1760613549262.png",
     "category": "candy",
-    "popularity": 1004
+    "popularity": 1090
   },
   {
     "id": "b23bfb50-8071-4455-8acd-c00f63b4a7d5",
@@ -5183,7 +5183,7 @@ const PRODUCTS = [
     "unitPrice": 3.53,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4051c1d3-3b73-4b5d-b08c-ad845f0f54da-1758191837495.png",
     "category": "candy",
-    "popularity": 1004
+    "popularity": 1090
   },
   {
     "id": "c6a80d8e-971e-43e5-92f5-678263357e79",
@@ -5711,7 +5711,7 @@ const PRODUCTS = [
     "unitPrice": 2.28,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/7a912584-d5e6-43b0-8f0a-f474ccf1432f-1740153942675.JPG",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 3.99,
     "competitivePrice": 4.24
   },
@@ -5725,7 +5725,7 @@ const PRODUCTS = [
     "unitPrice": 2.59,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/8f92823c-ac18-4fbc-a0be-770d534f1698-1740153397921.JPG",
     "category": "candy",
-    "popularity": 1006
+    "popularity": 1100
   },
   {
     "id": "e34a8f5a-48a6-4484-8657-cf354aedd4e1",
@@ -5737,7 +5737,7 @@ const PRODUCTS = [
     "unitPrice": 1.31,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e34a8f5a-48a6-4484-8657-cf354aedd4e1-1740153468436.JPG",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 2.99,
     "competitivePrice": 3.24
   },
@@ -5751,7 +5751,7 @@ const PRODUCTS = [
     "unitPrice": 1.31,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/d1023535-7bd0-474f-aef9-8f0ee7fafb24-1740153314417.JPG",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 2.99,
     "competitivePrice": 3.24
   },
@@ -5765,7 +5765,7 @@ const PRODUCTS = [
     "unitPrice": 1.31,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f4799187-b6dc-4d41-8b8c-2172f7b776f4-1740153040125.JPG",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 2.99,
     "competitivePrice": 3.24
   },
@@ -5779,7 +5779,7 @@ const PRODUCTS = [
     "unitPrice": 2.28,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5d1810be-f0c9-4a80-9af8-052f1ea8edd1-1740154990228.JPG",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 3.99,
     "competitivePrice": 4.24
   },
@@ -5793,7 +5793,7 @@ const PRODUCTS = [
     "unitPrice": 1.31,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e6e91702-efe7-42b9-985f-fe1bf0e1caf6-1740153070273.JPG",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 2.99,
     "competitivePrice": 3.24
   },
@@ -5807,7 +5807,7 @@ const PRODUCTS = [
     "unitPrice": 5.69,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/337094a2-bef5-436e-92c5-d86b2399edc8-1740155086525.JPG",
     "category": "candy",
-    "popularity": 1006
+    "popularity": 1100
   },
   {
     "id": "1b5d452d-d82c-43f3-9125-5f4ae3e3cdec",
@@ -5819,7 +5819,7 @@ const PRODUCTS = [
     "unitPrice": 2.28,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1b5d452d-d82c-43f3-9125-5f4ae3e3cdec-1740152817379.JPG",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 3.99,
     "competitivePrice": 4.24
   },
@@ -5833,7 +5833,7 @@ const PRODUCTS = [
     "unitPrice": 1.31,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c72bf157-2693-4c23-8c57-12a851f43110-1740153264441.JPG",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 2.99,
     "competitivePrice": 3.24
   },
@@ -5847,7 +5847,7 @@ const PRODUCTS = [
     "unitPrice": 1.34,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/d9bb16fd-92ee-4f2a-8417-eb326510a323-1740153289066.JPG",
     "category": "candy",
-    "popularity": 1006
+    "popularity": 1100
   },
   {
     "id": "0452fb2c-7bf7-414e-8865-47709f08a857",
@@ -5859,7 +5859,7 @@ const PRODUCTS = [
     "unitPrice": 2.28,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/0452fb2c-7bf7-414e-8865-47709f08a857-1740153337686.JPG",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 3.99,
     "competitivePrice": 4.24
   },
@@ -5873,7 +5873,7 @@ const PRODUCTS = [
     "unitPrice": 2.28,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/da273604-61ba-481c-92e7-0949206fc4a7-1740153790690.JPG",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 3.99,
     "competitivePrice": 4.24
   },
@@ -5887,7 +5887,7 @@ const PRODUCTS = [
     "unitPrice": 1.31,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b8d02b64-4542-4150-92f8-f3a8e575e4d3-1740153967558.JPG",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 2.99,
     "competitivePrice": 3.24
   },
@@ -5901,7 +5901,7 @@ const PRODUCTS = [
     "unitPrice": 2.28,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/7c098f36-8c93-4079-bfb4-f5237995bec1-1740152794190.JPG",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 3.99,
     "competitivePrice": 4.24
   },
@@ -5915,7 +5915,7 @@ const PRODUCTS = [
     "unitPrice": 2.28,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/56441e13-bf33-4857-b590-77764086a836-1738946497533.JPG",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 3.99,
     "competitivePrice": 4.24
   },
@@ -5929,7 +5929,7 @@ const PRODUCTS = [
     "unitPrice": 2.28,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1d06f637-985b-4758-ba53-0550f6eab311-1755669435319.png",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 3.99,
     "competitivePrice": 4.24
   },
@@ -5943,7 +5943,7 @@ const PRODUCTS = [
     "unitPrice": 2.28,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/fbae5efd-5a11-4f30-a84d-884a65b05eab-1738947184737.JPG",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 3.99,
     "competitivePrice": 4.24
   },
@@ -5957,7 +5957,7 @@ const PRODUCTS = [
     "unitPrice": 2.59,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/64bbd2d2-c4ae-4aea-a2a9-f3d9201ed18b-1738946526481.JPG",
     "category": "candy",
-    "popularity": 1006
+    "popularity": 1100
   },
   {
     "id": "d6d6290c-f5ba-4aa2-8c52-ad09e1f630fd",
@@ -5969,7 +5969,7 @@ const PRODUCTS = [
     "unitPrice": 2.59,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/d6d6290c-f5ba-4aa2-8c52-ad09e1f630fd-1740154962577.JPG",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 3.99,
     "competitivePrice": 4.24
   },
@@ -5983,7 +5983,7 @@ const PRODUCTS = [
     "unitPrice": 2.28,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/fa906d8b-0fed-44b1-9a11-8e41f6581331-1738946661672.JPG",
     "category": "candy",
-    "popularity": 1006,
+    "popularity": 1100,
     "sevenElevenPrice": 3.99,
     "competitivePrice": 4.24
   },
@@ -6780,7 +6780,7 @@ const PRODUCTS = [
     "unitPrice": 1.24,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/381b863f-d9b9-43d6-a43a-27003baa10f6-1739207880848.JPG",
     "category": "candy",
-    "popularity": 49,
+    "popularity": 1070,
     "vendingPriceOverride": 3
   },
   {
@@ -6793,7 +6793,7 @@ const PRODUCTS = [
     "unitPrice": 2.24,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/65286c91-5c23-4a2a-b063-3e46766ad4f3-1739211265065.JPG",
     "category": "candy",
-    "popularity": 49
+    "popularity": 1070
   },
   {
     "id": "1d5f25ee-08e1-4da5-a90b-f35d40325aed",
@@ -6805,7 +6805,7 @@ const PRODUCTS = [
     "unitPrice": 0.9,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1d5f25ee-08e1-4da5-a90b-f35d40325aed-1739208703238.JPG",
     "category": "candy",
-    "popularity": 49
+    "popularity": 1070
   },
   {
     "id": "ccd74b92-de8d-45ef-bc7d-82249f1db7c4",
@@ -6817,7 +6817,7 @@ const PRODUCTS = [
     "unitPrice": 2.24,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/ccd74b92-de8d-45ef-bc7d-82249f1db7c4-1739464339168.JPG",
     "category": "candy",
-    "popularity": 49
+    "popularity": 1070
   },
   {
     "id": "6879c9f7-2d9f-45e4-921b-bbd937ac9583",
@@ -6829,7 +6829,7 @@ const PRODUCTS = [
     "unitPrice": 0.85,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/6879c9f7-2d9f-45e4-921b-bbd937ac9583-1744133090516.JPG",
     "category": "candy",
-    "popularity": 49
+    "popularity": 1070
   },
   {
     "id": "cb643a12-8b9f-4746-84d7-246f3aae9c8e",
@@ -6841,7 +6841,7 @@ const PRODUCTS = [
     "unitPrice": 1.24,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cb643a12-8b9f-4746-84d7-246f3aae9c8e-1739210750131.JPG",
     "category": "candy",
-    "popularity": 49,
+    "popularity": 1070,
     "vendingPriceOverride": 3
   },
   {
@@ -6854,7 +6854,7 @@ const PRODUCTS = [
     "unitPrice": 0.85,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a31f7a41-2ca2-415e-8846-4a81ad6601a9-1739214883734.JPG",
     "category": "candy",
-    "popularity": 49
+    "popularity": 1070
   },
   {
     "id": "c0a7702c-6d1d-4b45-8d18-9c0da033621f",
@@ -6866,7 +6866,7 @@ const PRODUCTS = [
     "unitPrice": 0.9,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c0a7702c-6d1d-4b45-8d18-9c0da033621f-1739214803712.JPG",
     "category": "candy",
-    "popularity": 49
+    "popularity": 1070
   },
   {
     "id": "baf2eaa2-61b5-449e-8906-c2630a7a86f7",
@@ -7512,7 +7512,7 @@ const PRODUCTS = [
     "unitPrice": 2.28,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2adcbb85-951c-4831-a00c-85cec333f38d-1738950457431.JPG",
     "category": "candy",
-    "popularity": 1006
+    "popularity": 1100
   },
   {
     "id": "78c46178-d736-4a12-885d-b1ea12a15062",
@@ -9332,7 +9332,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5d665625-6d05-424a-8ec4-20061faef8c6-1738856012215.JPG",
     "category": "cold_beverage",
-    "popularity": 10,
+    "popularity": 1110,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9346,7 +9346,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4d1b9f4f-dfbe-4cf4-bec3-7e50357946b3-1738856432865.JPG",
     "category": "cold_beverage",
-    "popularity": 15,
+    "popularity": 1110,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9360,7 +9360,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/381ea969-bdf6-439a-81f6-90f870440dad-1738857492165.JPG",
     "category": "cold_beverage",
-    "popularity": 28,
+    "popularity": 1110,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -9546,7 +9546,7 @@ const PRODUCTS = [
     "unitPrice": 0.57,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1206431f-8f38-42e7-b4ba-02c5d224f28f-1739379682702.JPG",
     "category": "cold_beverage",
-    "popularity": 81,
+    "popularity": 1080,
     "vendingPriceOverride": 1.25
   },
   {
@@ -9559,7 +9559,7 @@ const PRODUCTS = [
     "unitPrice": 1.35,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/664cb15f-34f4-4cec-b0d7-814a6a56a8fe-1739379780617.JPG",
     "category": "cold_beverage",
-    "popularity": 8,
+    "popularity": 1080,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -9574,7 +9574,7 @@ const PRODUCTS = [
     "unitPrice": 0.57,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e0eedb78-50a8-41d3-83d4-669f7613644e-1739379108723.JPG",
     "category": "cold_beverage",
-    "popularity": 8,
+    "popularity": 1080,
     "vendingPriceOverride": 1.25
   },
   {
@@ -9587,7 +9587,7 @@ const PRODUCTS = [
     "unitPrice": 1.35,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4d9a2802-58bc-46c7-aab0-d9935008b078-1739378663627.JPG",
     "category": "cold_beverage",
-    "popularity": 8,
+    "popularity": 1080,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -9602,7 +9602,7 @@ const PRODUCTS = [
     "unitPrice": 1.35,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a8ee9672-834b-4756-95fe-9050d2faba29-1763656720742.png",
     "category": "cold_beverage",
-    "popularity": 8,
+    "popularity": 1080,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -9716,7 +9716,7 @@ const PRODUCTS = [
     "unitPrice": 1.59,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1c3878f3-0fc4-400b-a16c-1808d200a020-1739313126852.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 1000
   },
   {
     "id": "2aabb135-3ebe-4529-b09f-e71cce835f4b",
@@ -9728,7 +9728,7 @@ const PRODUCTS = [
     "unitPrice": 0.88,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2aabb135-3ebe-4529-b09f-e71cce835f4b-1739313154202.JPG",
     "category": "cold_beverage",
-    "popularity": 500
+    "popularity": 1000
   },
   {
     "id": "89689b91-7c0e-468d-b7ec-7af6762c5047",
@@ -9824,7 +9824,7 @@ const PRODUCTS = [
     "unitPrice": 1.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1e2e92b2-0ff1-42af-83ba-fa494c8bd525-1738879009192.JPG",
     "category": "cold_beverage",
-    "popularity": 62,
+    "popularity": 1050,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9838,7 +9838,7 @@ const PRODUCTS = [
     "unitPrice": 1.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b5d40cc1-4977-4286-bae3-c6def1239be3-1738879333197.JPG",
     "category": "cold_beverage",
-    "popularity": 14,
+    "popularity": 1050,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9852,7 +9852,7 @@ const PRODUCTS = [
     "unitPrice": 1.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/ebe09a90-9e4c-48b7-9ebd-03540fec1580-1738880685567.JPG",
     "category": "cold_beverage",
-    "popularity": 62,
+    "popularity": 1050,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9866,7 +9866,7 @@ const PRODUCTS = [
     "unitPrice": 1.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b34df187-5880-41e3-b7ad-9c4d28f68876-1738879938887.JPG",
     "category": "cold_beverage",
-    "popularity": 62,
+    "popularity": 1050,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9880,7 +9880,7 @@ const PRODUCTS = [
     "unitPrice": 0.84,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2a484dc1-fe3a-4751-9ee9-65d373251afb-1738877883618.JPG",
     "category": "cold_beverage",
-    "popularity": 62
+    "popularity": 1050
   },
   {
     "id": "0840f425-f2ac-4ffb-8b9f-73202f2954f6",
@@ -9892,7 +9892,7 @@ const PRODUCTS = [
     "unitPrice": 1.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/0840f425-f2ac-4ffb-8b9f-73202f2954f6-1738879362952.JPG",
     "category": "cold_beverage",
-    "popularity": 62,
+    "popularity": 1050,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9906,7 +9906,7 @@ const PRODUCTS = [
     "unitPrice": 1.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/878456fe-3254-4076-8c0d-b9c8d7399ce0-1738879394954.JPG",
     "category": "cold_beverage",
-    "popularity": 62,
+    "popularity": 1050,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9920,7 +9920,7 @@ const PRODUCTS = [
     "unitPrice": 1.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2c7e562e-1cbb-46d0-afe7-8f33534e6fec-1738879609244.JPG",
     "category": "cold_beverage",
-    "popularity": 62,
+    "popularity": 1050,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9934,7 +9934,7 @@ const PRODUCTS = [
     "unitPrice": 0.84,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/fa18cdb1-9bac-4430-b3ec-61a62a3a26d6-1738877959549.JPG",
     "category": "cold_beverage",
-    "popularity": 62
+    "popularity": 1050
   },
   {
     "id": "2c3a9ad1-eddd-466a-9ab4-dcccb1217b7f",
@@ -9946,7 +9946,7 @@ const PRODUCTS = [
     "unitPrice": 0.84,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2c3a9ad1-eddd-466a-9ab4-dcccb1217b7f-1738879114637.JPG",
     "category": "cold_beverage",
-    "popularity": 62
+    "popularity": 1050
   },
   {
     "id": "45e16e5a-3f9d-404c-8cf3-2eedaad18a58",
@@ -9958,7 +9958,7 @@ const PRODUCTS = [
     "unitPrice": 1.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/45e16e5a-3f9d-404c-8cf3-2eedaad18a58-1738879424655.JPG",
     "category": "cold_beverage",
-    "popularity": 62,
+    "popularity": 1050,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -9972,7 +9972,7 @@ const PRODUCTS = [
     "unitPrice": 1.59,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c83fb559-88fb-45da-8179-44f896c21845-1764072855336.png",
     "category": "cold_beverage",
-    "popularity": 62
+    "popularity": 1050
   },
   {
     "id": "79e214f0-5214-43c9-9bd8-3e7d3093f373",
@@ -9984,7 +9984,7 @@ const PRODUCTS = [
     "unitPrice": 1.59,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/79e214f0-5214-43c9-9bd8-3e7d3093f373-1764072931253.png",
     "category": "cold_beverage",
-    "popularity": 62
+    "popularity": 1050
   },
   {
     "id": "523ba3ac-91fe-4a25-9a38-591e5b3c4c7a",
@@ -9996,7 +9996,7 @@ const PRODUCTS = [
     "unitPrice": 0.66,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/523ba3ac-91fe-4a25-9a38-591e5b3c4c7a-1756297985549.png",
     "category": "cold_beverage",
-    "popularity": 30
+    "popularity": 1050
   },
   {
     "id": "5f467c8c-d2d6-4d83-87b0-b1ef0cabf08d",
@@ -10008,7 +10008,7 @@ const PRODUCTS = [
     "unitPrice": 7.75,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5f467c8c-d2d6-4d83-87b0-b1ef0cabf08d-1738880489493.JPG",
     "category": "cold_beverage",
-    "popularity": 26,
+    "popularity": 1050,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -10022,7 +10022,7 @@ const PRODUCTS = [
     "unitPrice": 7.75,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4ae7b0f9-ff50-411e-8b0c-9af376004f37-1738880323444.JPG",
     "category": "cold_beverage",
-    "popularity": 62,
+    "popularity": 1050,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -10036,7 +10036,7 @@ const PRODUCTS = [
     "unitPrice": 7.75,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5f8d3ab7-2690-40d9-8ec8-2b5c97049c7a-1738880441381.JPG",
     "category": "cold_beverage",
-    "popularity": 62,
+    "popularity": 1050,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
   },
@@ -10780,7 +10780,7 @@ const PRODUCTS = [
     "unitPrice": 2.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/bcfb0c20-63d7-446f-8f99-0f09736ab46f-1739985356282.JPG",
     "category": "cold_beverage",
-    "popularity": 78
+    "popularity": 990
   },
   {
     "id": "4fb6a0ec-94ad-44b9-8fd3-df8f22a35a5c",
@@ -10972,7 +10972,7 @@ const PRODUCTS = [
     "unitPrice": 2.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/58581152-27f2-43ef-b8eb-0da7d3ee8ccf-1738867672130.JPG",
     "category": "cold_beverage",
-    "popularity": 76,
+    "popularity": 1040,
     "sevenElevenPrice": 3.89,
     "competitivePrice": 4.140000000000001,
     "vendingPriceOverride": 4
@@ -10987,7 +10987,7 @@ const PRODUCTS = [
     "unitPrice": 2.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/60fbdc19-61b1-4c22-9e45-88dcc6252d1c-1738867394708.JPG",
     "category": "cold_beverage",
-    "popularity": 67,
+    "popularity": 1040,
     "sevenElevenPrice": 3.89,
     "competitivePrice": 4.140000000000001,
     "vendingPriceOverride": 4
@@ -11002,7 +11002,7 @@ const PRODUCTS = [
     "unitPrice": 2.11,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/521b03fa-0ce0-4d2a-840e-a73189ce042a-1738867431665.JPG",
     "category": "cold_beverage",
-    "popularity": 6,
+    "popularity": 1040,
     "sevenElevenPrice": 3.89,
     "competitivePrice": 4.140000000000001,
     "vendingPriceOverride": 4
@@ -11360,7 +11360,7 @@ const PRODUCTS = [
     "unitPrice": 0.89,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/8b253c5a-381e-4b7f-aea7-71f30126e495-1738860535826.JPG",
     "category": "cold_beverage",
-    "popularity": 53
+    "popularity": 1100
   },
   {
     "id": "a631f69d-1fb2-4c99-a9cd-4e5290a8e32a",
@@ -11372,7 +11372,7 @@ const PRODUCTS = [
     "unitPrice": 0.66,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a631f69d-1fb2-4c99-a9cd-4e5290a8e32a-1738859491249.JPG",
     "category": "cold_beverage",
-    "popularity": 53,
+    "popularity": 1100,
     "vendingPriceOverride": 1.25
   },
   {
@@ -11385,7 +11385,7 @@ const PRODUCTS = [
     "unitPrice": 1.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a224703d-f210-4c4a-b7bf-0cfbd26cd4dd-1738784676248.JPG",
     "category": "cold_beverage",
-    "popularity": 25,
+    "popularity": 1100,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -11400,7 +11400,7 @@ const PRODUCTS = [
     "unitPrice": 1.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e306e0b0-c962-48f9-8605-2f8630f28e6e-1738859561303.JPG",
     "category": "cold_beverage",
-    "popularity": 25,
+    "popularity": 1100,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -11597,7 +11597,7 @@ const PRODUCTS = [
     "unitPrice": 2.39,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f8508bc5-7613-4911-bd6e-7f62c8066182-1739985387592.JPG",
     "category": "cold_beverage",
-    "popularity": 80
+    "popularity": 990
   },
   {
     "id": "6b62aab3-f25c-48a0-ab5d-905fd593a6e4",
@@ -12259,7 +12259,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/93d41fa5-aa76-446c-8e5f-3c4f3982ff3e-1739484309902.JPG",
     "category": "cold_beverage",
-    "popularity": 13,
+    "popularity": 1070,
     "vendingPriceOverride": 3.54,
     "sevenElevenPrice": 3.29,
     "competitivePrice": 3.54
@@ -28949,7 +28949,7 @@ const PRODUCTS = [
     "unitPrice": 0.75,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/9b1d49f9-b2ca-4401-bc8a-bf5ba5fcdc66-1738788363966.JPG",
     "category": "snacks",
-    "popularity": 38,
+    "popularity": 1060,
     "vendingPriceOverride": 2.5
   },
   {
@@ -28962,7 +28962,7 @@ const PRODUCTS = [
     "unitPrice": 0.48,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/fd93f3e0-5e1e-4820-af8f-72e77a0b62b3-1738789153622.JPG",
     "category": "snacks",
-    "popularity": 38,
+    "popularity": 1060,
     "vendingPriceOverride": 1.5
   },
   {
@@ -29507,7 +29507,7 @@ const PRODUCTS = [
     "unitPrice": 1.87,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/049edee8-7b94-4031-aef9-46fe8c1b6c06-1738793070161.JPG",
     "category": "snacks",
-    "popularity": 38,
+    "popularity": 1060,
     "vendingPriceOverride": 2.75
   },
   {
@@ -32441,7 +32441,7 @@ const PRODUCTS = [
     "unitPrice": 0.38,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/bafa1798-a54b-4ab9-a5be-6631a855d9ba-1740420487567.JPG",
     "category": "snacks",
-    "popularity": 500
+    "popularity": 1020
   },
   {
     "id": "ae64d10f-377a-4330-84b0-f8f3d506e2ce",
@@ -32453,7 +32453,7 @@ const PRODUCTS = [
     "unitPrice": 0.38,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/ae64d10f-377a-4330-84b0-f8f3d506e2ce-1740420223518.JPG",
     "category": "snacks",
-    "popularity": 2
+    "popularity": 1020
   },
   {
     "id": "eb6d43cd-539d-4d16-8f00-649cf20ee6a0",
@@ -32465,7 +32465,7 @@ const PRODUCTS = [
     "unitPrice": 0.75,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/eb6d43cd-539d-4d16-8f00-649cf20ee6a0-1740420370065.JPG",
     "category": "snacks",
-    "popularity": 500
+    "popularity": 1020
   },
   {
     "id": "9d81f484-ef85-4519-bf9c-b2b7bd32bf11",
@@ -32477,7 +32477,7 @@ const PRODUCTS = [
     "unitPrice": 0.75,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/9d81f484-ef85-4519-bf9c-b2b7bd32bf11-1740420589068.JPG",
     "category": "snacks",
-    "popularity": 23
+    "popularity": 1020
   },
   {
     "id": "f9228b07-5778-4bae-8bf6-d7f4ef4b096a",
@@ -33916,7 +33916,7 @@ const PRODUCTS = [
     "unitPrice": 0.81,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a4a6c0be-4ea2-459a-b32c-131d5096ae1d-1740509187832.JPG",
     "category": "snacks",
-    "popularity": 10,
+    "popularity": 1040,
     "vendingPriceOverride": 1.5
   },
   {
@@ -33929,7 +33929,7 @@ const PRODUCTS = [
     "unitPrice": 1.42,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/fe8d93d4-7343-4784-8212-9a2653cf4e4a-1740509159677.JPG",
     "category": "snacks",
-    "popularity": 10,
+    "popularity": 1040,
     "vendingPriceOverride": 2.5
   },
   {
@@ -35744,7 +35744,7 @@ const PRODUCTS = [
     "unitPrice": 0.73,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/119629af-4b5d-4300-ac5a-182d1efc7810-1756383932308.png",
     "category": "snacks",
-    "popularity": 99,
+    "popularity": 1050,
     "vendingPriceOverride": 2
   },
   {
@@ -35757,7 +35757,7 @@ const PRODUCTS = [
     "unitPrice": 1.4,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/53799b7d-694f-41f6-b2e9-bdc74f26725c-1754915429624.png",
     "category": "snacks",
-    "popularity": 99,
+    "popularity": 1050,
     "vendingPriceOverride": 3.5
   },
   {
@@ -35770,7 +35770,7 @@ const PRODUCTS = [
     "unitPrice": 0.75,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2e774a03-7992-4c2e-b845-5580897fa767-1754303243792.png",
     "category": "snacks",
-    "popularity": 7,
+    "popularity": 1050,
     "vendingPriceOverride": 2
   },
   {
@@ -35783,7 +35783,7 @@ const PRODUCTS = [
     "unitPrice": 0.72,
     "imageUrl": "",
     "category": "snacks",
-    "popularity": 7,
+    "popularity": 1050,
     "vendingPriceOverride": 2
   },
   {
@@ -35796,7 +35796,7 @@ const PRODUCTS = [
     "unitPrice": 1.4,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4398119b-478f-4ecc-9cf2-1e1b73a91b6f-1760434666517.png",
     "category": "snacks",
-    "popularity": 7,
+    "popularity": 1050,
     "vendingPriceOverride": 3.5
   },
   {
@@ -40144,7 +40144,7 @@ const PRODUCTS = [
     "unitPrice": 1.75,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 85,
+    "popularity": 1060,
     "vendingPriceOverride": 4
   },
   {
@@ -40157,7 +40157,7 @@ const PRODUCTS = [
     "unitPrice": 1.75,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 83,
+    "popularity": 1060,
     "vendingPriceOverride": 4
   },
   {
@@ -40170,7 +40170,7 @@ const PRODUCTS = [
     "unitPrice": 1.75,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 82,
+    "popularity": 1060,
     "vendingPriceOverride": 4
   },
   {
@@ -40183,7 +40183,7 @@ const PRODUCTS = [
     "unitPrice": 1.75,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 81,
+    "popularity": 1060,
     "vendingPriceOverride": 4
   },
   {
@@ -40196,7 +40196,7 @@ const PRODUCTS = [
     "unitPrice": 1.75,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 80,
+    "popularity": 1060,
     "vendingPriceOverride": 4
   },
   {
@@ -40353,7 +40353,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 95
+    "popularity": 1110
   },
   {
     "id": "coke-diet-20oz",
@@ -40365,7 +40365,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 90
+    "popularity": 1110
   },
   {
     "id": "coke-zero-20oz",
@@ -40377,7 +40377,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 88
+    "popularity": 1110
   },
   {
     "id": "sprite-20oz",
@@ -40389,7 +40389,7 @@ const PRODUCTS = [
     "unitPrice": 1.72,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 87
+    "popularity": 1070
   },
   {
     "id": "fanta-orange-20oz",
@@ -40413,7 +40413,7 @@ const PRODUCTS = [
     "unitPrice": 1.49,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 92
+    "popularity": 1100
   },
   {
     "id": "mtn-dew-20oz",
@@ -40437,7 +40437,7 @@ const PRODUCTS = [
     "unitPrice": 1.35,
     "imageUrl": "",
     "category": "cold_beverage",
-    "popularity": 86
+    "popularity": 1080
   },
   {
     "id": "rockstar-original",
