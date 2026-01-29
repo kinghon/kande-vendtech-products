@@ -108,13 +108,17 @@
         </table>
     </div>
 
-    <script src="products.js?v=14"></script>
+    <script src="products.js?v=16"></script>
     <script>
         let allProducts = [];
         let filteredProducts = [];
 
         // Vending price calculation (same as main app)
-        function calculateVendingPrice(unitPrice) {
+        function calculateVendingPrice(unitPrice, competitivePrice) {
+            // Use 7-Eleven competitive pricing if available and above cost
+            if (competitivePrice && competitivePrice >= unitPrice) {
+                return competitivePrice;
+            }
             if (unitPrice < 1) return Math.ceil(unitPrice * 3.25 * 4) / 4;
             if (unitPrice < 2) return Math.ceil(unitPrice * 2.75 * 4) / 4;
             if (unitPrice < 4) return Math.ceil(unitPrice * 2.5 * 4) / 4;
