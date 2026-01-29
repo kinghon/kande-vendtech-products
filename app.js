@@ -28,35 +28,15 @@ function calculateVendingPrice(wholesalePrice, competitivePrice, productId) {
     if (competitivePrice && competitivePrice >= minPrice) {
         return competitivePrice;
     }
-    // Pricing strategy:
-    // - Under $1: 3x-3.5x markup
-    // - $1-$2: 2.75x-3x markup
-    // - $2-$4: 2.5x markup
-    // - Over $4: 2x-2.25x markup
-    // Round to nearest $0.25 or $0.50 for vending-friendly prices
+    // Pricing strategy for items without 7-Eleven competitive pricing:
+    // 70% markup (1.7x wholesale)
+    // Round to nearest $0.25 for vending-friendly prices
     
-    let multiplier;
-    if (wholesalePrice < 1) {
-        multiplier = 3.25;
-    } else if (wholesalePrice < 2) {
-        multiplier = 2.75;
-    } else if (wholesalePrice < 4) {
-        multiplier = 2.5;
-    } else {
-        multiplier = 2.25;
-    }
-    
+    const multiplier = 1.7; // 70% markup
     const rawPrice = wholesalePrice * multiplier;
     
-    // Round to vending-friendly price
-    let finalPrice;
-    if (rawPrice < 2) {
-        finalPrice = Math.ceil(rawPrice * 4) / 4; // Round to nearest $0.25
-    } else if (rawPrice < 5) {
-        finalPrice = Math.ceil(rawPrice * 2) / 2; // Round to nearest $0.50
-    } else {
-        finalPrice = Math.ceil(rawPrice); // Round to nearest dollar
-    }
+    // Round to nearest $0.25
+    const finalPrice = Math.ceil(rawPrice * 4) / 4;
     
     // Enforce minimum 100% markup
     return Math.max(finalPrice, minPrice);

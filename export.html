@@ -228,11 +228,8 @@
                 return competitivePrice;
             }
             
-            let rawPrice;
-            if (unitPrice < 1) rawPrice = Math.ceil(unitPrice * 3.25 * 4) / 4;
-            else if (unitPrice < 2) rawPrice = Math.ceil(unitPrice * 2.75 * 4) / 4;
-            else if (unitPrice < 4) rawPrice = Math.ceil(unitPrice * 2.5 * 4) / 4;
-            else rawPrice = Math.ceil(unitPrice * 2.25 * 4) / 4;
+            // 70% markup for items without 7-Eleven pricing
+            const rawPrice = Math.ceil(unitPrice * 1.7 * 4) / 4;
             
             // Enforce minimum 100% markup
             return Math.max(rawPrice, minPrice);
