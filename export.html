@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Export - Kande VendTech</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Category colors */
+        .cat-snacks { background-color: #fef3c7; }
+        .cat-candy { background-color: #fce7f3; }
+        .cat-cold_beverage, .cat-beverages { background-color: #dbeafe; }
+        .cat-hot_foods { background-color: #fee2e2; }
+        .cat-refrigerated { background-color: #d1fae5; }
+        .cat-frozen_foods { background-color: #e0e7ff; }
+        
+        /* Table styles */
+        table { border-collapse: collapse; width: 100%; }
+        th { position: sticky; top: 0; background: #1f2937; color: white; z-index: 10; }
+        th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid #e5e7eb; }
+        tr:hover { background-color: #f3f4f6 !important; }
+        
+        /* Thumbnail */
+        .thumb { width: 50px; height: 50px; object-fit: contain; cursor: pointer; transition: transform 0.2s; }
+        .thumb:hover { transform: scale(1.1); }
+        
+        /* Modal */
+        .modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.8); z-index: 100; align-items: center; justify-content: center; }
+        .modal.active { display: flex; }
+        .modal img { max-width: 90vw; max-height: 90vh; object-fit: contain; border-radius: 8px; }
+        
+        /* Search/Filter bar */
+        .filter-bar { position: sticky; top: 0; background: white; z-index: 20; padding: 16px; border-bottom: 1px solid #e5e7eb; }
+        
+        @media print {
+            .filter-bar, .no-print { display: none; }
+            th { background: #374151 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <img id="modalImage" src="" alt="Product Image">
+    </div>
+
+    <!-- Filter Bar -->
+    <div class="filter-bar shadow-sm">
+        <div class="max-w-full mx-auto flex flex-wrap items-center gap-4">
+            <img src="logo.png" alt="Kande VendTech" class="h-12">
+            <h1 class="text-xl font-bold text-gray-800">Product Export</h1>
+            
+            <input type="text" id="searchInput" placeholder="Search products..." 
+                   class="px-4 py-2 border rounded-lg w-64 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            
+            <select id="categoryFilter" class="px-4 py-2 border rounded-lg focus:outline-none">
+                <option value="">All Categories</option>
+                <option value="snacks">Snacks</option>
+                <option value="candy">Candy</option>
+                <option value="cold_beverage">Beverages</option>
+                <option value="hot_foods">Hot Foods</option>
+                <option value="refrigerated">Refrigerated</option>
+                <option value="frozen_foods">Frozen Foods</option>
+            </select>
+            
+            <span id="productCount" class="text-sm text-gray-500">0 products</span>
+            
+            <button onclick="exportCSV()" class="ml-auto px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 no-print">
+                📥 Export CSV
+            </button>
+            <button onclick="window.print()" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 no-print">
+                🖨️ Print
+            </button>
+            <a href="index.html" class="px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 no-print">
+                ← Back to Catalog
+            </a>
+        </div>
+    </div>
+
+    <!-- Legend -->
+    <div class="max-w-full mx-auto px-4 py-2 flex flex-wrap gap-2 text-sm no-print">
+        <span class="px-3 py-1 rounded cat-snacks">Snacks</span>
+        <span class="px-3 py-1 rounded cat-candy">Candy</span>
+        <span class="px-3 py-1 rounded cat-cold_beverage">Beverages</span>
+        <span class="px-3 py-1 rounded cat-hot_foods">Hot Foods</span>
+        <span class="px-3 py-1 rounded cat-refrigerated">Refrigerated</span>
+        <span class="px-3 py-1 rounded cat-frozen_foods">Frozen Foods</span>
+    </div>
+
+    <!-- Table -->
+    <div class="overflow-x-auto">
+        <table id="productTable">
+            <thead>
+                <tr>
+                    <th class="w-16">Image</th>
+                    <th>Brand</th>
+                    <th>Product Name</th>
+                    <th>Size</th>
+                    <th>Category</th>
+                    <th class="text-right">Wholesale</th>
+                    <th class="text-right">Vending Price</th>
+                    <th class="text-right">Markup %</th>
+                    <th class="text-right">Case Count</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="products.js?v=12"></script>
+    <script>
+        let allProducts = [];
+        let filteredProducts = [];
+
+        // Vending price calculation (same as main app)
+        function calculateVendingPrice(unitPrice) {
+            if (unitPrice < 1) return Math.ceil(unitPrice * 3.25 * 4) / 4;
+            if (unitPrice < 2) return Math.ceil(unitPrice * 2.75 * 4) / 4;
+            if (unitPrice < 4) return Math.ceil(unitPrice * 2.5 * 4) / 4;
+            return Math.ceil(unitPrice * 2.25 * 4) / 4;
+        }
+
+        function formatPrice(price) {
+            return '$' + price.toFixed(2);
+        }
+
+        function getCategoryClass(category) {
+            return 'cat-' + (category || 'snacks');
+        }
+
+        function getCategoryName(category) {
+            const names = {
+                'snacks': 'Snacks',
+                'candy': 'Candy',
+                'cold_beverage': 'Beverages',
+                'beverages': 'Beverages',
+                'hot_foods': 'Hot Foods',
+                'refrigerated': 'Refrigerated',
+                'frozen_foods': 'Frozen Foods'
+            };
+            return names[category] || category;
+        }
+
+        function openModal(src) {
+            document.getElementById('modalImage').src = src;
+            document.getElementById('imageModal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').classList.remove('active');
+        }
+
+        function renderTable() {
+            const tbody = document.getElementById('tableBody');
+            
+            tbody.innerHTML = filteredProducts.map(p => {
+                const vendingPrice = calculateVendingPrice(p.unitPrice);
+                const markup = ((vendingPrice - p.unitPrice) / p.unitPrice * 100).toFixed(0);
+                
+                return `
+                    <tr class="${getCategoryClass(p.category)}">
+                        <td>
+                            <img src="${p.imageUrl || 'https://via.placeholder.com/50?text=N/A'}" 
+                                 alt="${p.name}" 
+                                 class="thumb"
+                                 onclick="openModal('${p.imageUrl || ''}')"
+                                 onerror="this.src='https://via.placeholder.com/50?text=N/A'">
+                        </td>
+                        <td class="font-medium">${p.brand}</td>
+                        <td>${p.name}</td>
+                        <td class="text-gray-600">${p.size}</td>
+                        <td><span class="px-2 py-1 rounded text-xs font-medium ${getCategoryClass(p.category)}">${getCategoryName(p.category)}</span></td>
+                        <td class="text-right font-mono">${formatPrice(p.unitPrice)}</td>
+                        <td class="text-right font-mono font-bold">${formatPrice(vendingPrice)}</td>
+                        <td class="text-right font-mono text-green-600">${markup}%</td>
+                        <td class="text-right">${p.unitCount || '-'}</td>
+                    </tr>
+                `;
+            }).join('');
+
+            document.getElementById('productCount').textContent = filteredProducts.length + ' products';
+        }
+
+        function filterProducts() {
+            const search = document.getElementById('searchInput').value.toLowerCase();
+            const category = document.getElementById('categoryFilter').value;
+
+            filteredProducts = allProducts.filter(p => {
+                const matchesSearch = !search || 
+                    p.name.toLowerCase().includes(search) || 
+                    p.brand.toLowerCase().includes(search);
+                const matchesCategory = !category || p.category === category || 
+                    (category === 'cold_beverage' && p.category === 'beverages');
+                return matchesSearch && matchesCategory;
+            });
+
+            renderTable();
+        }
+
+        function exportCSV() {
+            const headers = ['Brand', 'Product Name', 'Size', 'Category', 'Wholesale', 'Vending Price', 'Markup %', 'Case Count', 'Image URL'];
+            
+            const rows = filteredProducts.map(p => {
+                const vendingPrice = calculateVendingPrice(p.unitPrice);
+                const markup = ((vendingPrice - p.unitPrice) / p.unitPrice * 100).toFixed(0);
+                return [
+                    `"${p.brand}"`,
+                    `"${p.name}"`,
+                    `"${p.size}"`,
+                    `"${getCategoryName(p.category)}"`,
+                    p.unitPrice.toFixed(2),
+                    vendingPrice.toFixed(2),
+                    markup + '%',
+                    p.unitCount || '',
+                    p.imageUrl || ''
+                ].join(',');
+            });
+
+            const csv = [headers.join(','), ...rows].join('\n');
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'kande-vendtech-products.csv';
+            a.click();
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            if (typeof PRODUCTS !== 'undefined') {
+                allProducts = PRODUCTS;
+                filteredProducts = [...allProducts];
+                renderTable();
+            }
+
+            document.getElementById('searchInput').addEventListener('input', filterProducts);
+            document.getElementById('categoryFilter').addEventListener('change', filterProducts);
+            
+            // Close modal on Escape
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') closeModal();
+            });
+        });
+    </script>
+</body>
+</html>
