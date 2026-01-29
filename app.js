@@ -66,7 +66,17 @@ function hideProduct(productId) {
         hidden.push(productId);
         localStorage.setItem('hiddenProducts', JSON.stringify(hidden));
         updateHiddenCount();
-        filterProducts();
+        
+        // Save scroll position
+        const scrollY = window.scrollY;
+        
+        // Preserve page and scroll position
+        filterProducts({ preservePage: true });
+        
+        // Restore scroll position after render
+        requestAnimationFrame(() => {
+            window.scrollTo(0, scrollY);
+        });
     }
 }
 
@@ -75,7 +85,17 @@ function unhideProduct(productId) {
     hidden = hidden.filter(id => id !== productId);
     localStorage.setItem('hiddenProducts', JSON.stringify(hidden));
     updateHiddenCount();
-    filterProducts();
+    
+    // Save scroll position
+    const scrollY = window.scrollY;
+    
+    // Preserve page and scroll position
+    filterProducts({ preservePage: true });
+    
+    // Restore scroll position after render
+    requestAnimationFrame(() => {
+        window.scrollTo(0, scrollY);
+    });
 }
 
 function isProductHidden(productId) {
@@ -228,7 +248,7 @@ function renderProducts() {
 }
 
 // Filter products
-function filterProducts() {
+function filterProducts(options = {}) {
     const adminMode = typeof window.isAdmin === 'function' && window.isAdmin();
     const hiddenProducts = getHiddenProducts();
     const showHiddenToggle = document.getElementById('showHiddenToggle');
@@ -314,8 +334,10 @@ function filterProducts() {
     // Sort products
     sortProducts();
     
-    // Reset pagination
-    currentPage = 1;
+    // Reset pagination (unless preserving state)
+    if (!options.preservePage) {
+        currentPage = 1;
+    }
     renderProducts();
 }
 
