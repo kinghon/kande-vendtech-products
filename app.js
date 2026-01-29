@@ -172,8 +172,8 @@ function renderProductCard(product, rank = null) {
                 <div class="relative">
                     ${rank ? `<div class="absolute top-3 left-3 w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-600 text-white rounded-lg flex items-center justify-center text-sm font-bold shadow-lg">${rank}</div>` : ''}
                     ${isHidden ? `<div class="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded-lg font-medium shadow-lg">HIDDEN</div>` : ''}
-                    ${!isHidden && has7ElevenPricing ? `<div class="absolute top-3 left-3 bg-blue-500 text-white text-xs px-2 py-1 rounded-lg font-medium shadow-lg">7-11</div>` : ''}
-                    ${isHealthy ? `<div class="absolute top-3 right-3 healthy-badge text-white text-xs px-2.5 py-1 rounded-lg font-medium shadow-lg">💪 Healthy</div>` : ''}
+                    ${!isHidden && has7ElevenPricing ? `<div class="absolute top-3 right-3 bg-blue-500 text-white text-xs px-2 py-1 rounded-lg font-medium shadow-lg">7-11</div>` : ''}
+                    ${isHealthy && !has7ElevenPricing ? `<div class="absolute top-3 right-3 healthy-badge text-white text-xs px-2.5 py-1 rounded-lg font-medium shadow-lg">💪 Healthy</div>` : ''}
                     <div class="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-6">
                         <img src="${product.imageUrl || product.image || 'https://via.placeholder.com/200?text=No+Image'}" 
                              alt="${product.name}"
