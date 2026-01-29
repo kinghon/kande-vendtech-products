@@ -179,14 +179,18 @@ function filterProducts() {
         // Category filter
         if (currentCategory !== 'all') {
             if (currentCategory === 'healthy') {
-                // Check for healthy products by category, flag, or keywords
+                // Check for healthy products by exact brand match or specific product types
                 const name = (product.name || '').toLowerCase();
                 const brand = (product.brand || '').toLowerCase();
-                const healthyBrands = ['kind', 'quest', 'rxbar', 'clif', 'larabar', 'thinkth', 'bareblls', 'built', 'onenbar', 'perfectb', 'natureva', 'fiberone', 'belvita', 'nutrigra', 'kashi', 'cheerio', 'smartwat', 'vitawat', 'bodyarmo', 'baiwater', 'corepower', 'fairlife', 'chobani', 'siggi', 'oikos', 'dannon'];
-                const healthyKeywords = ['protein', 'granola', 'fruit', 'nut', 'greek', 'yogurt', 'organic', 'whole grain', 'fiber', 'low sugar', 'zero sugar', 'no sugar', 'keto', 'plant', 'vegan'];
-                const isHealthyBrand = healthyBrands.some(b => brand.includes(b));
-                const hasHealthyKeyword = healthyKeywords.some(k => name.includes(k));
-                if (!product.isHealthy && product.category !== 'healthy' && !isHealthyBrand && !hasHealthyKeyword) {
+                // Actual health food brands (exact match)
+                const healthyBrands = ['quest', 'rxbar', 'clif', 'larabar', 'thinkth', 'bareblls', 'built', 'onenbar', 'perfectb', 'natureva', 'fiberone', 'belvita', 'nutrigra', 'kashi', 'smartwat', 'vitawat', 'bodyarmo', 'corepower', 'fairlife', 'chobani', 'siggi', 'oikos', 'atkins', 'gopicnic', 'sahale', 'biena', 'hippeas', 'lesserev', 'skinnypo', 'smartfoo', 'popchips', 'veggistr', 'foodshld', 'thatsit', 'madegood', 'rxbar', 'premier', 'muscle', 'optimum', 'bai'];
+                // Kind brand but not Kinder
+                const isKindBrand = brand === 'kind' || brand.startsWith('kind ');
+                // Specific healthy product indicators
+                const healthyProducts = ['protein bar', 'protein shake', 'granola bar', 'greek yogurt', 'yogurt cup', 'yogurt drink', 'yogurt flip', 'trail mix', 'veggie chips', 'veggie straw', 'rice cake', 'protein cookie', 'energy bar', 'nutrition bar', 'keto bar'];
+                const isHealthyBrand = healthyBrands.some(b => brand === b || brand.startsWith(b));
+                const isHealthyProduct = healthyProducts.some(p => name.includes(p));
+                if (!product.isHealthy && product.category !== 'healthy' && !isHealthyBrand && !isKindBrand && !isHealthyProduct) {
                     return false;
                 }
             } else if (currentCategory === 'meals') {
