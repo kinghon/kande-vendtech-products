@@ -131,7 +131,7 @@ function renderProductCard(product, rank = null) {
                 <h3 class="font-semibold text-gray-900 mb-1 line-clamp-2" title="${product.name}">${product.name}</h3>
                 <div class="text-sm text-gray-500 mb-3">${product.size}</div>
                 <div class="text-xs text-gray-500 mb-1">Estimated Vending Price</div>
-                <div class="text-xl font-bold text-gray-900">${formatPrice(vendingPrice)}</div>
+                <div class="text-xl font-bold text-green-600">${formatPrice(vendingPrice)}</div>
             </div>
         </div>
     `;
