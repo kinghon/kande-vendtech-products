@@ -391,7 +391,7 @@ function sortProducts() {
     filteredProducts.sort((a, b) => {
         switch (currentSort) {
             case 'popularity':
-                return (a.popularity || 500) - (b.popularity || 500);
+                return (b.popularity || 0) - (a.popularity || 0);
             case 'price-low':
                 return a.unitPrice - b.unitPrice;
             case 'price-high':
