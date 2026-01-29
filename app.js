@@ -69,39 +69,39 @@ function renderProductCard(product, rank = null) {
     return `
         <div class="product-card rounded-2xl overflow-hidden">
             <div class="relative">
-                ${rank ? `<div class="absolute top-3 left-3 w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-700 text-white rounded-lg flex items-center justify-center text-sm font-bold shadow-lg">${rank}</div>` : ''}
+                ${rank ? `<div class="absolute top-3 left-3 w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-600 text-white rounded-lg flex items-center justify-center text-sm font-bold shadow-lg">${rank}</div>` : ''}
                 ${isHealthy ? `<div class="absolute top-3 right-3 healthy-badge text-white text-xs px-2.5 py-1 rounded-lg font-medium shadow-lg">💪 Healthy</div>` : ''}
-                <div class="aspect-square bg-gradient-to-br from-gray-800/50 to-gray-900/50 flex items-center justify-center p-6">
+                <div class="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-6">
                     <img src="${product.image || 'https://via.placeholder.com/200?text=No+Image'}" 
                          alt="${product.name}"
-                         class="max-w-full max-h-full object-contain drop-shadow-lg"
+                         class="max-w-full max-h-full object-contain"
                          loading="lazy"
                          onerror="this.src='https://via.placeholder.com/200?text=No+Image'">
                 </div>
             </div>
             <div class="p-5">
-                <div class="text-xs text-primary-400 uppercase tracking-wider mb-1 font-medium">${product.brand}</div>
-                <h3 class="font-semibold text-white mb-1 line-clamp-2" title="${product.name}">${product.name}</h3>
+                <div class="text-xs text-primary-600 uppercase tracking-wider mb-1 font-medium">${product.brand}</div>
+                <h3 class="font-semibold text-gray-900 mb-1 line-clamp-2" title="${product.name}">${product.name}</h3>
                 <div class="text-sm text-gray-500 mb-4">${product.size}</div>
                 
                 <div class="space-y-2">
                     <div class="flex justify-between items-center">
                         <span class="text-sm text-gray-500">Wholesale:</span>
-                        <span class="text-sm font-medium text-gray-400">${formatPrice(product.unitPrice)}</span>
+                        <span class="text-sm font-medium text-gray-600">${formatPrice(product.unitPrice)}</span>
                     </div>
                     <div class="flex justify-between items-center">
                         <span class="text-sm text-gray-500">Vending Price:</span>
                         <span class="text-xl font-bold ${getPriceClass(vendingPrice)}">${formatPrice(vendingPrice)}</span>
                     </div>
-                    <div class="flex justify-between items-center pt-3 border-t border-white/10">
+                    <div class="flex justify-between items-center pt-3 border-t border-gray-100">
                         <span class="text-sm text-gray-500">Margin:</span>
-                        <span class="text-sm font-semibold text-primary-400">${margin}%</span>
+                        <span class="text-sm font-semibold text-primary-600">${margin}%</span>
                     </div>
                 </div>
                 
-                ${product.rebate ? `<div class="mt-4 text-xs bg-yellow-500/20 text-yellow-400 px-3 py-1.5 rounded-lg border border-yellow-500/30">${product.rebate}</div>` : ''}
+                ${product.rebate ? `<div class="mt-4 text-xs bg-amber-50 text-amber-700 px-3 py-1.5 rounded-lg border border-amber-200">${product.rebate}</div>` : ''}
                 
-                <div class="mt-4 text-xs text-gray-600">
+                <div class="mt-4 text-xs text-gray-400">
                     Case: ${product.unitCount}ct @ ${formatPrice(product.casePrice)}
                 </div>
             </div>
@@ -120,7 +120,7 @@ function renderProducts() {
         grid.innerHTML = `
             <div class="col-span-full text-center py-16">
                 <div class="text-6xl mb-4">🔍</div>
-                <h3 class="text-xl font-semibold text-white mb-2">No products found</h3>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">No products found</h3>
                 <p class="text-gray-500">Try adjusting your filters or search terms</p>
             </div>
         `;
