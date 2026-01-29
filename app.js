@@ -327,10 +327,25 @@ function initEventListeners() {
     });
 }
 
+// Filter out non-food items
+function isFood(product) {
+    const name = (product.name || '').toLowerCase();
+    const nonFoodKeywords = [
+        'stirrer', 'stir stk', 'straw ', 'straws', 'napkin', 'fork ', 'forks', 'spoon ', 'spoons', 
+        'knife ', 'knives', 'utensil', 'plate ', 'plates', 'tray ', 'trays', 'container', 'sleeve',
+        'filter coffee', 'filter paper', 'filter tea', 'filter urn', 'coffee filter',
+        'sugar ind', 'sugar packet', 'sweetener packet', 'splenda', 'equal packet',
+        'creamer cup', 'creamer lqd', 'creamer frnch', 'deodorant', 'sanitizer', 'soap', 'cleaner',
+        'towel', 'tissue', 'glove', 'foil wrap', 'plastic wrap', 'cling wrap'
+    ];
+    return !nonFoodKeywords.some(keyword => name.includes(keyword));
+}
+
 // Initialize
 function init() {
     if (typeof PRODUCTS !== 'undefined') {
-        allProducts = PRODUCTS;
+        // Filter out non-food items
+        allProducts = PRODUCTS.filter(isFood);
         filteredProducts = [...allProducts];
         document.getElementById('totalProducts').textContent = allProducts.length;
         populateBrands();
