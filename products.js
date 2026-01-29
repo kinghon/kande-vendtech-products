@@ -348,18 +348,6 @@ const PRODUCTS = [
     "popularity": 50
   },
   {
-    "id": "4744e481-24ad-4002-909b-5441960f0185",
-    "name": "Candy Atomic Fireball Tub",
-    "brand": "Atomic",
-    "size": "64.8 oz",
-    "casePrice": 148.57,
-    "unitCount": 6,
-    "unitPrice": 24.76,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4744e481-24ad-4002-909b-5441960f0185-1754914208227.png",
-    "category": "candy",
-    "popularity": 500
-  },
-  {
     "id": "cf1a94a7-f128-4fd2-bbfe-73be23768144",
     "name": "Candy Honeycomb Original King",
     "brand": "Australi",
@@ -478,18 +466,6 @@ const PRODUCTS = [
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/01d22c02-1e73-41a1-aab5-f32bacbc7fb4-1736646332198.png",
     "category": "candy",
     "popularity": 29
-  },
-  {
-    "id": "7beb06a3-c051-4371-b296-8c8053ae0404",
-    "name": "Gum Bazooka Tub0",
-    "brand": "Bazooka",
-    "size": "",
-    "casePrice": 81.21,
-    "unitCount": 6,
-    "unitPrice": 13.53,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/7beb06a3-c051-4371-b296-8c8053ae0404-1740693747477.JPG",
-    "category": "candy",
-    "popularity": 500
   },
   {
     "id": "8dc6f064-c69e-4366-97fa-ab680993d5ad",
@@ -984,30 +960,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "eeb5f12d-d566-4843-923d-c824a69c797f",
-    "name": "Gum Bubble Home Run BasebllJar",
-    "brand": "CncrdCfc",
-    "size": "240 ct",
-    "casePrice": 130.91,
-    "unitCount": 8,
-    "unitPrice": 16.36,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/eeb5f12d-d566-4843-923d-c824a69c797f-1749202541950.jpg",
-    "category": "candy",
-    "popularity": 500
-  },
-  {
-    "id": "cc38b2b2-c8ed-4ef5-9293-cd642000693f",
-    "name": "Gum Bubble Painterz Jar",
-    "brand": "CncrdCfc",
-    "size": "240 ct",
-    "casePrice": 130.91,
-    "unitCount": 8,
-    "unitPrice": 16.36,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cc38b2b2-c8ed-4ef5-9293-cd642000693f-1749202411151.jpg",
-    "category": "candy",
-    "popularity": 500
-  },
-  {
     "id": "a9ba9177-8df8-4544-b649-3e63fa288aa9",
     "name": "Gum Dubble Bubble TwistWrapTub",
     "brand": "CncrdCfc",
@@ -1016,18 +968,6 @@ const PRODUCTS = [
     "unitCount": 8,
     "unitPrice": 10.79,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a9ba9177-8df8-4544-b649-3e63fa288aa9-1742402814542.JPG",
-    "category": "candy",
-    "popularity": 500
-  },
-  {
-    "id": "a8dbcedd-9cd0-4968-94ea-88a98b42ce0e",
-    "name": "Razzles 2Pc Display Box",
-    "brand": "CncrdDiv",
-    "size": "240 ct",
-    "casePrice": 130.91,
-    "unitCount": 8,
-    "unitPrice": 16.36,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a8dbcedd-9cd0-4968-94ea-88a98b42ce0e-1749202666304.jpg",
     "category": "candy",
     "popularity": 500
   },
@@ -1126,18 +1066,6 @@ const PRODUCTS = [
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b7551060-d8d8-4692-9caa-bb7714cc4d09-1736840885257.jpg",
     "category": "candy",
     "popularity": 30
-  },
-  {
-    "id": "bf4e0972-9082-47f3-9fb6-d03c510bceb1",
-    "name": "Bubble Gum Xtra Sour Jar",
-    "brand": "CryBaby",
-    "size": "240 ct",
-    "casePrice": 130.91,
-    "unitCount": 8,
-    "unitPrice": 16.36,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/bf4e0972-9082-47f3-9fb6-d03c510bceb1-1742406978923.JPG",
-    "category": "candy",
-    "popularity": 500
   },
   {
     "id": "43c54846-aefd-4c19-890b-8ff892d65306",
@@ -1256,18 +1184,6 @@ const PRODUCTS = [
     "unitCount": 18,
     "unitPrice": 1.23,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/3375358a-3669-4a29-9ec7-3d9f8b5464f5-1739914382217.JPG",
-    "category": "candy",
-    "popularity": 500
-  },
-  {
-    "id": "9123116f-ec38-42c6-b227-651d9c78ffb9",
-    "name": "Dum Dum Pops 300ct",
-    "brand": "DumDum",
-    "size": "6 ct",
-    "casePrice": 85.23,
-    "unitCount": 6,
-    "unitPrice": 14.21,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/9123116f-ec38-42c6-b227-651d9c78ffb9-1761302651358.png",
     "category": "candy",
     "popularity": 500
   },
@@ -2532,18 +2448,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "c2309c0e-d29b-403b-8c0d-062d33526c4f",
-    "name": "Hi Chew Bulk Assorted",
-    "brand": "HiChew",
-    "size": "2.206 lb",
-    "casePrice": 87.28,
-    "unitCount": 6,
-    "unitPrice": 14.55,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c2309c0e-d29b-403b-8c0d-062d33526c4f-1764152543466.png",
-    "category": "candy",
-    "popularity": 500
-  },
-  {
     "id": "3bd055f5-ae21-48de-8310-c367aae963e1",
     "name": "Hi Chew Goods Acai Stick",
     "brand": "HiChew",
@@ -3000,18 +2904,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "98520ea6-c84b-4683-9518-911bb4334d3c",
-    "name": "Jelly Bean Bnza Asst Bag Stnd",
-    "brand": "JellyBll",
-    "size": "2 lb",
-    "casePrice": 163.64,
-    "unitCount": 12,
-    "unitPrice": 13.64,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/98520ea6-c84b-4683-9518-911bb4334d3c-1749825924464.png",
-    "category": "candy",
-    "popularity": 500
-  },
-  {
     "id": "2791814a-082e-4cac-b1ca-85cf22b170e1",
     "name": "Candy Gummy Peg Bag",
     "brand": "JollyRch",
@@ -3408,18 +3300,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "10d87021-3c8a-4d9f-ba22-c5ed730132f9",
-    "name": "Kisses Milk Chocolate",
-    "brand": "Kisses",
-    "size": "35.8 oz",
-    "casePrice": 129.69,
-    "unitCount": 9,
-    "unitPrice": 14.41,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/10d87021-3c8a-4d9f-ba22-c5ed730132f9-1760083608218.png",
-    "category": "candy",
-    "popularity": 500
-  },
-  {
     "id": "9be35572-0107-4da2-87b7-db4ddfbd53f5",
     "name": "Kisses Peg Bag",
     "brand": "Kisses",
@@ -3692,18 +3572,6 @@ const PRODUCTS = [
     "unitCount": 12,
     "unitPrice": 1.3,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/773e643b-1d14-4df3-bc14-f8e3fb5c8b8e-1756821257587.png",
-    "category": "candy",
-    "popularity": 500
-  },
-  {
-    "id": "15c9f7d7-02a5-4097-b072-1e5fa9f4643c",
-    "name": "Lemonhead Tub",
-    "brand": "Lemonhd",
-    "size": "40.5 oz",
-    "casePrice": 61.46,
-    "unitCount": 4,
-    "unitPrice": 15.37,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/15c9f7d7-02a5-4097-b072-1e5fa9f4643c-1761130400479.png",
     "category": "candy",
     "popularity": 500
   },
@@ -6552,18 +6420,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "351a2667-888e-4a70-9579-893679e0a548",
-    "name": "Smarties",
-    "brand": "Smarties",
-    "size": "5 lb",
-    "casePrice": 95.12,
-    "unitCount": 6,
-    "unitPrice": 15.85,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/351a2667-888e-4a70-9579-893679e0a548-1762417104645.png",
-    "category": "candy",
-    "popularity": 500
-  },
-  {
     "id": "5b2a2a9a-2545-4d30-b6b3-e8babe8d1075",
     "name": "Gummies Sweet Fish",
     "brand": "SmartSwe",
@@ -6840,18 +6696,6 @@ const PRODUCTS = [
     "popularity": 36
   },
   {
-    "id": "b3fc5bea-8a44-476c-b22f-2533881df64d",
-    "name": "Sour Patch Kids Changemaker",
-    "brand": "SourPtch",
-    "size": "240 ct",
-    "casePrice": 152,
-    "unitCount": 8,
-    "unitPrice": 19,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b3fc5bea-8a44-476c-b22f-2533881df64d-1739210813066.JPG",
-    "category": "candy",
-    "popularity": 36
-  },
-  {
     "id": "ccd74b92-de8d-45ef-bc7d-82249f1db7c4",
     "name": "Sour Patch Kids Peg Bag",
     "brand": "SourPtch",
@@ -7016,18 +6860,6 @@ const PRODUCTS = [
     "unitCount": 24,
     "unitPrice": 0.89,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a33c0edc-e0bb-46c2-9324-0e8d297240ca-1761046518330.png",
-    "category": "candy",
-    "popularity": 500
-  },
-  {
-    "id": "c844c4ef-09ad-4dac-904b-b21cb11f1004",
-    "name": "Twists 4 Flavor Indiv Wrapped",
-    "brand": "SourPunc",
-    "size": "180 ct",
-    "casePrice": 99.69,
-    "unitCount": 6,
-    "unitPrice": 16.62,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c844c4ef-09ad-4dac-904b-b21cb11f1004-1761053911960.png",
     "category": "candy",
     "popularity": 500
   },
@@ -7340,18 +7172,6 @@ const PRODUCTS = [
     "unitCount": 24,
     "unitPrice": 1.24,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/99ca0ebf-bf06-43f3-aa26-4a982eb85500-1739571301795.JPG",
-    "category": "candy",
-    "popularity": 35
-  },
-  {
-    "id": "093eee07-31db-444c-8619-cf905349d005",
-    "name": "Swedish Fish Red Chgmkr .21oz",
-    "brand": "SwedishF",
-    "size": "240 ct",
-    "casePrice": 152,
-    "unitCount": 8,
-    "unitPrice": 19,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/093eee07-31db-444c-8619-cf905349d005-1739571534276.JPG",
     "category": "candy",
     "popularity": 35
   },
@@ -7916,18 +7736,6 @@ const PRODUCTS = [
     "unitCount": 100,
     "unitPrice": 0.17,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c78e2ef1-9425-4b38-b43d-676ca43602a8-1760955731066.png",
-    "category": "candy",
-    "popularity": 500
-  },
-  {
-    "id": "eaf8f8a4-f8a5-44ab-aa97-3d34733b228f",
-    "name": "Tootsie Roll Jar",
-    "brand": "Tootsie",
-    "size": "280 ct",
-    "casePrice": 152.73,
-    "unitCount": 8,
-    "unitPrice": 19.09,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/eaf8f8a4-f8a5-44ab-aa97-3d34733b228f-1760955789947.png",
     "category": "candy",
     "popularity": 500
   },
@@ -9204,30 +9012,6 @@ const PRODUCTS = [
     "popularity": 81
   },
   {
-    "id": "5be60410-10c9-4e4e-9d2c-92c58dafcbd5",
-    "name": "Syrup BIB Root Beer",
-    "brand": "Barqs",
-    "size": "5 gal",
-    "casePrice": 138.04,
-    "unitCount": 5,
-    "unitPrice": 27.61,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5be60410-10c9-4e4e-9d2c-92c58dafcbd5-1739484722586.JPG",
-    "category": "cold_beverage",
-    "popularity": 500
-  },
-  {
-    "id": "28dd691a-b72f-40fb-9d8f-1f85b444297a",
-    "name": "Syrup BIB Root Beer",
-    "brand": "Barqs",
-    "size": "2.5 gal",
-    "casePrice": 72.03,
-    "unitCount": 3,
-    "unitPrice": 24.01,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/28dd691a-b72f-40fb-9d8f-1f85b444297a-1739484644671.JPG",
-    "category": "cold_beverage",
-    "popularity": 500
-  },
-  {
     "id": "fadac0b4-ab5c-4a6e-9eb7-c8a8f9fd966c",
     "name": "Sprklng Aqua Pineapple Fresca",
     "brand": "BAWI",
@@ -9308,42 +9092,6 @@ const PRODUCTS = [
     "unitCount": 12,
     "unitPrice": 1.3,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/78327ba8-3e82-4e46-aaa1-d4cb2561ddcc-1763464276119.png",
-    "category": "cold_beverage",
-    "popularity": 500
-  },
-  {
-    "id": "49c5988f-da5d-441a-a8e8-7752894bcead",
-    "name": "Coffee Mix Fz Frnch Vanilla",
-    "brand": "CAFETANG",
-    "size": "1 gl",
-    "casePrice": 147.62,
-    "unitCount": 10,
-    "unitPrice": 14.76,
-    "imageUrl": "",
-    "category": "cold_beverage",
-    "popularity": 500
-  },
-  {
-    "id": "9241d140-1bed-4637-9fb9-c9aab6162f89",
-    "name": "Coffee Mix Fz Mocha",
-    "brand": "CAFETANG",
-    "size": "1 gl",
-    "casePrice": 147.62,
-    "unitCount": 10,
-    "unitPrice": 14.76,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/9241d140-1bed-4637-9fb9-c9aab6162f89-1756815958913.png",
-    "category": "cold_beverage",
-    "popularity": 500
-  },
-  {
-    "id": "aa31217e-c4d3-4c8a-a8f5-b402a7217800",
-    "name": "Coffee Tango Espresso",
-    "brand": "CAFETANG",
-    "size": "1 gl",
-    "casePrice": 147.62,
-    "unitCount": 10,
-    "unitPrice": 14.76,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/aa31217e-c4d3-4c8a-a8f5-b402a7217800-1762938526222.png",
     "category": "cold_beverage",
     "popularity": 500
   },
@@ -9444,78 +9192,6 @@ const PRODUCTS = [
     "popularity": 52
   },
   {
-    "id": "063bb946-5e30-4731-b2c8-75f623770151",
-    "name": "Syrup BIB Coke Cherry",
-    "brand": "CocaCola",
-    "size": "5 gal",
-    "casePrice": 138.04,
-    "unitCount": 5,
-    "unitPrice": 27.61,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/063bb946-5e30-4731-b2c8-75f623770151-1749996678031.png",
-    "category": "cold_beverage",
-    "popularity": 52
-  },
-  {
-    "id": "3c5894d1-30fe-4184-9cca-9727d553c4ae",
-    "name": "Syrup BIB Coke Classic",
-    "brand": "CocaCola",
-    "size": "2.5 gal",
-    "casePrice": 72.03,
-    "unitCount": 3,
-    "unitPrice": 24.01,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/3c5894d1-30fe-4184-9cca-9727d553c4ae-1756201812283.png",
-    "category": "cold_beverage",
-    "popularity": 52
-  },
-  {
-    "id": "420915e0-295b-474a-801a-9f8f77659082",
-    "name": "Syrup BIB Coke Classic FCB",
-    "brand": "CocaCola",
-    "size": "5 gal",
-    "casePrice": 156.49,
-    "unitCount": 5,
-    "unitPrice": 31.3,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/420915e0-295b-474a-801a-9f8f77659082-1751979597774.png",
-    "category": "cold_beverage",
-    "popularity": 52
-  },
-  {
-    "id": "b08214f0-ae3a-44a1-8b0f-5e687d6a97d9",
-    "name": "Syrup BIB Coke Diet",
-    "brand": "CocaCola",
-    "size": "2.5 gal",
-    "casePrice": 72.03,
-    "unitCount": 3,
-    "unitPrice": 24.01,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b08214f0-ae3a-44a1-8b0f-5e687d6a97d9-1749481633227.jpg",
-    "category": "cold_beverage",
-    "popularity": 52
-  },
-  {
-    "id": "c6925505-8c6d-4dab-bf5e-4bb1832494a9",
-    "name": "Syrup BIB Coke HFCS Sweetener",
-    "brand": "CocaCola",
-    "size": "5 gal",
-    "casePrice": 31.18,
-    "unitCount": 5,
-    "unitPrice": 6.24,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c6925505-8c6d-4dab-bf5e-4bb1832494a9-1757677369807.png",
-    "category": "cold_beverage",
-    "popularity": 52
-  },
-  {
-    "id": "e40ce905-4403-4dbb-a27b-e15afffe51f5",
-    "name": "Syrup BIB Coke NnNut Sweetener",
-    "brand": "CocaCola",
-    "size": "2.5 gal",
-    "casePrice": 141.86,
-    "unitCount": 3,
-    "unitPrice": 47.29,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e40ce905-4403-4dbb-a27b-e15afffe51f5-1763555910039.png",
-    "category": "cold_beverage",
-    "popularity": 52
-  },
-  {
     "id": "4d1b9f4f-dfbe-4cf4-bec3-7e50357946b3",
     "name": "Coke Soda Classic PET",
     "brand": "Coke",
@@ -9536,54 +9212,6 @@ const PRODUCTS = [
     "unitCount": 24,
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/381ea969-bdf6-439a-81f6-90f870440dad-1738857492165.JPG",
-    "category": "cold_beverage",
-    "popularity": 52
-  },
-  {
-    "id": "4003201d-8576-4cc8-9836-8abd899af077",
-    "name": "Syrup BIB Coke Classic",
-    "brand": "Coke",
-    "size": "5 gal",
-    "casePrice": 138.04,
-    "unitCount": 5,
-    "unitPrice": 27.61,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4003201d-8576-4cc8-9836-8abd899af077-1750408253848.png",
-    "category": "cold_beverage",
-    "popularity": 52
-  },
-  {
-    "id": "f175a356-c031-4672-9190-9a4357933bd6",
-    "name": "Syrup BIB Coke Diet",
-    "brand": "Coke",
-    "size": "5 gal",
-    "casePrice": 138.04,
-    "unitCount": 5,
-    "unitPrice": 27.61,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f175a356-c031-4672-9190-9a4357933bd6-1750409208162.png",
-    "category": "cold_beverage",
-    "popularity": 52
-  },
-  {
-    "id": "4fbb76eb-b66f-4fec-813f-fad204478f99",
-    "name": "Syrup BIB Coke Zero Sugar",
-    "brand": "CokeZero",
-    "size": "2.5 gal",
-    "casePrice": 72.03,
-    "unitCount": 3,
-    "unitPrice": 24.01,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4fbb76eb-b66f-4fec-813f-fad204478f99-1756197970510.png",
-    "category": "cold_beverage",
-    "popularity": 52
-  },
-  {
-    "id": "37ba29aa-2b0d-44d0-8a83-2c93132eed18",
-    "name": "Syrup BIB Coke Zero Sugar",
-    "brand": "CokeZero",
-    "size": "5 gal",
-    "casePrice": 138.04,
-    "unitCount": 5,
-    "unitPrice": 27.61,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/37ba29aa-2b0d-44d0-8a83-2c93132eed18-1758873978757.png",
     "category": "cold_beverage",
     "popularity": 52
   },
@@ -9816,18 +9444,6 @@ const PRODUCTS = [
     "popularity": 54
   },
   {
-    "id": "4549c384-ac8c-4731-b421-eed0faaebd84",
-    "name": "Soda Syrup Dr Pepper BNB",
-    "brand": "DrPepper",
-    "size": "5 gal",
-    "casePrice": 138.04,
-    "unitCount": 5,
-    "unitPrice": 27.61,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4549c384-ac8c-4731-b421-eed0faaebd84-1739379649487.JPG",
-    "category": "cold_beverage",
-    "popularity": 54
-  },
-  {
     "id": "68264a99-d9bf-41da-84b3-618aea6c1326",
     "name": "Coffee Iced French Vanilla",
     "brand": "DunkDnt",
@@ -9920,42 +9536,6 @@ const PRODUCTS = [
     "unitCount": 24,
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cbc417d6-9769-465e-b75d-12029235d13a-1758871151640.png",
-    "category": "cold_beverage",
-    "popularity": 57
-  },
-  {
-    "id": "7f191a72-a535-401a-9bff-9cad6970a394",
-    "name": "Syrup BIB Blue Raspberry FCB",
-    "brand": "Fanta",
-    "size": "5 gal",
-    "casePrice": 156.49,
-    "unitCount": 5,
-    "unitPrice": 31.3,
-    "imageUrl": "",
-    "category": "cold_beverage",
-    "popularity": 57
-  },
-  {
-    "id": "3330b303-dd28-4f5c-9220-0be3e37ab14d",
-    "name": "Syrup BIB Fanta Orange",
-    "brand": "Fanta",
-    "size": "5 gal",
-    "casePrice": 138.04,
-    "unitCount": 5,
-    "unitPrice": 27.61,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/3330b303-dd28-4f5c-9220-0be3e37ab14d-1755087545340.png",
-    "category": "cold_beverage",
-    "popularity": 57
-  },
-  {
-    "id": "7461ebae-b1cd-4017-8127-f00fe931f28b",
-    "name": "Syrup BIB Wild Cherry FCB",
-    "brand": "Fanta",
-    "size": "5 gal",
-    "casePrice": 156.49,
-    "unitCount": 5,
-    "unitPrice": 31.3,
-    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 57
   },
@@ -10064,42 +9644,6 @@ const PRODUCTS = [
     "unitCount": 10,
     "unitPrice": 11.79,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/413965b6-316f-4894-a9cc-020593760b32-1754384895507.png",
-    "category": "cold_beverage",
-    "popularity": 500
-  },
-  {
-    "id": "73f21caa-2afc-4839-9135-6d3790dd3c51",
-    "name": "Juice Blue Razzmatazz 100",
-    "brand": "Frazil",
-    "size": "32 oz",
-    "casePrice": 98.81,
-    "unitCount": 6,
-    "unitPrice": 16.47,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/73f21caa-2afc-4839-9135-6d3790dd3c51-1763998930259.png",
-    "category": "cold_beverage",
-    "popularity": 500
-  },
-  {
-    "id": "b68bb093-3970-4ee6-9d86-9ef3b59f8016",
-    "name": "Juice Simply Mango 100",
-    "brand": "Frazil",
-    "size": "32 oz",
-    "casePrice": 98.81,
-    "unitCount": 6,
-    "unitPrice": 16.47,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b68bb093-3970-4ee6-9d86-9ef3b59f8016-1763998991681.png",
-    "category": "cold_beverage",
-    "popularity": 76
-  },
-  {
-    "id": "661c40a1-b5c0-461b-a05a-eda2567512f4",
-    "name": "Syrup BIB Tea Raspberry",
-    "brand": "FuzeBev",
-    "size": "5 gal",
-    "casePrice": 138.04,
-    "unitCount": 5,
-    "unitPrice": 27.61,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/661c40a1-b5c0-461b-a05a-eda2567512f4-1757584695338.png",
     "category": "cold_beverage",
     "popularity": 500
   },
@@ -10388,18 +9932,6 @@ const PRODUCTS = [
     "unitCount": 12,
     "unitPrice": 2.05,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/d89cc601-52c4-42ed-9ba4-264c8c346eb1-1756133168000.png",
-    "category": "cold_beverage",
-    "popularity": 500
-  },
-  {
-    "id": "d3f5ab7c-5d73-4991-a71b-f7a0bb807d04",
-    "name": "Syrup BIB Hi C Fruit Punch",
-    "brand": "Hi C",
-    "size": "5 gal",
-    "casePrice": 138.04,
-    "unitCount": 5,
-    "unitPrice": 27.61,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/d3f5ab7c-5d73-4991-a71b-f7a0bb807d04-1757676960686.png",
     "category": "cold_beverage",
     "popularity": 500
   },
@@ -11196,18 +10728,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "c96dd17e-7501-4f9f-99d0-6415d6a202c1",
-    "name": "Juice Orange 100  Blnd BIB",
-    "brand": "MinuteMd",
-    "size": "2.5 gal",
-    "casePrice": 137.05,
-    "unitCount": 2,
-    "unitPrice": 68.53,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c96dd17e-7501-4f9f-99d0-6415d6a202c1-1740071413935.JPG",
-    "category": "cold_beverage",
-    "popularity": 500
-  },
-  {
     "id": "e69df238-89dd-48b1-a177-b4c05bda058c",
     "name": "Juice Orange PET",
     "brand": "MinuteMd",
@@ -11240,42 +10760,6 @@ const PRODUCTS = [
     "unitCount": 24,
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f46bf98c-4881-4fa1-8d15-2310c11f960b-1740072596471.JPG",
-    "category": "cold_beverage",
-    "popularity": 500
-  },
-  {
-    "id": "2262b19f-eb9b-4f0b-aeac-af18b368a6b7",
-    "name": "Syrup BIB Lemonade",
-    "brand": "MinuteMd",
-    "size": "5 gal",
-    "casePrice": 138.04,
-    "unitCount": 5,
-    "unitPrice": 27.61,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2262b19f-eb9b-4f0b-aeac-af18b368a6b7-1740072788252.JPG",
-    "category": "cold_beverage",
-    "popularity": 500
-  },
-  {
-    "id": "703bcf2f-e258-4f8c-820c-855d31416eaa",
-    "name": "Syrup BIB Minute Maid Lemonade",
-    "brand": "MinuteMd",
-    "size": "2.5 gal",
-    "casePrice": 72.03,
-    "unitCount": 2,
-    "unitPrice": 36.02,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/703bcf2f-e258-4f8c-820c-855d31416eaa-1740072999729.JPG",
-    "category": "cold_beverage",
-    "popularity": 74
-  },
-  {
-    "id": "ec3fd9e3-e1f1-4109-9f3a-d8c6fc27d79a",
-    "name": "Syrup BIB Pineapple Juice",
-    "brand": "MinuteMd",
-    "size": "2.5 gal",
-    "casePrice": 86.18,
-    "unitCount": 3,
-    "unitPrice": 28.73,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/ec3fd9e3-e1f1-4109-9f3a-d8c6fc27d79a-1740071504698.JPG",
     "category": "cold_beverage",
     "popularity": 500
   },
@@ -11556,18 +11040,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "3b52e2b3-e2f3-42af-aaa2-d622e60d97ac",
-    "name": "Syrup BIB Jce Cranbry Cocktail",
-    "brand": "OrchBest",
-    "size": "2.5 gal",
-    "casePrice": 95.02,
-    "unitCount": 3,
-    "unitPrice": 31.67,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/3b52e2b3-e2f3-42af-aaa2-d622e60d97ac-1750407779672.png",
-    "category": "cold_beverage",
-    "popularity": 500
-  },
-  {
     "id": "8646a136-2dd2-4fb7-b362-cdfea614341b",
     "name": "Dark Chocolate Protein",
     "brand": "OWYN",
@@ -11712,18 +11184,6 @@ const PRODUCTS = [
     "popularity": 53
   },
   {
-    "id": "d045776e-42b0-4fc7-8ed1-a2ec6e768fa5",
-    "name": "Pepsi Wild Cherry BIB FCB",
-    "brand": "Pepsi",
-    "size": "3 gal",
-    "casePrice": 96.54,
-    "unitCount": 3,
-    "unitPrice": 32.18,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/d045776e-42b0-4fc7-8ed1-a2ec6e768fa5-1769445764497.png",
-    "category": "cold_beverage",
-    "popularity": 53
-  },
-  {
     "id": "0a53ed11-330c-47bd-a6dd-38a78c00fa5f",
     "name": "Unflvrd Sprklng Water",
     "brand": "Perrier",
@@ -11768,18 +11228,6 @@ const PRODUCTS = [
     "unitCount": 24,
     "unitPrice": 1.2,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/71772073-b53d-4ea3-8376-8cd5209d116e-1741038104067.JPG",
-    "category": "cold_beverage",
-    "popularity": 500
-  },
-  {
-    "id": "ee2c9405-510f-442e-ba48-efc26d39d338",
-    "name": "Syrup BIB Pibb Xtra 5Gal",
-    "brand": "Pibb",
-    "size": "5 gal",
-    "casePrice": 138.04,
-    "unitCount": 5,
-    "unitPrice": 27.61,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/ee2c9405-510f-442e-ba48-efc26d39d338-1749996787178.png",
     "category": "cold_beverage",
     "popularity": 500
   },
@@ -11840,18 +11288,6 @@ const PRODUCTS = [
     "unitCount": 24,
     "unitPrice": 1.49,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f512cf5a-f256-4099-82fe-03893e82bc77-1759358528834.png",
-    "category": "cold_beverage",
-    "popularity": 63
-  },
-  {
-    "id": "32686bc3-bbdf-4d76-88d3-242af5f1cb7b",
-    "name": "Syrup BIB Sport Mntn Blast",
-    "brand": "Powerade",
-    "size": "5 gal",
-    "casePrice": 138.04,
-    "unitCount": 5,
-    "unitPrice": 27.61,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/32686bc3-bbdf-4d76-88d3-242af5f1cb7b-1758874718453.png",
     "category": "cold_beverage",
     "popularity": 63
   },
@@ -12540,30 +11976,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "815b4859-215c-45d6-9c74-3df43d85b47e",
-    "name": "Syrup BIB Ginger Ale",
-    "brand": "Seagrams",
-    "size": "2.5 gal",
-    "casePrice": 72.03,
-    "unitCount": 2,
-    "unitPrice": 36.02,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/815b4859-215c-45d6-9c74-3df43d85b47e-1754055805809.png",
-    "category": "cold_beverage",
-    "popularity": 500
-  },
-  {
-    "id": "cc9224a9-0716-46c1-9484-8e16a682633b",
-    "name": "Syrup BIB Tonic Water",
-    "brand": "Seagrams",
-    "size": "2.5 gal",
-    "casePrice": 72.03,
-    "unitCount": 2,
-    "unitPrice": 36.02,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cc9224a9-0716-46c1-9484-8e16a682633b-1754564637515.png",
-    "category": "cold_beverage",
-    "popularity": 500
-  },
-  {
     "id": "dad66746-03db-47e9-a747-b2ec83e4d480",
     "name": "Smart Water",
     "brand": "SmartWtr",
@@ -12608,30 +12020,6 @@ const PRODUCTS = [
     "unitCount": 24,
     "unitPrice": 1.72,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/93d41fa5-aa76-446c-8e5f-3c4f3982ff3e-1739484309902.JPG",
-    "category": "cold_beverage",
-    "popularity": 56
-  },
-  {
-    "id": "57fd84be-1bc7-4a9a-a591-a9336cc5108e",
-    "name": "Syrup BIB Sprite",
-    "brand": "Sprite",
-    "size": "5 gal",
-    "casePrice": 138.04,
-    "unitCount": 5,
-    "unitPrice": 27.61,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/57fd84be-1bc7-4a9a-a591-a9336cc5108e-1739484213604.JPG",
-    "category": "cold_beverage",
-    "popularity": 56
-  },
-  {
-    "id": "5db6e0c8-bcc6-4393-b7d1-b821bdc779b1",
-    "name": "Syrup BIB Sprite",
-    "brand": "Sprite",
-    "size": "2.5 gal",
-    "casePrice": 72.03,
-    "unitCount": 3,
-    "unitPrice": 24.01,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5db6e0c8-bcc6-4393-b7d1-b821bdc779b1-1739484267158.JPG",
     "category": "cold_beverage",
     "popularity": 56
   },
@@ -12956,18 +12344,6 @@ const PRODUCTS = [
     "unitCount": 12,
     "unitPrice": 1.48,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/6f1e8834-3ad9-4422-b09c-976b04327551-1740159589390.JPG",
-    "category": "cold_beverage",
-    "popularity": 500
-  },
-  {
-    "id": "e6e65073-ea18-44f5-ad14-852b87a4b240",
-    "name": "Syrup BIB Vitamin Wtr XXX",
-    "brand": "VitaminW",
-    "size": "2.5 gal",
-    "casePrice": 74.94,
-    "unitCount": 3,
-    "unitPrice": 24.98,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e6e65073-ea18-44f5-ad14-852b87a4b240-1757333356380.png",
     "category": "cold_beverage",
     "popularity": 500
   },
@@ -14076,18 +13452,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "dd1e367f-85c5-4e8d-9f8d-c99db5c95bbd",
-    "name": "Pepperoni Sliced",
-    "brand": "Bonici",
-    "size": "5 lb",
-    "casePrice": 57.54,
-    "unitCount": 2,
-    "unitPrice": 28.77,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/dd1e367f-85c5-4e8d-9f8d-c99db5c95bbd-1749827440681.png",
-    "category": "frozen_foods",
-    "popularity": 500
-  },
-  {
     "id": "e80e1517-cd66-4fbb-86c8-35fbd56bba03",
     "name": "Entree Chicken Fttcn Alfrdo FZ",
     "brand": "BostonMk",
@@ -14156,18 +13520,6 @@ const PRODUCTS = [
     "unitCount": 10,
     "unitPrice": 2.73,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/674699af-fff1-4e54-8356-8ffd00ec09ab-1756212651317.png",
-    "category": "frozen_foods",
-    "popularity": 500
-  },
-  {
-    "id": "fbff6103-242d-40bd-83f0-63760c6450a9",
-    "name": "Cake Lemon Loaf Slcd",
-    "brand": "Burry",
-    "size": "4 oz",
-    "casePrice": 71.98,
-    "unitCount": 4,
-    "unitPrice": 18,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/fbff6103-242d-40bd-83f0-63760c6450a9-1762849921839.png",
     "category": "frozen_foods",
     "popularity": 500
   },
@@ -15336,18 +14688,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "caceb8ac-4185-416b-a655-38792b4e0e42",
-    "name": "Frank Bf Angus Black Natural",
-    "brand": "Eisenbrg",
-    "size": "5 lb",
-    "casePrice": 98.52,
-    "unitCount": 2,
-    "unitPrice": 49.26,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/caceb8ac-4185-416b-a655-38792b4e0e42-1742320143478.JPG",
-    "category": "frozen_foods",
-    "popularity": 500
-  },
-  {
     "id": "6c6622c6-6f26-4930-88ae-3a28e9ce07bc",
     "name": "Hot Dog Beef Blk Ang 4 to 1 8",
     "brand": "Eisenbrg",
@@ -15356,18 +14696,6 @@ const PRODUCTS = [
     "unitCount": 10,
     "unitPrice": 9.3,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/6c6622c6-6f26-4930-88ae-3a28e9ce07bc-1742320102406.JPG",
-    "category": "frozen_foods",
-    "popularity": 500
-  },
-  {
-    "id": "5f5104b6-e65c-4cef-8da7-89011bf86bfc",
-    "name": "Hot Dog Beef 5 1lb 6",
-    "brand": "Eisnberg",
-    "size": "5 lb",
-    "casePrice": 67.5,
-    "unitCount": 2,
-    "unitPrice": 33.75,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5f5104b6-e65c-4cef-8da7-89011bf86bfc-1769622130069.png",
     "category": "frozen_foods",
     "popularity": 500
   },
@@ -16752,18 +16080,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "b4cc9f5b-1587-4c5a-abe9-25ff04c0e102",
-    "name": "Chicken Nugget Imit Plant Base",
-    "brand": "Impssbl",
-    "size": "5 lb",
-    "casePrice": 83.34,
-    "unitCount": 2,
-    "unitPrice": 41.67,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b4cc9f5b-1587-4c5a-abe9-25ff04c0e102-1751028801639.png",
-    "category": "frozen_foods",
-    "popularity": 500
-  },
-  {
     "id": "6f1aff58-e259-4862-af7d-8461529c8dbb",
     "name": "Egg Cups W  Cheese 2 Pack",
     "brand": "INCREDIF",
@@ -17532,18 +16848,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "ab125f76-4100-4294-ad2e-7adfed7a81f4",
-    "name": "Entree Chicken Fettuccini",
-    "brand": "LeanCuis",
-    "size": "9.25 oz",
-    "casePrice": 38.39,
-    "unitCount": 2,
-    "unitPrice": 19.2,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/ab125f76-4100-4294-ad2e-7adfed7a81f4-1758188326440.png",
-    "category": "frozen_foods",
-    "popularity": 500
-  },
-  {
     "id": "815d36cf-b77e-4834-ab6d-56d8c94aad21",
     "name": "Entree Chicken Fried Rice",
     "brand": "LeanCuis",
@@ -18024,18 +17328,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "2970645c-c831-44b2-b931-d61a2d0cb78c",
-    "name": "Mozzarella Stick Breaded 3",
-    "brand": "McCain",
-    "size": "4 lb",
-    "casePrice": 169.42,
-    "unitCount": 6,
-    "unitPrice": 28.24,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2970645c-c831-44b2-b931-d61a2d0cb78c-1755088620881.png",
-    "category": "frozen_foods",
-    "popularity": 500
-  },
-  {
     "id": "02a5270a-2b99-4add-98bc-191451c609e7",
     "name": "Potato Fry Shoe String 1 4",
     "brand": "McCain",
@@ -18236,18 +17528,6 @@ const PRODUCTS = [
     "unitCount": 4,
     "unitPrice": 11.84,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/d56c5bfe-a1c1-4f93-8151-0403d2ca2689-1754559182529.png",
-    "category": "frozen_foods",
-    "popularity": 500
-  },
-  {
-    "id": "76fd3abd-1246-471a-b0ab-0f7245921205",
-    "name": "Vegetable Samosa Large",
-    "brand": "MonsoonK",
-    "size": "4 lb",
-    "casePrice": 72.67,
-    "unitCount": 2,
-    "unitPrice": 36.34,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/76fd3abd-1246-471a-b0ab-0f7245921205-1759997544758.png",
     "category": "frozen_foods",
     "popularity": 500
   },
@@ -19152,18 +18432,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "a4f4ba8f-9b2f-4474-a586-7cfb3eb3d2b5",
-    "name": "Chicken Tndr Fc Fz",
-    "brand": "Prfsthrn",
-    "size": "5 lb",
-    "casePrice": 68.58,
-    "unitCount": 2,
-    "unitPrice": 34.29,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a4f4ba8f-9b2f-4474-a586-7cfb3eb3d2b5-1755162877992.png",
-    "category": "frozen_foods",
-    "popularity": 500
-  },
-  {
     "id": "954b259c-981e-4039-aa9e-c9eee283eda0",
     "name": "Pretzel Soft Bites With Salt",
     "brand": "Prtzilla",
@@ -19424,18 +18692,6 @@ const PRODUCTS = [
     "unitCount": 24,
     "unitPrice": 1.62,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a708fc37-1286-4947-aa1a-680656584770-1755339086476.png",
-    "category": "frozen_foods",
-    "popularity": 500
-  },
-  {
-    "id": "d4db1989-f68e-4a3d-9a8b-8861557f74b9",
-    "name": "Chckn Tndr Crumb Coated FC Nae",
-    "brand": "Redlabel",
-    "size": "5 lb",
-    "casePrice": 49.54,
-    "unitCount": 2,
-    "unitPrice": 24.77,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/d4db1989-f68e-4a3d-9a8b-8861557f74b9-1761169489348.png",
     "category": "frozen_foods",
     "popularity": 500
   },
@@ -22032,18 +21288,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "2a2f85a0-38a3-4182-90bb-da4740824b7f",
-    "name": "Filter Paper Roll",
-    "brand": "BunnOMat",
-    "size": "1 ct",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/2a2f85a0-38a3-4182-90bb-da4740824b7f-1756125792795.png",
-    "casePrice": 0,
-    "unitCount": 741,
-    "unitPrice": 27.74,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
     "id": "6e10367c-47e4-4c38-bb0c-117e4d8460f2",
     "name": "Filter Tea",
     "brand": "BunnOMat",
@@ -22176,18 +21420,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "fd9507cf-5a8c-47e8-8860-d3a1f6b8d257",
-    "name": "Creamer French Vanilla",
-    "brand": "CoffeeMt",
-    "size": "50.7 oz",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/fd9507cf-5a8c-47e8-8860-d3a1f6b8d257-1755628957484.png",
-    "casePrice": 0,
-    "unitCount": 226,
-    "unitPrice": 19.37,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
     "id": "8f1bba0b-4204-42b6-8b07-1b57a3e552db",
     "name": "Creamer Frnch Vanilla .38 Oz",
     "brand": "CoffeeMt",
@@ -22236,18 +21468,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "354abe1d-3455-443a-b88b-79a3739211b2",
-    "name": "Creamer Lqd Pumpkin Spice Pump",
-    "brand": "CoffeeMt",
-    "size": "1.5 ltr",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/354abe1d-3455-443a-b88b-79a3739211b2-1752061632898.png",
-    "casePrice": 0,
-    "unitCount": 222,
-    "unitPrice": 19.61,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
     "id": "69167c96-dcd4-4236-b6d8-c4b40c92759d",
     "name": "Creamer ND French Van Cnstr",
     "brand": "CoffeeMt",
@@ -22260,18 +21480,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "64027d5e-db81-4420-a95e-d5f18f20a5e1",
-    "name": "Creamer ND French Van Liq Pump",
-    "brand": "CoffeeMt",
-    "size": "1.5 ltr",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/64027d5e-db81-4420-a95e-d5f18f20a5e1-1756291058650.png",
-    "casePrice": 0,
-    "unitCount": 652,
-    "unitPrice": 17.33,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
     "id": "1d189116-c7ad-4607-803c-f5f8eccde736",
     "name": "Creamer ND Hazlnt Liquid Cup",
     "brand": "CoffeeMt",
@@ -22280,18 +21488,6 @@ const PRODUCTS = [
     "casePrice": 0,
     "unitCount": 53200,
     "unitPrice": 0.12,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "5629bbaa-ca1f-4131-a70d-1d3c2c4a8ede",
-    "name": "Creamer ND Hazlnt Liquid Pump",
-    "brand": "CoffeeMt",
-    "size": "1.5 ltr",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5629bbaa-ca1f-4131-a70d-1d3c2c4a8ede-1756373128962.png",
-    "casePrice": 0,
-    "unitCount": 652,
-    "unitPrice": 17.33,
     "category": "hot_drink",
     "popularity": 500
   },
@@ -22316,18 +21512,6 @@ const PRODUCTS = [
     "casePrice": 0,
     "unitCount": 53200,
     "unitPrice": 0.12,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "74a7dce5-6cd4-4843-b00d-45fd229e8b62",
-    "name": "Creamer ND Org Liquid Pump",
-    "brand": "CoffeeMt",
-    "size": "1.5 ltr",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/74a7dce5-6cd4-4843-b00d-45fd229e8b62-1759305406742.png",
-    "casePrice": 0,
-    "unitCount": 652,
-    "unitPrice": 17.33,
     "category": "hot_drink",
     "popularity": 500
   },
@@ -22404,30 +21588,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "d4f92fe0-6ccf-44b6-aae9-20850a4164ac",
-    "name": "Coffee Decaf Whole Bean",
-    "brand": "Costa",
-    "size": "2.2 lb",
-    "imageUrl": "",
-    "casePrice": 0,
-    "unitCount": 726,
-    "unitPrice": 43.45,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "4fc42f31-49b6-4e2c-99e5-5cf87b1713c9",
-    "name": "Coffee Roast Medium Whole Bean",
-    "brand": "Costa",
-    "size": "2.2 lb",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4fc42f31-49b6-4e2c-99e5-5cf87b1713c9-1756199399212.png",
-    "casePrice": 0,
-    "unitCount": 656,
-    "unitPrice": 40.78,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
     "id": "f13a4e22-a070-41e8-af9d-76c0c579bb50",
     "name": "Coffee Espresso Roast Pack",
     "brand": "DeathWsh",
@@ -22472,18 +21632,6 @@ const PRODUCTS = [
     "casePrice": 0,
     "unitCount": 9300,
     "unitPrice": 0.26,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "fdfd6f16-311b-4df1-a552-3611db3518c2",
-    "name": "K cup Iced Refreshers Mango",
-    "brand": "DntShop",
-    "size": "20 ct",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/fdfd6f16-311b-4df1-a552-3611db3518c2-1763651006551.png",
-    "casePrice": 0,
-    "unitCount": 104,
-    "unitPrice": 18.78,
     "category": "hot_drink",
     "popularity": 500
   },
@@ -22656,30 +21804,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "8984f14f-0356-41e3-b123-3339dcedb220",
-    "name": "Coffee Colombian 100  Liquid",
-    "brand": "Folgers",
-    "size": "2 ltr",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/8984f14f-0356-41e3-b123-3339dcedb220-1740415381838.JPG",
-    "casePrice": 0,
-    "unitCount": 242,
-    "unitPrice": 113.12,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "a0cf2af3-b82b-4d3a-933c-fb6698134b51",
-    "name": "Coffee Colombian 100  Liquid",
-    "brand": "Folgers",
-    "size": "1.25 ltr",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a0cf2af3-b82b-4d3a-933c-fb6698134b51-1740417811840.JPG",
-    "casePrice": 0,
-    "unitCount": 32,
-    "unitPrice": 88.52,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
     "id": "6186642a-520e-496b-af03-0c62fd03aa14",
     "name": "Coffee Colombian Regular",
     "brand": "Folgers",
@@ -22716,18 +21840,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "a1be9931-0285-4420-894e-2245c234a344",
-    "name": "Coffee Decf Colmbn 100  Liquid",
-    "brand": "Folgers",
-    "size": "1.25 ltr",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a1be9931-0285-4420-894e-2245c234a344-1756113452312.png",
-    "casePrice": 0,
-    "unitCount": 22,
-    "unitPrice": 92.51,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
     "id": "e2a4591a-97df-4cb1-ab9e-67217ac96283",
     "name": "Coffee Gormt Supreme Reg",
     "brand": "Folgers",
@@ -22736,18 +21848,6 @@ const PRODUCTS = [
     "casePrice": 0,
     "unitCount": 1642,
     "unitPrice": 1.29,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "033da524-03eb-447d-8c18-d85692cf5aa7",
-    "name": "Coffee Signature Blend Liquid",
-    "brand": "Folgers",
-    "size": "1.25 ltr",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/033da524-03eb-447d-8c18-d85692cf5aa7-1740415352310.JPG",
-    "casePrice": 0,
-    "unitCount": 732,
-    "unitPrice": 83.37,
     "category": "hot_drink",
     "popularity": 500
   },
@@ -23112,30 +22212,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "b1198432-9b5b-4f4e-9596-19d1ed52a785",
-    "name": "Coffee Columbian Pods",
-    "brand": "JavaHous",
-    "size": "12 ct",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/b1198432-9b5b-4f4e-9596-19d1ed52a785-1764232992880.png",
-    "casePrice": 0,
-    "unitCount": 724,
-    "unitPrice": 13.43,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "dbab662a-8de5-4efc-8873-f86a59f4ce90",
-    "name": "Coffee Sltd Caramel Latte Pods",
-    "brand": "JavaHous",
-    "size": "12 ct",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/dbab662a-8de5-4efc-8873-f86a59f4ce90-1764232921917.png",
-    "casePrice": 0,
-    "unitCount": 724,
-    "unitPrice": 13.43,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
     "id": "10280148-4a0a-44e7-879e-159c6e0f2b0c",
     "name": "Creamer Topping Frothy",
     "brand": "Kayo",
@@ -23256,18 +22332,6 @@ const PRODUCTS = [
     "popularity": 78
   },
   {
-    "id": "8aa52b4e-3c23-4891-802f-7a0f24d5929f",
-    "name": "Drink Hydration ArcticFreezePd",
-    "brand": "LiqSci",
-    "size": "12 ct",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/8aa52b4e-3c23-4891-802f-7a0f24d5929f-1764579656764.png",
-    "casePrice": 0,
-    "unitCount": 724,
-    "unitPrice": 13.43,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
     "id": "d1f2b965-3eca-45ee-988d-616e86df60e4",
     "name": "Coffee Daily Delight Pods",
     "brand": "LoneTreJ",
@@ -23336,30 +22400,6 @@ const PRODUCTS = [
     "casePrice": 0,
     "unitCount": 23100,
     "unitPrice": 0.64,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "7e316ce2-72be-4bb5-99f0-9199889b73a2",
-    "name": "Coffee Breakfast Blend K cup",
-    "brand": "McCafe",
-    "size": "24 ct",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/7e316ce2-72be-4bb5-99f0-9199889b73a2-1757497089794.png",
-    "casePrice": 0,
-    "unitCount": 814,
-    "unitPrice": 14.95,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "f7ff396c-05a2-424e-ac93-d1caee2ac930",
-    "name": "Coffee Premium Roast K cup",
-    "brand": "McCafe",
-    "size": "24 ct",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/f7ff396c-05a2-424e-ac93-d1caee2ac930-1757937143172.png",
-    "casePrice": 0,
-    "unitCount": 814,
-    "unitPrice": 14.95,
     "category": "hot_drink",
     "popularity": 500
   },
@@ -23520,30 +22560,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "612d611f-695c-4cad-966a-64f0105d4e0c",
-    "name": "Corn Syrup Solids Bag",
-    "brand": "Roquette",
-    "size": "50 lb",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/612d611f-695c-4cad-966a-64f0105d4e0c-1750852247865.png",
-    "casePrice": 0,
-    "unitCount": 5850,
-    "unitPrice": 1.95,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "419c331b-81c1-4ec6-9564-b939cf310553",
-    "name": "Coffee Portside SeattleBlnd WB",
-    "brand": "SeattlBs",
-    "size": "5 lb",
-    "imageUrl": "",
-    "casePrice": 0,
-    "unitCount": 934,
-    "unitPrice": 55.73,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
     "id": "b02d367d-8c0a-435b-8390-cd16a377b306",
     "name": "Coffee Portside Smth Flvr",
     "brand": "SeattlBs",
@@ -23628,18 +22644,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "8dab18c1-a8ba-41ed-922f-eb08eddc2633",
-    "name": "Coffee Caffee Verona WB",
-    "brand": "Starbuck",
-    "size": "1 lb",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/8dab18c1-a8ba-41ed-922f-eb08eddc2633-1739202817125.JPG",
-    "casePrice": 0,
-    "unitCount": 236,
-    "unitPrice": 16.54,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
     "id": "cd06e196-0fc7-4d41-90f5-bfa4d108ffe8",
     "name": "Coffee Decaf Pike Place K cup",
     "brand": "Starbuck",
@@ -23696,42 +22700,6 @@ const PRODUCTS = [
     "casePrice": 0,
     "unitCount": 7724,
     "unitPrice": 0.95,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "57b2bf43-aa72-4b01-ab2d-819b666f0a97",
-    "name": "Coffee Pike Place Roast WB",
-    "brand": "Starbuck",
-    "size": "1 lb",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/57b2bf43-aa72-4b01-ab2d-819b666f0a97-1739202426958.JPG",
-    "casePrice": 0,
-    "unitCount": 236,
-    "unitPrice": 17.37,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "a5d39e44-2124-429b-afe4-8c38e4b810c3",
-    "name": "Coffee Pike Place Rst Decaf WB",
-    "brand": "Starbuck",
-    "size": "1 lb",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a5d39e44-2124-429b-afe4-8c38e4b810c3-1739202504211.JPG",
-    "casePrice": 0,
-    "unitCount": 236,
-    "unitPrice": 16.54,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "e011cdae-fcde-421a-a50f-23c266420d81",
-    "name": "Coffee Veranda Blend Whle Bean",
-    "brand": "Starbuck",
-    "size": "1 lb",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e011cdae-fcde-421a-a50f-23c266420d81-1739206314758.JPG",
-    "casePrice": 0,
-    "unitCount": 236,
-    "unitPrice": 16.54,
     "category": "hot_drink",
     "popularity": 500
   },
@@ -24204,18 +23172,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "cfadc298-2838-4b1f-971a-1ebdd3e6838c",
-    "name": "Tea Chai Latte Serenade PwdrMx",
-    "brand": "Teavana",
-    "size": "2 lb",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/cfadc298-2838-4b1f-971a-1ebdd3e6838c-1759397284102.png",
-    "casePrice": 0,
-    "unitCount": 686,
-    "unitPrice": 25.78,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
     "id": "feaa18a4-63fe-45be-bd94-3b19ca7c05f7",
     "name": "Tea Chamomile Blush Filterbag",
     "brand": "Teavana",
@@ -24348,18 +23304,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "4d97cd90-6e5f-46f6-bb1e-980ff30d6b84",
-    "name": "Coffee Colmbn Drk Rst Vend WB",
-    "brand": "WhiteBea",
-    "size": "2 lb",
-    "imageUrl": "",
-    "casePrice": 0,
-    "unitCount": 6412,
-    "unitPrice": 15.39,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
     "id": "fc37593f-045c-47d2-8af2-ecc1de024be0",
     "name": "Coffee Colombian Pod Premium",
     "brand": "WhiteBea",
@@ -24444,18 +23388,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "5405c203-2f7a-43fd-88e8-9bd3d222b24b",
-    "name": "Coffee Dark Rst WB Veterans",
-    "brand": "WhiteBea",
-    "size": "2 lb",
-    "imageUrl": "",
-    "casePrice": 0,
-    "unitCount": 2412,
-    "unitPrice": 15.69,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
     "id": "c5d5bcab-6807-4b6a-8260-2a5070602075",
     "name": "Coffee Decaf Premium Pod",
     "brand": "WhiteBea",
@@ -24504,18 +23436,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "91bde9ff-39e9-4e40-b2b2-71e38bf2e053",
-    "name": "Coffee Donut Shop Vend WB",
-    "brand": "WhiteBea",
-    "size": "2 lb",
-    "imageUrl": "",
-    "casePrice": 0,
-    "unitCount": 312,
-    "unitPrice": 14.25,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
     "id": "07f1e6ee-2477-44de-b3d1-3017a99a895b",
     "name": "Coffee Emperor s Choice",
     "brand": "WhiteBea",
@@ -24536,18 +23456,6 @@ const PRODUCTS = [
     "casePrice": 0,
     "unitCount": 4030,
     "unitPrice": 0.31,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "302d1b47-232c-48d4-86c7-c5e532d46613",
-    "name": "Coffee French Rst Vend WB",
-    "brand": "WhiteBea",
-    "size": "2 lb",
-    "imageUrl": "",
-    "casePrice": 0,
-    "unitCount": 8712,
-    "unitPrice": 14.57,
     "category": "hot_drink",
     "popularity": 500
   },
@@ -24600,30 +23508,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "e8572429-c1f5-494e-bc1c-9cda03673e3c",
-    "name": "Coffee Liquid Decaf",
-    "brand": "WhiteBea",
-    "size": "64 oz",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e8572429-c1f5-494e-bc1c-9cda03673e3c-1757324127334.png",
-    "casePrice": 0,
-    "unitCount": 992,
-    "unitPrice": 54.5,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "09d9e613-fd82-4da1-b7f9-2854dd14f90b",
-    "name": "Coffee Liquid Regular",
-    "brand": "WhiteBea",
-    "size": "64 oz",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/09d9e613-fd82-4da1-b7f9-2854dd14f90b-1759139313569.png",
-    "casePrice": 0,
-    "unitCount": 212,
-    "unitPrice": 51.11,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
     "id": "cf2c9878-4934-41ad-a812-7d788fe333f5",
     "name": "Coffee Maui Bld",
     "brand": "WhiteBea",
@@ -24644,18 +23528,6 @@ const PRODUCTS = [
     "casePrice": 0,
     "unitCount": 4030,
     "unitPrice": 0.31,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "938ec1a6-acf0-4268-9329-48015bcf83a8",
-    "name": "Coffee Med Rst WB Veterans",
-    "brand": "WhiteBea",
-    "size": "2 lb",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/938ec1a6-acf0-4268-9329-48015bcf83a8-1760692961028.png",
-    "casePrice": 0,
-    "unitCount": 9312,
-    "unitPrice": 14.58,
     "category": "hot_drink",
     "popularity": 500
   },
@@ -24752,30 +23624,6 @@ const PRODUCTS = [
     "casePrice": 0,
     "unitCount": 526,
     "unitPrice": 4.75,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "05d8f629-4fcc-49b3-9dbe-9e1b175918e4",
-    "name": "Coffee Blk Straight",
-    "brand": "WndrBear",
-    "size": "3 ga",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/05d8f629-4fcc-49b3-9dbe-9e1b175918e4-1749985221605.png",
-    "casePrice": 78.58,
-    "unitCount": 583,
-    "unitPrice": 26.19,
-    "category": "hot_drink",
-    "popularity": 500
-  },
-  {
-    "id": "a2aba85e-5115-4f7d-9b79-8e13d6cbfed5",
-    "name": "Drink Energy Pods",
-    "brand": "Wrangler",
-    "size": "12 ct",
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/a2aba85e-5115-4f7d-9b79-8e13d6cbfed5-1765879057472.png",
-    "casePrice": 0,
-    "unitCount": 724,
-    "unitPrice": 13.43,
     "category": "hot_drink",
     "popularity": 500
   },
@@ -32184,18 +31032,6 @@ const PRODUCTS = [
     "popularity": 500
   },
   {
-    "id": "9c4a0458-3f05-4d8d-b477-c0dfa5edae74",
-    "name": "Snack Mega Variety Pack 30ct",
-    "brand": "Kellogg",
-    "size": "30.1 oz",
-    "casePrice": 61.19,
-    "unitCount": 4,
-    "unitPrice": 15.3,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/9c4a0458-3f05-4d8d-b477-c0dfa5edae74-1741363930691.JPG",
-    "category": "snacks",
-    "popularity": 500
-  },
-  {
     "id": "19eb0520-006b-482c-ac9e-e86e3ce2ac0c",
     "name": "Chips Caddy Jalapeno",
     "brand": "Kettle",
@@ -33548,30 +32384,6 @@ const PRODUCTS = [
     "unitCount": 18,
     "unitPrice": 2.13,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/056706fa-346b-44cb-b85f-ba178957ca4b-1755165222681.png",
-    "category": "snacks",
-    "popularity": 500
-  },
-  {
-    "id": "8d79ce1c-c24f-4f08-b240-0c4475f657d3",
-    "name": "Beef Stick Chipotle GrassFed 8",
-    "brand": "Oberto",
-    "size": "9 oz",
-    "casePrice": 84,
-    "unitCount": 6,
-    "unitPrice": 14,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/8d79ce1c-c24f-4f08-b240-0c4475f657d3-1755344963772.png",
-    "category": "snacks",
-    "popularity": 500
-  },
-  {
-    "id": "1cc48b94-27df-4566-9ef4-b7ba2754cf7c",
-    "name": "Beef Stick Grass Fed Org 8pk",
-    "brand": "Oberto",
-    "size": "9 oz",
-    "casePrice": 84,
-    "unitCount": 6,
-    "unitPrice": 14,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/1cc48b94-27df-4566-9ef4-b7ba2754cf7c-1755670114124.png",
     "category": "snacks",
     "popularity": 500
   },
@@ -40448,30 +39260,6 @@ const PRODUCTS = [
     "unitCount": 8,
     "unitPrice": 2.02,
     "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/af072d87-d327-4e72-a624-4b98f337893e-1754488164030.png",
-    "category": "specialty_better4you",
-    "popularity": 500
-  },
-  {
-    "id": "9d7f7f73-2844-4264-a782-0ca6fa27c99a",
-    "name": "Coffee Cold Brew Black Vnlla",
-    "brand": "WndrBear",
-    "size": "96 oz",
-    "casePrice": 90.47,
-    "unitCount": 3,
-    "unitPrice": 30.16,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/9d7f7f73-2844-4264-a782-0ca6fa27c99a-1754560134289.png",
-    "category": "specialty_better4you",
-    "popularity": 500
-  },
-  {
-    "id": "5087483d-eb9f-4b81-83df-1ad609f72363",
-    "name": "Coffee Cold Brew Caramel",
-    "brand": "WndrBear",
-    "size": "96 oz",
-    "casePrice": 90.47,
-    "unitCount": 3,
-    "unitPrice": 30.16,
-    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5087483d-eb9f-4b81-83df-1ad609f72363-1754656215436.png",
     "category": "specialty_better4you",
     "popularity": 500
   },
