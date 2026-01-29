@@ -43,9 +43,9 @@ function calculateVendingPrice(wholesalePrice) {
     }
 }
 
-// Calculate margin percentage
-function calculateMargin(wholesale, vending) {
-    return ((vending - wholesale) / vending * 100).toFixed(1);
+// Calculate markup percentage (how much above wholesale)
+function calculateMarkup(wholesale, vending) {
+    return ((vending - wholesale) / wholesale * 100).toFixed(0);
 }
 
 // Format currency
@@ -63,7 +63,7 @@ function getPriceClass(vendingPrice) {
 // Render a single product card
 function renderProductCard(product, rank = null) {
     const vendingPrice = calculateVendingPrice(product.unitPrice);
-    const margin = calculateMargin(product.unitPrice, vendingPrice);
+    const markup = calculateMarkup(product.unitPrice, vendingPrice);
     const isHealthy = product.category === 'healthy' || product.isHealthy;
     const adminMode = typeof window.isAdmin === 'function' && window.isAdmin();
     
@@ -97,8 +97,8 @@ function renderProductCard(product, rank = null) {
                             <span class="text-xl font-bold ${getPriceClass(vendingPrice)}">${formatPrice(vendingPrice)}</span>
                         </div>
                         <div class="flex justify-between items-center pt-3 border-t border-gray-100">
-                            <span class="text-sm text-gray-500">Margin:</span>
-                            <span class="text-sm font-semibold text-primary-600">${margin}%</span>
+                            <span class="text-sm text-gray-500">Markup:</span>
+                            <span class="text-sm font-semibold text-primary-600">${markup}%</span>
                         </div>
                     </div>
                     
@@ -224,9 +224,9 @@ function sortProducts() {
             case 'price-high':
                 return b.unitPrice - a.unitPrice;
             case 'margin':
-                const marginA = calculateVendingPrice(a.unitPrice) - a.unitPrice;
-                const marginB = calculateVendingPrice(b.unitPrice) - b.unitPrice;
-                return marginB - marginA;
+                const markupA = (calculateVendingPrice(a.unitPrice) - a.unitPrice) / a.unitPrice;
+                const markupB = (calculateVendingPrice(b.unitPrice) - b.unitPrice) / b.unitPrice;
+                return markupB - markupA;
             case 'name':
                 return a.name.localeCompare(b.name);
             default:
