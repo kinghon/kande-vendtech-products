@@ -40351,7 +40351,7 @@ const PRODUCTS = [
     "casePrice": 41.29,
     "unitCount": 24,
     "unitPrice": 1.72,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000145133",
+    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4d1b9f4f-dfbe-4cf4-bec3-7e50357946b3-1738856432865.JPG",
     "category": "cold_beverage",
     "popularity": 2000
   },
@@ -40363,7 +40363,7 @@ const PRODUCTS = [
     "casePrice": 41.29,
     "unitCount": 24,
     "unitPrice": 1.72,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000145126",
+    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/381ea969-bdf6-439a-81f6-90f870440dad-1738857492165.JPG",
     "category": "cold_beverage",
     "popularity": 2000
   },
@@ -40375,7 +40375,7 @@ const PRODUCTS = [
     "casePrice": 41.29,
     "unitCount": 24,
     "unitPrice": 1.72,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000967038",
+    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/5d665625-6d05-424a-8ec4-20061faef8c6-1738856012215.JPG",
     "category": "cold_beverage",
     "popularity": 2000
   },
@@ -40387,7 +40387,7 @@ const PRODUCTS = [
     "casePrice": 41.29,
     "unitCount": 24,
     "unitPrice": 1.72,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000145141",
+    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/93d41fa5-aa76-446c-8e5f-3c4f3982ff3e-1739484309902.JPG",
     "category": "cold_beverage",
     "popularity": 1930
   },
@@ -40411,7 +40411,7 @@ const PRODUCTS = [
     "casePrice": 35.72,
     "unitCount": 24,
     "unitPrice": 1.49,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000146241",
+    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/e306e0b0-c962-48f9-8605-2f8630f28e6e-1738859561303.JPG",
     "category": "cold_beverage",
     "popularity": 1950
   },
@@ -40423,7 +40423,7 @@ const PRODUCTS = [
     "casePrice": 35.72,
     "unitCount": 24,
     "unitPrice": 1.49,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000146256",
+    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/c8ee4533-f814-43cf-8360-05f414beaac1-1738863368985.JPG",
     "category": "cold_beverage",
     "popularity": 1600
   },
@@ -40435,7 +40435,7 @@ const PRODUCTS = [
     "casePrice": 32.5,
     "unitCount": 24,
     "unitPrice": 1.35,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000146290",
+    "imageUrl": "https://xxndqfrlcuenwuiifmxn.supabase.co/storage/v1/object/public/product_thumbnails/4d9a2802-58bc-46c7-aab0-d9935008b078-1739378663627.JPG",
     "category": "cold_beverage",
     "popularity": 1940
   },
