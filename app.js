@@ -260,18 +260,48 @@ function submitInterestList() {
     const items = list.map(id => allProducts.find(p => p.id === id)).filter(Boolean);
     const productList = items.map(p => {
         const price = calculateVendingPrice(p.unitPrice, p.competitivePrice, p.id, p.vendingPriceOverride);
-        return `- ${p.name} (${p.size}) - $${price.toFixed(2)}`;
-    }).join('%0A');
+        return `• ${p.name} (${p.size}) - $${price.toFixed(2)}`;
+    }).join('\n');
     
-    const subject = encodeURIComponent('Product Interest List from ' + info.name);
-    const body = encodeURIComponent(
-        'Name: ' + info.name + '\\n' +
-        'Email: ' + info.email + '\\n' +
-        'Company: ' + (info.company || 'N/A') + '\\n\\n' +
-        'Interested Products:\\n' + productList.replace(/%0A/g, '\\n')
-    );
+    const submitBtn = document.getElementById('submitInterestBtn');
+    const originalText = submitBtn.innerHTML;
+    submitBtn.innerHTML = '⏳ Sending...';
+    submitBtn.disabled = true;
     
-    window.location.href = 'mailto:hello@kandevendtech.com?subject=' + subject + '&body=' + body;
+    const formData = new FormData();
+    formData.append('name', info.name);
+    formData.append('email', info.email);
+    formData.append('company', info.company || 'N/A');
+    formData.append('_subject', 'Product Interest List from ' + info.name);
+    formData.append('message', 'Name: ' + info.name + '\nEmail: ' + info.email + '\nCompany: ' + (info.company || 'N/A') + '\n\nInterested Products:\n' + productList);
+    formData.append('_captcha', 'false');
+    formData.append('_template', 'table');
+    
+    fetch('https://formsubmit.co/ajax/hello@kandevendtech.com', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        submitBtn.innerHTML = '✅ Submitted!';
+        submitBtn.classList.remove('from-primary-500', 'to-primary-600');
+        submitBtn.classList.add('from-green-500', 'to-green-600');
+        
+        // Show confirmation
+        setTimeout(() => {
+            alert('✅ Your interest list has been submitted to Kande VendTech!\n\nWe\'ll be in touch at ' + info.email);
+            submitBtn.innerHTML = originalText;
+            submitBtn.disabled = false;
+            submitBtn.classList.remove('from-green-500', 'to-green-600');
+            submitBtn.classList.add('from-primary-500', 'to-primary-600');
+        }, 500);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        submitBtn.innerHTML = originalText;
+        submitBtn.disabled = false;
+        alert('There was an error submitting. Please try again or email hello@kandevendtech.com directly.');
+    });
 }
 
 function exportInterestList() {
