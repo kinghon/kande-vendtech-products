@@ -454,8 +454,8 @@ function filterProducts(options = {}) {
 // Sort products
 function sortProducts() {
     filteredProducts.sort((a, b) => {
-        // In "All Products" and "Popular" views, Top items sort by rank order
-        if (currentCategory === 'all' || currentCategory === 'popular') {
+        // In "All Products" view, Top items come first
+        if (currentCategory === 'all') {
             const aTop40 = getTop40Rank(a.id);
             const bTop40 = getTop40Rank(b.id);
             
@@ -465,6 +465,19 @@ function sortProducts() {
             if (aTop40) return -1;
             // Only b in Top - b comes first
             if (bTop40) return 1;
+        }
+        
+        // In "Popular" view, group by category then by name
+        if (currentCategory === 'popular') {
+            const categoryOrder = ['cold_beverage', 'beverages', 'snacks', 'candy', 'healthy', 'refrigerated', 'frozen_foods', 'hot_foods', 'specialty_better4you'];
+            const aCatIndex = categoryOrder.indexOf(a.category);
+            const bCatIndex = categoryOrder.indexOf(b.category);
+            const aOrder = aCatIndex >= 0 ? aCatIndex : 99;
+            const bOrder = bCatIndex >= 0 ? bCatIndex : 99;
+            
+            if (aOrder !== bOrder) return aOrder - bOrder;
+            // Same category - sort by name
+            return a.name.localeCompare(b.name);
         }
         
         // Regular sorting for non-Top 40 items
