@@ -224,7 +224,10 @@
                         <option value="6+">$6+</option>
                     </select>
                 </div>
-                <div class="flex items-center gap-2 admin-only">
+                <div class="flex items-center gap-4 admin-only">
+                    <span class="text-sm font-medium text-purple-600 bg-purple-100 px-3 py-1 rounded-lg">
+                        ⭐ Top 40: <span id="top40Count">0/40</span>
+                    </span>
                     <label class="text-sm text-gray-500">
                         <input type="checkbox" id="showHiddenToggle" class="mr-1">
                         Show Hidden (<span id="hiddenCount">0</span>)
@@ -295,8 +298,8 @@
         </div>
     </footer>
 
-    <script src="products.js?v=34"></script>
-    <script src="app.js?v=31"></script>
+    <script src="products.js?v=35"></script>
+    <script src="app.js?v=35"></script>
     <script>
         // Admin Authentication
         const ADMIN_PASSWORD = 'kande2026'; // Change this password

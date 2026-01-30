@@ -95,6 +95,54 @@ function updateHiddenCount() {
     if (el) el.textContent = count;
 }
 
+// Top 40 management
+function getTop40Products() {
+    const top40 = localStorage.getItem('top40Products');
+    return top40 ? JSON.parse(top40) : [];
+}
+
+function addToTop40(productId) {
+    const top40 = getTop40Products();
+    if (!top40.includes(productId) && top40.length < 40) {
+        top40.push(productId);
+        localStorage.setItem('top40Products', JSON.stringify(top40));
+        updateTop40Count();
+        
+        const scrollY = window.scrollY;
+        filterProducts({ preservePage: true });
+        requestAnimationFrame(() => window.scrollTo(0, scrollY));
+    } else if (top40.length >= 40) {
+        alert('Top 40 is full! Remove an item first.');
+    }
+}
+
+function removeFromTop40(productId) {
+    let top40 = getTop40Products();
+    top40 = top40.filter(id => id !== productId);
+    localStorage.setItem('top40Products', JSON.stringify(top40));
+    updateTop40Count();
+    
+    const scrollY = window.scrollY;
+    filterProducts({ preservePage: true });
+    requestAnimationFrame(() => window.scrollTo(0, scrollY));
+}
+
+function isInTop40(productId) {
+    return getTop40Products().includes(productId);
+}
+
+function getTop40Rank(productId) {
+    const top40 = getTop40Products();
+    const index = top40.indexOf(productId);
+    return index >= 0 ? index + 1 : null;
+}
+
+function updateTop40Count() {
+    const count = getTop40Products().length;
+    const el = document.getElementById('top40Count');
+    if (el) el.textContent = count + '/40';
+}
+
 // Custom pricing management
 function getCustomPrices() {
     const prices = localStorage.getItem('customPrices');
@@ -162,17 +210,23 @@ function renderProductCard(product, rank = null) {
     const isHealthy = product.category === 'healthy' || product.isHealthy;
     const adminMode = typeof window.isAdmin === 'function' && window.isAdmin();
     
+    // Only show rank in "All Products" view
+    const showRank = currentCategory === 'all';
+    const top40Rank = getTop40Rank(product.id);
+    const displayRank = showRank ? top40Rank : null;
+    const inTop40 = isInTop40(product.id);
+    
     // Admin view - shows all pricing details
     const isHidden = isProductHidden(product.id);
     const has7ElevenPricing = product.sevenElevenPrice || product.competitivePrice;
     if (adminMode) {
         return `
-            <div class="product-card rounded-2xl overflow-hidden ${isHidden ? 'opacity-50 border-2 border-red-300' : has7ElevenPricing ? 'border-2 border-orange-300 bg-orange-50/30' : ''}">
+            <div class="product-card rounded-2xl overflow-hidden ${isHidden ? 'opacity-50 border-2 border-red-300' : inTop40 ? 'border-2 border-purple-400 bg-purple-50/30' : has7ElevenPricing ? 'border-2 border-orange-300 bg-orange-50/30' : ''}">
                 <div class="relative">
-                    ${rank ? `<div class="absolute top-3 left-3 w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-600 text-white rounded-lg flex items-center justify-center text-sm font-bold shadow-lg">${rank}</div>` : ''}
+                    ${displayRank ? `<div class="absolute top-3 left-3 w-8 h-8 bg-gradient-to-br from-purple-500 to-purple-600 text-white rounded-lg flex items-center justify-center text-sm font-bold shadow-lg">${displayRank}</div>` : ''}
                     ${isHidden ? `<div class="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded-lg font-medium shadow-lg">HIDDEN</div>` : ''}
-                    ${!isHidden && has7ElevenPricing ? `<div class="absolute top-3 right-3 bg-orange-500 text-white text-xs px-2 py-1 rounded-lg font-medium shadow-lg">7-11</div>` : ''}
-                    ${isHealthy && !has7ElevenPricing ? `<div class="absolute top-3 right-3 healthy-badge text-white text-xs px-2.5 py-1 rounded-lg font-medium shadow-lg">💪 Healthy</div>` : ''}
+                    ${!isHidden && !displayRank && has7ElevenPricing ? `<div class="absolute top-3 right-3 bg-orange-500 text-white text-xs px-2 py-1 rounded-lg font-medium shadow-lg">7-11</div>` : ''}
+                    ${isHealthy && !has7ElevenPricing && !displayRank ? `<div class="absolute top-3 right-3 healthy-badge text-white text-xs px-2.5 py-1 rounded-lg font-medium shadow-lg">💪 Healthy</div>` : ''}
                     <div class="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-6">
                         <img src="${product.imageUrl || product.image || 'https://via.placeholder.com/200?text=No+Image'}" 
                              alt="${product.name}"
@@ -216,13 +270,17 @@ function renderProductCard(product, rank = null) {
                         Case: ${product.unitCount}ct @ ${formatPrice(product.casePrice)}
                     </div>
                     
-                    <div class="mt-3 flex gap-2">
+                    <div class="mt-3 flex flex-wrap gap-2">
+                        ${inTop40
+                            ? `<button onclick="removeFromTop40('${product.id}')" class="flex-1 text-xs bg-purple-500 text-white px-3 py-1.5 rounded-lg hover:bg-purple-600 transition-colors">⭐ #${top40Rank} Top 40</button>`
+                            : `<button onclick="addToTop40('${product.id}')" class="flex-1 text-xs bg-purple-100 text-purple-700 px-3 py-1.5 rounded-lg hover:bg-purple-200 transition-colors">⭐ Add Top 40</button>`
+                        }
                         ${isProductHidden(product.id) 
                             ? `<button onclick="unhideProduct('${product.id}')" class="flex-1 text-xs bg-green-100 text-green-700 px-3 py-1.5 rounded-lg hover:bg-green-200 transition-colors">👁 Show</button>`
                             : `<button onclick="hideProduct('${product.id}')" class="flex-1 text-xs bg-red-100 text-red-700 px-3 py-1.5 rounded-lg hover:bg-red-200 transition-colors">🚫 Hide</button>`
                         }
                         ${getCustomPrice(product.id) !== undefined 
-                            ? `<button onclick="clearCustomPrice('${product.id}')" class="flex-1 text-xs bg-gray-100 text-gray-700 px-3 py-1.5 rounded-lg hover:bg-gray-200 transition-colors">↩️ Reset Price</button>`
+                            ? `<button onclick="clearCustomPrice('${product.id}')" class="flex-1 text-xs bg-gray-100 text-gray-700 px-3 py-1.5 rounded-lg hover:bg-gray-200 transition-colors">↩️ Reset</button>`
                             : ''
                         }
                     </div>
@@ -235,8 +293,8 @@ function renderProductCard(product, rank = null) {
     return `
         <div class="product-card rounded-2xl overflow-hidden">
             <div class="relative">
-                ${rank ? `<div class="absolute top-3 left-3 w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-600 text-white rounded-lg flex items-center justify-center text-sm font-bold shadow-lg">${rank}</div>` : ''}
-                ${isHealthy ? `<div class="absolute top-3 right-3 healthy-badge text-white text-xs px-2.5 py-1 rounded-lg font-medium shadow-lg">💪 Healthy</div>` : ''}
+                ${displayRank ? `<div class="absolute top-3 left-3 w-8 h-8 bg-gradient-to-br from-purple-500 to-purple-600 text-white rounded-lg flex items-center justify-center text-sm font-bold shadow-lg">${displayRank}</div>` : ''}
+                ${isHealthy && !displayRank ? `<div class="absolute top-3 right-3 healthy-badge text-white text-xs px-2.5 py-1 rounded-lg font-medium shadow-lg">💪 Healthy</div>` : ''}
                 <div class="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-6">
                     <img src="${product.imageUrl || product.image || 'https://via.placeholder.com/200?text=No+Image'}" 
                          alt="${product.name}"
@@ -389,6 +447,20 @@ function filterProducts(options = {}) {
 // Sort products
 function sortProducts() {
     filteredProducts.sort((a, b) => {
+        // In "All Products" view, Top 40 items always come first in their rank order
+        if (currentCategory === 'all') {
+            const aTop40 = getTop40Rank(a.id);
+            const bTop40 = getTop40Rank(b.id);
+            
+            // Both in Top 40 - sort by rank
+            if (aTop40 && bTop40) return aTop40 - bTop40;
+            // Only a in Top 40 - a comes first
+            if (aTop40) return -1;
+            // Only b in Top 40 - b comes first
+            if (bTop40) return 1;
+        }
+        
+        // Regular sorting for non-Top 40 items
         switch (currentSort) {
             case 'popularity':
                 return (b.popularity || 0) - (a.popularity || 0);
@@ -464,8 +536,9 @@ function initEventListeners() {
         showHiddenToggle.addEventListener('change', filterProducts);
     }
     
-    // Update hidden count
+    // Update hidden count and Top 40 count
     updateHiddenCount();
+    updateTop40Count();
     
     // Clear filters
     document.getElementById('clearFilters').addEventListener('click', () => {
