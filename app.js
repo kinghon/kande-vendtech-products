@@ -454,16 +454,16 @@ function filterProducts(options = {}) {
 // Sort products
 function sortProducts() {
     filteredProducts.sort((a, b) => {
-        // In "All Products" view, Top 40 items always come first in their rank order
-        if (currentCategory === 'all') {
+        // In "All Products" and "Popular" views, Top items sort by rank order
+        if (currentCategory === 'all' || currentCategory === 'popular') {
             const aTop40 = getTop40Rank(a.id);
             const bTop40 = getTop40Rank(b.id);
             
-            // Both in Top 40 - sort by rank
+            // Both in Top - sort by rank
             if (aTop40 && bTop40) return aTop40 - bTop40;
-            // Only a in Top 40 - a comes first
+            // Only a in Top - a comes first
             if (aTop40) return -1;
-            // Only b in Top 40 - b comes first
+            // Only b in Top - b comes first
             if (bTop40) return 1;
         }
         
