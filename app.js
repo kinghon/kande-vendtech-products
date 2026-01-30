@@ -96,9 +96,38 @@ function updateHiddenCount() {
 }
 
 // Top 40 management
+// Default Top Picks - edit this list as needed
+const DEFAULT_TOP_PICKS = [
+    "91166bed-2cc0-4021-993a-806ab0158694", // Coke
+    "4d1b9f4f-dfbe-4cf4-bec3-7e50357946b3", // Pepsi  
+    "381ea969-bdf6-439a-81f6-90f870440dad", // Dr Pepper
+    "edf43ccf-dc5b-460a-ba11-607c3cbd9abc", // Sprite
+    "15ac31b5-73eb-4a64-829a-0159a4a17aaa", // Fanta
+    "1206431f-8f38-42e7-b4ba-02c5d224f28f", // Mountain Dew
+    "664cb15f-34f4-4cec-b0d7-814a6a56a8fe", // Dasani
+    "e0eedb78-50a8-41d3-83d4-669f7613644e", // Aquafina
+    "4d9a2802-58bc-46c7-aab0-d9935008b078", // Gatorade
+    "a8ee9672-834b-4756-95fe-9050d2faba29", // Gatorade
+    "cbc417d6-9769-465e-b75d-12029235d13a", // Gatorade
+    "1e2e92b2-0ff1-42af-83ba-fa494c8bd525", // Gatorade
+    "celsius-sparkling-orange",
+    "celsius-sparkling-watermelon", 
+    "celsius-peach-mango",
+    "celsius-wild-berry",
+    "celsius-tropical-vibe",
+    "starbucks-frappuccino-mocha",
+    "starbucks-frappuccino-vanilla",
+    "starbucks-frappuccino-caramel"
+];
+
 function getTop40Products() {
     const top40 = localStorage.getItem('top40Products');
-    return top40 ? JSON.parse(top40) : [];
+    if (top40) {
+        return JSON.parse(top40);
+    }
+    // Initialize with defaults if empty
+    localStorage.setItem('top40Products', JSON.stringify(DEFAULT_TOP_PICKS));
+    return DEFAULT_TOP_PICKS;
 }
 
 function addToTop40(productId) {
