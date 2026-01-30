@@ -228,11 +228,11 @@ function renderProductCard(product, rank = null) {
                     ${!isHidden && !displayRank && has7ElevenPricing ? `<div class="absolute top-3 right-3 bg-orange-500 text-white text-xs px-2 py-1 rounded-lg font-medium shadow-lg">7-11</div>` : ''}
                     ${isHealthy && !has7ElevenPricing && !displayRank ? `<div class="absolute top-3 right-3 healthy-badge text-white text-xs px-2.5 py-1 rounded-lg font-medium shadow-lg">💪 Healthy</div>` : ''}
                     <div class="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-4">
-                        <img src="${product.imageUrl || product.image || 'https://via.placeholder.com/200?text=No+Image'}" 
+                        <img src="${(product.imageUrl && product.imageUrl.length > 0) ? product.imageUrl : (product.image && product.image.length > 0) ? product.image : 'https://via.placeholder.com/200?text=No+Image'}" 
                              alt="${product.name}"
                              class="max-w-full max-h-full object-contain"
                              loading="lazy"
-                             onerror="this.src='https://via.placeholder.com/200?text=No+Image'">
+                             onerror="this.onerror=null; this.src='https://via.placeholder.com/200?text=No+Image'">
                     </div>
                 </div>
                 <div class="p-4">
@@ -296,11 +296,11 @@ function renderProductCard(product, rank = null) {
                 ${displayRank ? `<div class="absolute top-3 left-3 w-8 h-8 bg-gradient-to-br from-purple-500 to-purple-600 text-white rounded-lg flex items-center justify-center text-lg shadow-lg">⭐</div>` : ''}
                 ${isHealthy && !displayRank ? `<div class="absolute top-3 right-3 healthy-badge text-white text-xs px-2.5 py-1 rounded-lg font-medium shadow-lg">💪 Healthy</div>` : ''}
                 <div class="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-4">
-                    <img src="${product.imageUrl || product.image || 'https://via.placeholder.com/200?text=No+Image'}" 
+                    <img src="${(product.imageUrl && product.imageUrl.length > 0) ? product.imageUrl : (product.image && product.image.length > 0) ? product.image : 'https://via.placeholder.com/200?text=No+Image'}" 
                          alt="${product.name}"
                          class="max-w-full max-h-full object-contain"
                          loading="lazy"
-                         onerror="this.src='https://via.placeholder.com/200?text=No+Image'">
+                         onerror="this.onerror=null; this.src='https://via.placeholder.com/200?text=No+Image'">
                 </div>
             </div>
             <div class="p-4">
