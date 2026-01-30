@@ -210,8 +210,8 @@ function renderProductCard(product, rank = null) {
     const isHealthy = product.category === 'healthy' || product.isHealthy;
     const adminMode = typeof window.isAdmin === 'function' && window.isAdmin();
     
-    // Only show rank in "All Products" view
-    const showRank = currentCategory === 'all';
+    // Show rank in "All Products" and "Popular" views
+    const showRank = currentCategory === 'all' || currentCategory === 'popular';
     const top40Rank = getTop40Rank(product.id);
     const displayRank = showRank ? top40Rank : null;
     const inTop40 = isInTop40(product.id);
@@ -365,6 +365,11 @@ function filterProducts(options = {}) {
         // Hidden category - show only hidden products (admin only)
         if (currentCategory === 'hidden') {
             return isHidden;
+        }
+        
+        // Popular category - show only Top Picks items
+        if (currentCategory === 'popular') {
+            return isInTop40(product.id);
         }
         
         // Hide products for non-admin users (unless showHidden is checked in admin mode)
