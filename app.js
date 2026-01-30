@@ -316,10 +316,9 @@ function exportInterestList() {
     const items = list.map(id => allProducts.find(p => p.id === id)).filter(Boolean);
     
     // CSV with each product on its own row
-    let csv = 'Product Name,Size,Brand,Estimated Price\n';
+    let csv = 'Product Name,Size,Brand\n';
     items.forEach(p => {
-        const price = calculateVendingPrice(p.unitPrice, p.competitivePrice, p.id, p.vendingPriceOverride);
-        csv += '"' + p.name + '","' + p.size + '","' + p.brand + '","$' + price.toFixed(2) + '"\n';
+        csv += '"' + p.name + '","' + p.size + '","' + p.brand + '"\n';
     });
     
     const blob = new Blob([csv], { type: 'text/csv' });
