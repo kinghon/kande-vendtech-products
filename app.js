@@ -259,8 +259,7 @@ function submitInterestList() {
     
     const items = list.map(id => allProducts.find(p => p.id === id)).filter(Boolean);
     const productList = items.map(p => {
-        const price = calculateVendingPrice(p.unitPrice, p.competitivePrice, p.id, p.vendingPriceOverride);
-        return `• ${p.name} (${p.size}) - $${price.toFixed(2)}`;
+        return `• ${p.name} (${p.size})`;
     }).join('\n');
     
     const submitBtn = document.getElementById('submitInterestBtn');
