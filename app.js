@@ -509,7 +509,7 @@ function renderProductCard(product, rank = null) {
                 ` : ''}
                 <button onclick="event.stopPropagation(); ${isInInterestList(product.id) ? `removeFromInterestList('${product.id}')` : `addToInterestList('${product.id}')`}" 
                         class="mt-2 w-full py-2 text-sm rounded-lg transition-colors ${isInInterestList(product.id) ? 'bg-green-500 text-white hover:bg-green-600' : 'bg-green-100 text-green-700 hover:bg-green-200'}">
-                    ${isInInterestList(product.id) ? '✓ Added' : '+ Add to List'}
+                    ${isInInterestList(product.id) ? '✓ Added' : '+ Add to Interest List'}
                 </button>
             </div>
         </div>
