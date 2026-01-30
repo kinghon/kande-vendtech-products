@@ -92,10 +92,11 @@
             border: 1px solid #e2e8f0;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
         }
-        .admin-only { display: none; }
-        body.is-admin .admin-only { display: block; }
-        body.is-admin .admin-only-flex { display: flex; }
-        body.is-admin .admin-only-inline { display: inline; }
+        .admin-only { display: none !important; }
+        body.is-admin .admin-only { display: block !important; }
+        body.is-admin .admin-only-flex { display: flex !important; }
+        body.is-admin .admin-only-inline { display: inline !important; }
+        body.is-admin button.admin-only { display: inline-flex !important; }
         .modal-overlay {
             background: rgba(0, 0, 0, 0.5);
             backdrop-filter: blur(4px);
@@ -299,7 +300,7 @@
     </footer>
 
     <script src="products.js?v=35"></script>
-    <script src="app.js?v=37"></script>
+    <script src="app.js?v=38"></script>
     <script>
         // Admin Authentication
         const ADMIN_PASSWORD = 'kande2026'; // Change this password
