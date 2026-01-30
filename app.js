@@ -4,7 +4,7 @@
 let allProducts = [];
 let filteredProducts = [];
 let currentPage = 1;
-const productsPerPage = 24;
+const productsPerPage = 48;
 let currentCategory = 'popular';
 let currentSort = 'popularity';
 let currentBrand = '';
@@ -167,6 +167,16 @@ function addToInterestList(productId) {
         updateInterestCount();
         renderInterestList();
         
+        // Auto-open sidebar
+        const info = getClientInfo();
+        const sidebar = document.getElementById('interestSidebar');
+        if (!info) {
+            document.getElementById('clientModal').classList.remove('hidden');
+            document.getElementById('clientModal').classList.add('flex');
+        } else if (sidebar) {
+            sidebar.classList.remove('translate-x-full');
+        }
+        
         const scrollY = window.scrollY;
         filterProducts({ preservePage: true });
         requestAnimationFrame(() => window.scrollTo(0, scrollY));
@@ -275,11 +285,19 @@ function exportInterestList() {
     
     const items = list.map(id => allProducts.find(p => p.id === id)).filter(Boolean);
     
-    let csv = 'Product Name,Size,Brand,Estimated Price\\n';
-    items.forEach(p => {
+    // CSV with items in columns (transposed)
+    const names = items.map(p => '"' + p.name + '"');
+    const sizes = items.map(p => '"' + p.size + '"');
+    const brands = items.map(p => '"' + p.brand + '"');
+    const prices = items.map(p => {
         const price = calculateVendingPrice(p.unitPrice, p.competitivePrice, p.id, p.vendingPriceOverride);
-        csv += '"' + p.name + '","' + p.size + '","' + p.brand + '","$' + price.toFixed(2) + '"\\n';
+        return '"$' + price.toFixed(2) + '"';
     });
+    
+    let csv = 'Product Name,' + names.join(',') + '\\n';
+    csv += 'Size,' + sizes.join(',') + '\\n';
+    csv += 'Brand,' + brands.join(',') + '\\n';
+    csv += 'Estimated Price,' + prices.join(',') + '\\n';
     
     const blob = new Blob([csv], { type: 'text/csv' });
     const url = URL.createObjectURL(blob);
