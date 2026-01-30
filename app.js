@@ -6,7 +6,7 @@ let filteredProducts = [];
 let currentPage = 1;
 const productsPerPage = 48;
 let currentCategory = 'popular';
-let currentSort = 'popularity';
+let currentSort = 'name';
 let currentBrand = '';
 let currentPriceRange = '';
 let searchQuery = '';
@@ -790,11 +790,11 @@ function initEventListeners() {
     // Clear filters
     document.getElementById('clearFilters').addEventListener('click', () => {
         document.getElementById('searchInput').value = '';
-        document.getElementById('sortSelect').value = 'popularity';
+        document.getElementById('sortSelect').value = 'name';
         document.getElementById('brandSelect').value = '';
         document.getElementById('priceSelect').value = '';
         searchQuery = '';
-        currentSort = 'popularity';
+        currentSort = 'name';
         currentBrand = '';
         currentPriceRange = '';
         filterProducts();
