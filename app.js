@@ -354,10 +354,18 @@ function clearInterestList() {
     }
 }
 
+// Default Custom Prices
+const DEFAULT_CUSTOM_PRICES = {"1fa375b8-59fb-4368-9f7c-cc562ba5a443":5.25,"783f785f-a806-481e-bba4-0a6d30cea18b":6.75,"8af334fb-243e-4375-8d41-213cb7825d3b":1.5,"4d68acf1-dfe2-4915-83d3-a02f8d514ac2":2.25,"3f067cf6-6213-4411-89c0-488434c0b3fa":5.75,"deb25c39-2c35-4828-8a48-ad5941af3f96":3.5,"5d134563-542e-40cf-87c5-23b2c6a8a975":2,"40907e1a-21c2-4818-90b6-5c05f8e83c86":2.5,"d16d98c6-45a3-4206-a6f0-7e34b3fddfcf":2.5,"206d5637-d79d-427a-8793-99e8994979a7":1.75,"1f716d53-bc99-43a4-82bf-f51509fadea1":3,"e3cfa8a5-e85b-452f-a59d-3ef6ccf9badf":3,"1b491ff3-9d87-4a30-8a38-caab0e6a4ec4":1.75,"7a243f45-6c74-416c-b9e6-3f9ede873a4c":3,"1b90f26f-2764-4c3b-9e28-301a43c2094b":3,"c23b97b6-8ba4-45f2-a4f8-9a0cb577a044":8.75,"21eccf90-2e08-44f7-a39d-74ca4fe94977":8.75,"4b9605ba-31b0-47d0-8ecf-1e0a1cdd3e44":1.75,"edf7ff5c-930a-4278-a6e0-01568414bb88":2.69,"7d51185b-44b0-4db2-a33d-798cc83a0f84":2.69,"750a0e27-aa3b-44d3-8a11-e43081922ad1":2.69,"91753dcb-fb80-43ab-b5e7-8869952e18f4":4.75,"74bc69cb-f22d-45a1-97ac-5975deac5fc8":2.69,"2502caaf-168b-4dfa-b2c1-b6e744901b0a":2.75,"5aa1adbe-f8eb-4f55-bc75-cac0f804ac2d":2.69,"fe733489-6b94-4aef-87bb-e629fd43a027":2.69,"06704003-7ec9-4de0-bb79-2bcdad0f34d6":2.69,"c1bde8e4-caaf-498a-998b-fe6abc936086":2.69,"cc9374e9-7971-41b3-80ff-4f9e6ad16809":3,"c19681b5-ab3c-4dd6-8774-3ce634476307":3,"ea906e82-dd35-4ba4-a1a1-8e7b06ef7114":4.5,"190fff57-4f37-45f0-96d5-aac65900fdef":1.5,"e5213204-b3b5-4487-9730-b4a95dffc663":1.25,"02c6793f-e2ee-496a-ba48-765f507a4112":1.5,"c1c63981-42d9-410f-9f2f-c8724d3b44c3":1.5,"2942b20b-e3a3-4812-8d34-b8369ac25f65":1.5,"66c298b0-9d99-4c92-b5f2-c9d27d343984":1.5,"c5aced90-d67a-4990-8c2a-f15a5a311b4d":1.75,"41ce7e1d-81bc-45fd-a74c-ae430460fb26":2,"6da29f4b-ca0f-423e-8e10-cc5d9f7b7934":1.75,"e6ecac63-d68f-4d48-912f-f2aa7069f0c4":1.75,"1adcd178-e93d-463b-8d76-93ec782037e1":2.25,"b1518fcb-3738-49a5-a195-145db1f1afae":2.25,"b2eff31f-665c-4704-bdb0-39484cb3d7e4":2.25,"3a268fc7-83e9-4081-b99a-23c2a2ceb7d9":1.75,"b79efc74-f100-4f27-af86-78afe8486359":1.75,"99e9ea43-d43d-4f58-a9ce-e7972a08d2fd":2.5,"65a42421-a192-497c-b42b-e1fb514871e2":1.5,"5b7698d4-cd37-4288-998a-23417c65891f":1.5,"d8d03ed0-cf6b-417e-8971-a82eba3cc81b":2.69,"bcb6bb11-590f-43ea-a3c9-084d9db6ab6b":2.69,"3ba5dfa8-b6a6-4633-94bd-cbaac740a442":3.25,"53724181-1db4-4d04-861e-f234f708ca57":1.5,"d064aa0c-28ec-409f-8f11-598d2c22bffd":2.69,"54b96d7d-8450-438b-91b2-d585e6d116ea":2.69,"67d79b9d-1baf-47fd-948b-736fd8f9f328":2.69,"4d1b9f4f-dfbe-4cf4-bec3-7e50357946b3":3.29,"e306e0b0-c962-48f9-8605-2f8630f28e6e":3.29,"4d9a2802-58bc-46c7-aab0-d9935008b078":3.29,"93d41fa5-aa76-446c-8e5f-3c4f3982ff3e":3.29,"cbc417d6-9769-465e-b75d-12029235d13a":3.29,"9ec5bc43-013f-48b0-83fe-092efdefc2ca":1.25,"0df3b0db-8e94-4e12-87f7-3790b140e708":1.25,"35117a89-2c0e-4305-aeb7-04a8ffd588ee":3.25,"dfd9504d-8b4a-4880-bc08-dca610840c7a":3.29,"2876f924-7dd0-405f-bd3c-bed5f4114420":10,"4b5d5566-1014-47b9-bf8c-c84c3a6a9db9":10,"f630a1f9-f0db-4800-9b63-fe4a97709f75":10,"49b6a846-0722-4a17-a355-2fd5333bcce0":10};
+
 // Custom pricing management
 function getCustomPrices() {
     const prices = localStorage.getItem('customPrices');
-    return prices ? JSON.parse(prices) : {};
+    if (prices) {
+        return JSON.parse(prices);
+    }
+    // Initialize with defaults if empty
+    localStorage.setItem('customPrices', JSON.stringify(DEFAULT_CUSTOM_PRICES));
+    return DEFAULT_CUSTOM_PRICES;
 }
 
 function setCustomPrice(productId, price) {
