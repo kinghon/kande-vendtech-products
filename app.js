@@ -467,7 +467,7 @@ function sortProducts() {
             if (bTop40) return 1;
         }
         
-        // In "Popular" view, group by category then by name
+        // In "Popular" view, group by category, then items with images first, then by name
         if (currentCategory === 'popular') {
             const categoryOrder = ['cold_beverage', 'beverages', 'snacks', 'candy', 'healthy', 'refrigerated', 'frozen_foods', 'hot_foods', 'specialty_better4you'];
             const aCatIndex = categoryOrder.indexOf(a.category);
@@ -476,7 +476,14 @@ function sortProducts() {
             const bOrder = bCatIndex >= 0 ? bCatIndex : 99;
             
             if (aOrder !== bOrder) return aOrder - bOrder;
-            // Same category - sort by name
+            
+            // Same category - items with images come first
+            const aHasImage = a.imageUrl && a.imageUrl.length > 0;
+            const bHasImage = b.imageUrl && b.imageUrl.length > 0;
+            if (aHasImage && !bHasImage) return -1;
+            if (!aHasImage && bHasImage) return 1;
+            
+            // Same image status - sort by name
             return a.name.localeCompare(b.name);
         }
         
