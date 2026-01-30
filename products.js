@@ -40142,7 +40142,7 @@ const PRODUCTS = [
     "casePrice": 42,
     "unitCount": 24,
     "unitPrice": 1.75,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002453220",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 1900,
     "vendingPriceOverride": 4
@@ -40155,7 +40155,7 @@ const PRODUCTS = [
     "casePrice": 42,
     "unitCount": 24,
     "unitPrice": 1.75,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002734498",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 1900,
     "vendingPriceOverride": 4
@@ -40168,7 +40168,7 @@ const PRODUCTS = [
     "casePrice": 42,
     "unitCount": 24,
     "unitPrice": 1.75,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002453226",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 1900,
     "vendingPriceOverride": 4
@@ -40181,7 +40181,7 @@ const PRODUCTS = [
     "casePrice": 42,
     "unitCount": 24,
     "unitPrice": 1.75,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002453219",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 1900,
     "vendingPriceOverride": 4
@@ -40194,7 +40194,7 @@ const PRODUCTS = [
     "casePrice": 42,
     "unitCount": 24,
     "unitPrice": 1.75,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002734497",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 1900,
     "vendingPriceOverride": 4
@@ -40207,7 +40207,7 @@ const PRODUCTS = [
     "casePrice": 34,
     "unitCount": 12,
     "unitPrice": 2.83,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002195170",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 50
   },
@@ -40219,7 +40219,7 @@ const PRODUCTS = [
     "casePrice": 34,
     "unitCount": 12,
     "unitPrice": 2.83,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002195174",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 50
   },
@@ -40231,7 +40231,7 @@ const PRODUCTS = [
     "casePrice": 34,
     "unitCount": 12,
     "unitPrice": 2.83,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002195169",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 50
   },
@@ -40243,7 +40243,7 @@ const PRODUCTS = [
     "casePrice": 34,
     "unitCount": 12,
     "unitPrice": 2.83,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002582927",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 50
   },
@@ -40255,7 +40255,7 @@ const PRODUCTS = [
     "casePrice": 24,
     "unitCount": 12,
     "unitPrice": 2,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/001857761",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 1740
   },
@@ -40267,7 +40267,7 @@ const PRODUCTS = [
     "casePrice": 24,
     "unitCount": 12,
     "unitPrice": 2,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/001857760",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 1740
   },
@@ -40279,7 +40279,7 @@ const PRODUCTS = [
     "casePrice": 24,
     "unitCount": 12,
     "unitPrice": 2,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/001857763",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 1740
   },
@@ -40291,7 +40291,7 @@ const PRODUCTS = [
     "casePrice": 24,
     "unitCount": 12,
     "unitPrice": 2,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/001857767",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 1740
   },
@@ -40303,7 +40303,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 15,
     "unitPrice": 1.87,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000396515",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 50
   },
@@ -40315,7 +40315,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 15,
     "unitPrice": 1.87,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000396514",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 50
   },
@@ -40327,7 +40327,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 15,
     "unitPrice": 1.87,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000549645",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 50
   },
@@ -40339,7 +40339,7 @@ const PRODUCTS = [
     "casePrice": 27,
     "unitCount": 12,
     "unitPrice": 2.25,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000466063",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 50
   },
@@ -40351,7 +40351,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 24,
     "unitPrice": 1.17,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000146576",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 1500,
     "vendingPriceOverride": 3.5
@@ -40364,7 +40364,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 24,
     "unitPrice": 1.17,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000146578",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 1500,
     "vendingPriceOverride": 3.5
@@ -40377,7 +40377,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 24,
     "unitPrice": 1.17,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/001009284",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 1500,
     "vendingPriceOverride": 3.5
@@ -40390,7 +40390,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 24,
     "unitPrice": 1.17,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002064965",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 1500,
     "vendingPriceOverride": 3.5
@@ -40403,7 +40403,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 24,
     "unitPrice": 1.17,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002064964",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 1500,
     "vendingPriceOverride": 3.5
@@ -40416,7 +40416,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 24,
     "unitPrice": 1.17,
-    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002478893",
+    "imageUrl": "",
     "category": "cold_beverage",
     "popularity": 1500,
     "vendingPriceOverride": 3.5
