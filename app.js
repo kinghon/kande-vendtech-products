@@ -563,12 +563,25 @@ function filterProducts(options = {}) {
         
         // Hidden category - show only hidden products (admin only)
         if (currentCategory === 'hidden') {
-            return isHidden;
+            if (!isHidden) return false;
+            if (searchQuery) {
+                const query = searchQuery.toLowerCase();
+                return product.name.toLowerCase().includes(query) ||
+                       product.brand.toLowerCase().includes(query);
+            }
+            return true;
         }
         
         // Popular category - show only Top Picks items
         if (currentCategory === 'popular') {
-            return isInTop40(product.id);
+            if (!isInTop40(product.id)) return false;
+            // Apply search filter for popular too
+            if (searchQuery) {
+                const query = searchQuery.toLowerCase();
+                return product.name.toLowerCase().includes(query) ||
+                       product.brand.toLowerCase().includes(query);
+            }
+            return true;
         }
         
         // Hide products for non-admin users (unless showHidden is checked in admin mode)
