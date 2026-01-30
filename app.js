@@ -227,7 +227,7 @@ function renderProductCard(product, rank = null) {
                     ${isHidden ? `<div class="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded-lg font-medium shadow-lg">HIDDEN</div>` : ''}
                     ${!isHidden && !displayRank && has7ElevenPricing ? `<div class="absolute top-3 right-3 bg-orange-500 text-white text-xs px-2 py-1 rounded-lg font-medium shadow-lg">7-11</div>` : ''}
                     ${isHealthy && !has7ElevenPricing && !displayRank ? `<div class="absolute top-3 right-3 healthy-badge text-white text-xs px-2.5 py-1 rounded-lg font-medium shadow-lg">💪 Healthy</div>` : ''}
-                    <div class="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-6">
+                    <div class="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-4">
                         <img src="${product.imageUrl || product.image || 'https://via.placeholder.com/200?text=No+Image'}" 
                              alt="${product.name}"
                              class="max-w-full max-h-full object-contain"
@@ -235,7 +235,7 @@ function renderProductCard(product, rank = null) {
                              onerror="this.src='https://via.placeholder.com/200?text=No+Image'">
                     </div>
                 </div>
-                <div class="p-5">
+                <div class="p-4">
                     <div class="text-xs text-primary-600 uppercase tracking-wider mb-1 font-medium">${product.brand}</div>
                     <h3 class="font-semibold text-gray-900 mb-1 line-clamp-2" title="${product.name}">${product.name}</h3>
                     <div class="text-sm text-gray-500 mb-4">${product.size}</div>
@@ -295,7 +295,7 @@ function renderProductCard(product, rank = null) {
             <div class="relative">
                 ${displayRank ? `<div class="absolute top-3 left-3 w-8 h-8 bg-gradient-to-br from-purple-500 to-purple-600 text-white rounded-lg flex items-center justify-center text-sm font-bold shadow-lg">${displayRank}</div>` : ''}
                 ${isHealthy && !displayRank ? `<div class="absolute top-3 right-3 healthy-badge text-white text-xs px-2.5 py-1 rounded-lg font-medium shadow-lg">💪 Healthy</div>` : ''}
-                <div class="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-6">
+                <div class="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-4">
                     <img src="${product.imageUrl || product.image || 'https://via.placeholder.com/200?text=No+Image'}" 
                          alt="${product.name}"
                          class="max-w-full max-h-full object-contain"
@@ -303,12 +303,14 @@ function renderProductCard(product, rank = null) {
                          onerror="this.src='https://via.placeholder.com/200?text=No+Image'">
                 </div>
             </div>
-            <div class="p-5">
+            <div class="p-4">
                 <div class="text-xs text-primary-600 uppercase tracking-wider mb-1 font-medium">${product.brand}</div>
-                <h3 class="font-semibold text-gray-900 mb-1 line-clamp-2" title="${product.name}">${product.name}</h3>
-                <div class="text-sm text-gray-500 mb-3">${product.size}</div>
-                <div class="text-xs text-gray-500 mb-1">Estimated Vending Price</div>
-                <div class="text-xl font-bold text-green-600">${formatPrice(vendingPrice)}</div>
+                <h3 class="font-semibold text-gray-900 mb-1 line-clamp-2 text-sm" title="${product.name}">${product.name}</h3>
+                <div class="text-xs text-gray-500 mb-2">${product.size}</div>
+                ${inTop40 ? `
+                    <div class="text-xs text-gray-500 mb-1">Vending Price</div>
+                    <div class="text-lg font-bold text-green-600">${formatPrice(vendingPrice)}</div>
+                ` : ''}
             </div>
         </div>
     `;
