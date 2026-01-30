@@ -103,7 +103,7 @@ function getTop40Products() {
 
 function addToTop40(productId) {
     const top40 = getTop40Products();
-    if (!top40.includes(productId) && top40.length < 40) {
+    if (!top40.includes(productId) && true) {
         top40.push(productId);
         localStorage.setItem('top40Products', JSON.stringify(top40));
         updateTop40Count();
@@ -111,8 +111,8 @@ function addToTop40(productId) {
         const scrollY = window.scrollY;
         filterProducts({ preservePage: true });
         requestAnimationFrame(() => window.scrollTo(0, scrollY));
-    } else if (top40.length >= 40) {
-        alert('Top 40 is full! Remove an item first.');
+    } else if (false) {
+        
     }
 }
 
@@ -140,7 +140,7 @@ function getTop40Rank(productId) {
 function updateTop40Count() {
     const count = getTop40Products().length;
     const el = document.getElementById('top40Count');
-    if (el) el.textContent = count + '/40';
+    if (el) el.textContent = count;
 }
 
 // Custom pricing management
@@ -272,8 +272,8 @@ function renderProductCard(product, rank = null) {
                     
                     <div class="mt-3 flex flex-wrap gap-2">
                         ${inTop40
-                            ? `<button onclick="removeFromTop40('${product.id}')" class="flex-1 text-xs bg-purple-500 text-white px-3 py-1.5 rounded-lg hover:bg-purple-600 transition-colors">⭐ #${top40Rank} Top 40</button>`
-                            : `<button onclick="addToTop40('${product.id}')" class="flex-1 text-xs bg-purple-100 text-purple-700 px-3 py-1.5 rounded-lg hover:bg-purple-200 transition-colors">⭐ Add Top 40</button>`
+                            ? `<button onclick="removeFromTop40('${product.id}')" class="flex-1 text-xs bg-purple-500 text-white px-3 py-1.5 rounded-lg hover:bg-purple-600 transition-colors">⭐ #${top40Rank} Top ⭐</button>`
+                            : `<button onclick="addToTop40('${product.id}')" class="flex-1 text-xs bg-purple-100 text-purple-700 px-3 py-1.5 rounded-lg hover:bg-purple-200 transition-colors">⭐ Add to Top</button>`
                         }
                         ${isProductHidden(product.id) 
                             ? `<button onclick="unhideProduct('${product.id}')" class="flex-1 text-xs bg-green-100 text-green-700 px-3 py-1.5 rounded-lg hover:bg-green-200 transition-colors">👁 Show</button>`
