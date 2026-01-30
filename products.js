@@ -40142,7 +40142,7 @@ const PRODUCTS = [
     "casePrice": 42,
     "unitCount": 24,
     "unitPrice": 1.75,
-    "imageUrl": "https://pics.walgreens.com/prodimg/620037/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002453220",
     "category": "cold_beverage",
     "popularity": 1900,
     "vendingPriceOverride": 4
@@ -40155,7 +40155,7 @@ const PRODUCTS = [
     "casePrice": 42,
     "unitCount": 24,
     "unitPrice": 1.75,
-    "imageUrl": "https://pics.walgreens.com/prodimg/620039/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002734498",
     "category": "cold_beverage",
     "popularity": 1900,
     "vendingPriceOverride": 4
@@ -40168,7 +40168,7 @@ const PRODUCTS = [
     "casePrice": 42,
     "unitCount": 24,
     "unitPrice": 1.75,
-    "imageUrl": "https://pics.walgreens.com/prodimg/620038/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002453226",
     "category": "cold_beverage",
     "popularity": 1900,
     "vendingPriceOverride": 4
@@ -40181,7 +40181,7 @@ const PRODUCTS = [
     "casePrice": 42,
     "unitCount": 24,
     "unitPrice": 1.75,
-    "imageUrl": "https://pics.walgreens.com/prodimg/620036/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002453219",
     "category": "cold_beverage",
     "popularity": 1900,
     "vendingPriceOverride": 4
@@ -40194,7 +40194,7 @@ const PRODUCTS = [
     "casePrice": 42,
     "unitCount": 24,
     "unitPrice": 1.75,
-    "imageUrl": "https://pics.walgreens.com/prodimg/646814/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002734497",
     "category": "cold_beverage",
     "popularity": 1900,
     "vendingPriceOverride": 4
@@ -40207,7 +40207,7 @@ const PRODUCTS = [
     "casePrice": 34,
     "unitCount": 12,
     "unitPrice": 2.83,
-    "imageUrl": "https://pics.walgreens.com/prodimg/577981/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002195170",
     "category": "cold_beverage",
     "popularity": 50
   },
@@ -40219,7 +40219,7 @@ const PRODUCTS = [
     "casePrice": 34,
     "unitCount": 12,
     "unitPrice": 2.83,
-    "imageUrl": "https://pics.walgreens.com/prodimg/577980/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002195174",
     "category": "cold_beverage",
     "popularity": 50
   },
@@ -40231,7 +40231,7 @@ const PRODUCTS = [
     "casePrice": 34,
     "unitCount": 12,
     "unitPrice": 2.83,
-    "imageUrl": "https://pics.walgreens.com/prodimg/577979/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002195169",
     "category": "cold_beverage",
     "popularity": 50
   },
@@ -40243,7 +40243,7 @@ const PRODUCTS = [
     "casePrice": 34,
     "unitCount": 12,
     "unitPrice": 2.83,
-    "imageUrl": "https://pics.walgreens.com/prodimg/591547/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002582927",
     "category": "cold_beverage",
     "popularity": 50
   },
@@ -40255,7 +40255,7 @@ const PRODUCTS = [
     "casePrice": 24,
     "unitCount": 12,
     "unitPrice": 2,
-    "imageUrl": "https://pics.walgreens.com/prodimg/523831/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/001857761",
     "category": "cold_beverage",
     "popularity": 1740
   },
@@ -40267,7 +40267,7 @@ const PRODUCTS = [
     "casePrice": 24,
     "unitCount": 12,
     "unitPrice": 2,
-    "imageUrl": "https://pics.walgreens.com/prodimg/523830/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/001857760",
     "category": "cold_beverage",
     "popularity": 1740
   },
@@ -40279,7 +40279,7 @@ const PRODUCTS = [
     "casePrice": 24,
     "unitCount": 12,
     "unitPrice": 2,
-    "imageUrl": "https://pics.walgreens.com/prodimg/523832/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/001857763",
     "category": "cold_beverage",
     "popularity": 1740
   },
@@ -40291,7 +40291,7 @@ const PRODUCTS = [
     "casePrice": 24,
     "unitCount": 12,
     "unitPrice": 2,
-    "imageUrl": "https://pics.walgreens.com/prodimg/523834/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/001857767",
     "category": "cold_beverage",
     "popularity": 1740
   },
@@ -40303,7 +40303,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 15,
     "unitPrice": 1.87,
-    "imageUrl": "https://pics.walgreens.com/prodimg/400523/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000396515",
     "category": "cold_beverage",
     "popularity": 50
   },
@@ -40315,7 +40315,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 15,
     "unitPrice": 1.87,
-    "imageUrl": "https://pics.walgreens.com/prodimg/400524/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000396514",
     "category": "cold_beverage",
     "popularity": 50
   },
@@ -40327,7 +40327,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 15,
     "unitPrice": 1.87,
-    "imageUrl": "https://pics.walgreens.com/prodimg/400522/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000549645",
     "category": "cold_beverage",
     "popularity": 50
   },
@@ -40339,7 +40339,7 @@ const PRODUCTS = [
     "casePrice": 27,
     "unitCount": 12,
     "unitPrice": 2.25,
-    "imageUrl": "https://pics.walgreens.com/prodimg/400518/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000466063",
     "category": "cold_beverage",
     "popularity": 50
   },
@@ -40351,7 +40351,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 24,
     "unitPrice": 1.17,
-    "imageUrl": "https://pics.walgreens.com/prodimg/400878/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000146576",
     "category": "cold_beverage",
     "popularity": 1500,
     "vendingPriceOverride": 3.5
@@ -40364,7 +40364,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 24,
     "unitPrice": 1.17,
-    "imageUrl": "https://pics.walgreens.com/prodimg/400879/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/000146578",
     "category": "cold_beverage",
     "popularity": 1500,
     "vendingPriceOverride": 3.5
@@ -40377,7 +40377,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 24,
     "unitPrice": 1.17,
-    "imageUrl": "https://pics.walgreens.com/prodimg/459116/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/001009284",
     "category": "cold_beverage",
     "popularity": 1500,
     "vendingPriceOverride": 3.5
@@ -40390,7 +40390,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 24,
     "unitPrice": 1.17,
-    "imageUrl": "https://pics.walgreens.com/prodimg/525119/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002064965",
     "category": "cold_beverage",
     "popularity": 1500,
     "vendingPriceOverride": 3.5
@@ -40403,7 +40403,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 24,
     "unitPrice": 1.17,
-    "imageUrl": "https://pics.walgreens.com/prodimg/525118/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002064964",
     "category": "cold_beverage",
     "popularity": 1500,
     "vendingPriceOverride": 3.5
@@ -40416,7 +40416,7 @@ const PRODUCTS = [
     "casePrice": 28,
     "unitCount": 24,
     "unitPrice": 1.17,
-    "imageUrl": "https://pics.walgreens.com/prodimg/561985/450.jpg",
+    "imageUrl": "https://images.heb.com/is/image/HEBGrocery/002478893",
     "category": "cold_beverage",
     "popularity": 1500,
     "vendingPriceOverride": 3.5
