@@ -143,6 +143,162 @@ function updateTop40Count() {
     if (el) el.textContent = count;
 }
 
+// Client Interest List Management
+function getClientInfo() {
+    const info = localStorage.getItem('clientInfo');
+    return info ? JSON.parse(info) : null;
+}
+
+function setClientInfo(name, email, company) {
+    localStorage.setItem('clientInfo', JSON.stringify({ name, email, company }));
+    updateClientDisplay();
+}
+
+function getInterestList() {
+    const list = localStorage.getItem('interestList');
+    return list ? JSON.parse(list) : [];
+}
+
+function addToInterestList(productId) {
+    const list = getInterestList();
+    if (!list.includes(productId)) {
+        list.push(productId);
+        localStorage.setItem('interestList', JSON.stringify(list));
+        updateInterestCount();
+        renderInterestList();
+        
+        const scrollY = window.scrollY;
+        filterProducts({ preservePage: true });
+        requestAnimationFrame(() => window.scrollTo(0, scrollY));
+    }
+}
+
+function removeFromInterestList(productId) {
+    let list = getInterestList();
+    list = list.filter(id => id !== productId);
+    localStorage.setItem('interestList', JSON.stringify(list));
+    updateInterestCount();
+    renderInterestList();
+    
+    const scrollY = window.scrollY;
+    filterProducts({ preservePage: true });
+    requestAnimationFrame(() => window.scrollTo(0, scrollY));
+}
+
+function isInInterestList(productId) {
+    return getInterestList().includes(productId);
+}
+
+function updateInterestCount() {
+    const count = getInterestList().length;
+    const el = document.getElementById('interestCount');
+    if (el) el.textContent = count;
+}
+
+function updateClientDisplay() {
+    const info = getClientInfo();
+    const el = document.getElementById('clientInfoDisplay');
+    if (el && info) {
+        el.textContent = info.name + (info.company ? ' • ' + info.company : '');
+    }
+}
+
+function renderInterestList() {
+    const container = document.getElementById('interestListItems');
+    if (!container) return;
+    
+    const list = getInterestList();
+    if (list.length === 0) {
+        container.innerHTML = '<p class="text-gray-500 text-center py-8">Click the + button on products to add them here</p>';
+        return;
+    }
+    
+    const items = list.map(id => allProducts.find(p => p.id === id)).filter(Boolean);
+    container.innerHTML = items.map(p => {
+        const price = calculateVendingPrice(p.unitPrice, p.competitivePrice, p.id, p.vendingPriceOverride);
+        return `
+            <div class="flex items-center gap-3 p-2 bg-gray-50 rounded-lg">
+                <img src="${(p.imageUrl && p.imageUrl.length > 0) ? p.imageUrl : 'https://placehold.co/50x50/f3f4f6/9ca3af?text=No+Img'}" 
+                     class="w-12 h-12 object-contain rounded" onerror="this.onerror=null; this.src='https://placehold.co/50x50/f3f4f6/9ca3af?text=No+Img'">
+                <div class="flex-1 min-w-0">
+                    <p class="text-sm font-medium text-gray-900 truncate">${p.name}</p>
+                    <p class="text-xs text-gray-500">${p.size} • $${price.toFixed(2)}</p>
+                </div>
+                <button onclick="removeFromInterestList('${p.id}')" class="text-red-500 hover:text-red-700 p-1">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                </button>
+            </div>
+        `;
+    }).join('');
+}
+
+function submitInterestList() {
+    const info = getClientInfo();
+    const list = getInterestList();
+    
+    if (!info) {
+        document.getElementById('clientModal').classList.remove('hidden');
+        document.getElementById('clientModal').classList.add('flex');
+        return;
+    }
+    
+    if (list.length === 0) {
+        alert('Please add some products to your interest list first!');
+        return;
+    }
+    
+    const items = list.map(id => allProducts.find(p => p.id === id)).filter(Boolean);
+    const productList = items.map(p => {
+        const price = calculateVendingPrice(p.unitPrice, p.competitivePrice, p.id, p.vendingPriceOverride);
+        return `- ${p.name} (${p.size}) - $${price.toFixed(2)}`;
+    }).join('%0A');
+    
+    const subject = encodeURIComponent('Product Interest List from ' + info.name);
+    const body = encodeURIComponent(
+        'Name: ' + info.name + '\\n' +
+        'Email: ' + info.email + '\\n' +
+        'Company: ' + (info.company || 'N/A') + '\\n\\n' +
+        'Interested Products:\\n' + productList.replace(/%0A/g, '\\n')
+    );
+    
+    window.location.href = 'mailto:hello@kandevendtech.com?subject=' + subject + '&body=' + body;
+}
+
+function exportInterestList() {
+    const info = getClientInfo();
+    const list = getInterestList();
+    
+    if (list.length === 0) {
+        alert('Please add some products to your interest list first!');
+        return;
+    }
+    
+    const items = list.map(id => allProducts.find(p => p.id === id)).filter(Boolean);
+    
+    let csv = 'Product Name,Size,Brand,Estimated Price\\n';
+    items.forEach(p => {
+        const price = calculateVendingPrice(p.unitPrice, p.competitivePrice, p.id, p.vendingPriceOverride);
+        csv += '"' + p.name + '","' + p.size + '","' + p.brand + '","$' + price.toFixed(2) + '"\\n';
+    });
+    
+    const blob = new Blob([csv], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'kande-interest-list.csv';
+    a.click();
+    URL.revokeObjectURL(url);
+}
+
+function clearInterestList() {
+    if (confirm('Are you sure you want to clear your interest list?')) {
+        localStorage.removeItem('interestList');
+        updateInterestCount();
+        renderInterestList();
+        filterProducts({ preservePage: true });
+    }
+}
+
 // Custom pricing management
 function getCustomPrices() {
     const prices = localStorage.getItem('customPrices');
@@ -311,6 +467,10 @@ function renderProductCard(product, rank = null) {
                     <div class="text-xs text-gray-500 mb-1">Vending Price</div>
                     <div class="text-lg font-bold text-green-600">${formatPrice(vendingPrice)}</div>
                 ` : ''}
+                <button onclick="event.stopPropagation(); ${isInInterestList(product.id) ? `removeFromInterestList('${product.id}')` : `addToInterestList('${product.id}')`}" 
+                        class="mt-2 w-full py-2 text-sm rounded-lg transition-colors ${isInInterestList(product.id) ? 'bg-green-500 text-white hover:bg-green-600' : 'bg-green-100 text-green-700 hover:bg-green-200'}">
+                    ${isInInterestList(product.id) ? '✓ Added' : '+ Add to List'}
+                </button>
             </div>
         </div>
     `;
@@ -546,6 +706,59 @@ function initEventListeners() {
     // Update hidden count and Top 40 count
     updateHiddenCount();
     updateTop40Count();
+    updateInterestCount();
+    renderInterestList();
+    updateClientDisplay();
+    
+    // Interest List Sidebar
+    const openSidebarBtn = document.getElementById('openSidebarBtn');
+    const closeSidebar = document.getElementById('closeSidebar');
+    const interestSidebar = document.getElementById('interestSidebar');
+    
+    if (openSidebarBtn) {
+        openSidebarBtn.addEventListener('click', () => {
+            const info = getClientInfo();
+            if (!info) {
+                document.getElementById('clientModal').classList.remove('hidden');
+                document.getElementById('clientModal').classList.add('flex');
+            } else {
+                interestSidebar.classList.remove('translate-x-full');
+            }
+        });
+    }
+    
+    if (closeSidebar) {
+        closeSidebar.addEventListener('click', () => {
+            interestSidebar.classList.add('translate-x-full');
+        });
+    }
+    
+    // Client Form
+    const clientForm = document.getElementById('clientForm');
+    if (clientForm) {
+        clientForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.getElementById('clientName').value.trim();
+            const email = document.getElementById('clientEmail').value.trim();
+            const company = document.getElementById('clientCompany').value.trim();
+            
+            if (name && email) {
+                setClientInfo(name, email, company);
+                document.getElementById('clientModal').classList.add('hidden');
+                document.getElementById('clientModal').classList.remove('flex');
+                interestSidebar.classList.remove('translate-x-full');
+            }
+        });
+    }
+    
+    // Interest List Buttons
+    const submitBtn = document.getElementById('submitInterestBtn');
+    const exportBtn = document.getElementById('exportInterestBtn');
+    const clearBtn = document.getElementById('clearInterestBtn');
+    
+    if (submitBtn) submitBtn.addEventListener('click', submitInterestList);
+    if (exportBtn) exportBtn.addEventListener('click', exportInterestList);
+    if (clearBtn) clearBtn.addEventListener('click', clearInterestList);
     
     // Clear filters
     document.getElementById('clearFilters').addEventListener('click', () => {
